@@ -4,6 +4,10 @@
 
 Les PJs approchent d'une tour tellurique, structure de pierre et de métal qui s'élève sur une colline rocheuse. Cette tour fait partie du réseau de contrôle des lignes telluriques (ley lines) qui parcourent la région. Récemment, quelque chose d'anormal se produit : l'énergie tellurique est détournée vers des fins inconnues par Dona Rufina.
 
+## Infos à trouver
+
+La déviation n'est pas faite ici... mais les équipements de la tour peuvent le montrer. Certains pourraient être éteints (volontairement) - réactivable en étant malins ou des ingérieurs le savent.
+
 ## La Tour
 
 La tour tellurique mesure environ 30 mètres de haut, construite en pierre noire avec des incrustations de métal conducteur qui forment des motifs complexes le long de sa surface. Au sommet, un cristal de contrôle pulse d'une lumière bleu-vert, mais cette lumière semble... instable, vacillante.
@@ -27,7 +31,6 @@ Sim' ne peut pas les détecter
 
 - **Glyphes**: 6 glyphes enterrés formant un hexagone autour de la tour
   - Explosives, en surface
-
 
 **Enceinte de la tour (10m) :**
 - **Réseau de capteurs telluriques** : Dispositifs technologiques sophistiqués intégrés dans le sol
@@ -117,19 +120,75 @@ Les PJs peuvent :
 ## À l'intérieur de la Tour
 
 ### Rez-de-chaussée
-- Mécanismes de base, bourdonnant anormalement
-- Tableaux de contrôle avec aiguilles dans le rouge
-- Journal de maintenance montrant les modifications récentes
+- **Mécanismes de base** bourdonnant anormalement
+- **Tableaux de contrôle** avec aiguilles dans le rouge
+- **Journal de maintenance** montrant les modifications récentes
+- **Carte tellurique murale** : Réseau des 7 tours avec flux d'énergie
+  - DD 15 Investigation : Remarquer que tous les flux convergent vers le sud-ouest
+  - DD 18 Arcane : Calculer approximativement la distance (50-60 km)
 
-### Étages supérieurs
-- Équipements de canalisation modifiés
-- Nouveaux dispositifs de redirection (marqués du sceau de Dona Rufina)
-- Vue sur le paysage environnant
+### Étages supérieurs (2e et 3e étage)
+- **Équipements de canalisation modifiés** avec conduites orientées vers une direction précise
+- **Nouveaux dispositifs de redirection** (marqués du sceau de Dona Rufina)
+  - DD 16 Investigation : Les conduites pointent toutes vers le sud-ouest
+  - DD 14 Survie : La direction correspond aux montagnes de la Barranca
+- **Boussole tellurique** : Instrument de navigation énergétique
+  - Fonctionne comme une boussole mais suit les flux d'énergie au lieu du magnétisme
+  - Pointe actuellement vers 225° (sud-ouest)
+  - Esteban peut expliquer son fonctionnement si interrogé
 
 ### Sommet
-- Cristal de contrôle principal (instable, dangereux à approcher)
-- Console de contrôle permettant de voir le détournement d'énergie
-- Possibilité de saboter le système (mais avec des conséquences)
+- **Cristal de contrôle principal** (instable, dangereux à approcher)
+- **Console de contrôle maîtresse** permettant de visualiser le détournement d'énergie
+  - **Écran tellurique** : Projection holographique du flux d'énergie
+    - DD 12 Investigation : Voir clairement la direction du flux principal
+    - DD 16 Arcane : Estimer la distance et l'ampleur de la destination
+  - **Registres de transmission** : Logs automatiques des transferts d'énergie
+    - Coordonnées précises : "Transfert vers point focal 225°, distance 52 km"
+    - Heure des pics de consommation : "Augmentation massive tous les 3 jours à minuit"
+- **Longue-vue tellurique** : Télescope modifié pour voir les énergies à distance
+  - DD 20 Investigation + 10 minutes : Apercevoir au loin un faible halo énergétique dans les montagnes
+  - Par temps clair uniquement
+
+## Comment découvrir la localisation de la forteresse
+
+### Méthodes d'investigation disponibles :
+
+**1. Analyse technique (Accessible à tous)**
+- Observer la carte tellurique murale (DD 15)
+- Suivre l'orientation des conduites modifiées (DD 16)
+- Consulter les registres de la console (DD 12)
+
+**2. Expertise magique/scientifique**
+- Interpréter la boussole tellurique (DD 14 Arcane)
+- Analyser l'écran de flux énergétique (DD 16 Arcane)
+- Utiliser la longue-vue tellurique (DD 20 Investigation)
+
+**3. Aide d'Esteban** (si coopératif)
+- "L'énergie va vers les montagnes de la Barranca, vers la vieille forteresse"
+- "Il y a une ancienne citadelle là-bas, abandonnée depuis des décennies"
+- "Dona Rufina a mentionné qu'elle y avait établi son 'laboratoire principal'"
+- Peut donner des directions précises et avertir des dangers du voyage
+
+**4. Recoupements avec d'autres sources**
+- **Correspondance trouvée** : Lettres mentionnant "retour au laboratoire de la Barranca"
+- **Cartes locales** : Montrent l'ancienne route vers la forteresse (3 jours de voyage)
+- **Témoignages de villageois** : "Des lumières étranges dans les montagnes la nuit"
+
+### Informations révélées selon le niveau de réussite :
+
+**Réussite basique (DD 12-15) :**
+- Direction générale (sud-ouest)
+- Distance approximative (50+ km)
+
+**Réussite moyenne (DD 16-18) :**
+- Localisation précise dans la Barranca
+- Cycles d'activité énergétique (tous les 3 jours)
+
+**Réussite élevée (DD 19+) :**
+- Coordonnées exactes de la forteresse
+- Reconnaissance visuelle du site
+- Détails sur l'ampleur des opérations (très importante consommation d'énergie)
 
 ## Conséquences possibles
 
