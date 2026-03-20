@@ -1,5 +1,23 @@
 # Acte 0 - La Tour Tellurique
 
+## Actions
+
+- "La tour est protégée" Don Rancino
+- "On va observer"
+
+## Le Village
+
+La maison du noble local
+Le quartier des ouvriers
+- Il a aussi sa "hiarachie"
+- Le contremaitre y est dans une maison reconnaissable
+
+"Baron Abélard d'Outremont" présenter mes hommages à Doñ Maribel Quispe
+
+- Il n'aime pas trop qu'on fouine
+- Va évaluer s'il peut être utile/s'il est important
+- Va lui proposer de faire visiter à San Citlan
+
 ## Contexte
 
 Les PJs approchent d'une tour tellurique, structure de pierre et de métal qui s'élève sur une colline rocheuse. Cette tour fait partie du réseau de contrôle des lignes telluriques (ley lines) qui parcourent la région. Récemment, quelque chose d'anormal se produit : l'énergie tellurique est détournée vers des fins inconnues par Dona Rufina.
@@ -11,6 +29,7 @@ La tour tellurique mesure environ 30 mètres de haut, construite en pierre noire
 ### Défenses
 
 #### Gardes physiques
+
 - **4 gardes** patrouillent autour de la tour (CA 16, 11 PV chacun)
 - **1 sergent** supervise (CA 18, 58 PV)
 - Les gardes sont nerveux et sur les dents - ils savent que quelque chose ne va pas
@@ -18,7 +37,9 @@ La tour tellurique mesure environ 30 mètres de haut, construite en pierre noire
 #### Systèmes d'alarme magiques
 La tour possède plusieurs couches de protection magique alimentées par l'énergie tellurique :
 
-**Périmètre extérieur (50m de la tour) :**
+ **Périmètre extérieur (10m de la tour) :**
+Pas sur le dessus mais trappe bien.
+
 Sim' ne peut pas les détecter
 - **Zone d'alarme** : tout autour de la tour
   - Déclenchement : créatures de taille M ou plus s'approchant
