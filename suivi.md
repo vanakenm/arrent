@@ -1,7 +1,5 @@
 Fichier spécial avec mes notes et de petits complément.
 
-Claude:tu n'écris ici que si je te le demande (tu peux me poser la question is je dois le faire).
-
 ## Infos à trouver
 
 La déviation n'est pas faite ici... mais les équipements de la tour peuvent le montrer. Certains pourraient être éteints (volontairement) - réactivable en étant malins ou des ingérieurs le savent.
@@ -16,3 +14,9 @@ Esteban est mal à l'aise face au fait qu'on leur demande de couper des instrume
 
 (les autres ingés sont perplexe sur les instruments coupés, mais pas pourquoi)
  
+# 26/03/2026 En ville
+
+Visite de la Forge
+Possible de tirer les vers du nez de Maribel (il est mi méfiant mi intéressé)
+
+Contact Sim?

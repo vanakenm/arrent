@@ -21,7 +21,7 @@
 
 ---
 
-## Doña Maribel Quispe
+## Doñ Maribel Quispe
 - **Rôle :** Fonctionnaire de contrôle
 - **Fonction narrative :** Pression bureaucratique, alerte douce
 
