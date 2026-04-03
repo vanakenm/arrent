@@ -27,6 +27,14 @@
 
 ---
 
+## Maître Ingénieur Esteban Cortez** (50 ans, cheveux grisonnants, mains tachées d'huile)
+
+- Pilote la déviation
+- Compétent, bien payé
+- A pris le job car il y a eu un accident sous sa responsabilité lors de son emploi précédent (il n'y est pour rien, mais pas simple de trouver du taf, donc il se tient à carreau)
+
+---
+
 ## Administrateur de la Barranca (à nommer)
 - **Rôle :** Gestion quotidienne de la forteresse
 - **Fonction narrative :** Aide intéressée, trahison potentielle
