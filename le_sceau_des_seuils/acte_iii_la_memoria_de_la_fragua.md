@@ -16,6 +16,8 @@ La Barranca de los Umbrales, ancien site de stabilisation des ley lines dans les
 
 Doña Rufina a découvert qu'en canalisant suffisamment d'énergie tellurique dans les conduits dormants de la ruine, on pouvait « rallumer » la forge et ouvrir un passage vers ce souvenir solidifié. Elle y a installé une garnison, des défenses, et surtout -- la Clé du Seuil, protégée dans un demi-plan imbriqué au cœur de la mémoire.
 
+Elle y prépare égalemment des engins de siège.
+
 ---
 
 ## Accès au demi-plan
