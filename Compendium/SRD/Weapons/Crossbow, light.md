@@ -1,0 +1,25 @@
+---
+archivist: true
+entity_type: weapon
+slug: crossbow-light
+name: Crossbow, light
+compendium: SRD
+---
+
+```weapon
+name: Crossbow, light
+slug: crossbow-light
+category: Simple Ranged Weapons
+document__slug: wotc-srd
+document__title: 5e Core Rules
+document__license_url: http://open5e.com/legal
+document__url: http://dnd.wizards.com/articles/features/systems-reference-document-srd
+cost: 25 gp
+damage_dice: 1d8
+damage_type: piercing
+weight: 5 lb.
+properties:
+  - ammunition (range 80/320)
+  - loading
+  - two-handed
+```

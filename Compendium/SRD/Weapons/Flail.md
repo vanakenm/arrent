@@ -1,0 +1,22 @@
+---
+archivist: true
+entity_type: weapon
+slug: flail
+name: Flail
+compendium: SRD
+---
+
+```weapon
+name: Flail
+slug: flail
+category: Martial Melee Weapons
+document__slug: wotc-srd
+document__title: 5e Core Rules
+document__license_url: http://open5e.com/legal
+document__url: http://dnd.wizards.com/articles/features/systems-reference-document-srd
+cost: 10 gp
+damage_dice: 1d8
+damage_type: bludgeoning
+weight: 2 lb.
+properties: []
+```

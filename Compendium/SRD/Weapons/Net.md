@@ -1,0 +1,24 @@
+---
+archivist: true
+entity_type: weapon
+slug: net
+name: Net
+compendium: SRD
+---
+
+```weapon
+name: Net
+slug: net
+category: Martial Ranged Weapons
+document__slug: wotc-srd
+document__title: 5e Core Rules
+document__license_url: http://open5e.com/legal
+document__url: http://dnd.wizards.com/articles/features/systems-reference-document-srd
+cost: 1 gp
+damage_dice: '0'
+damage_type: ''
+weight: 3 lb.
+properties:
+  - special
+  - thrown (range 5/15)
+```

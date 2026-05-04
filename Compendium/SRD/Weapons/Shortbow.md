@@ -1,0 +1,24 @@
+---
+archivist: true
+entity_type: weapon
+slug: shortbow
+name: Shortbow
+compendium: SRD
+---
+
+```weapon
+name: Shortbow
+slug: shortbow
+category: Simple Ranged Weapons
+document__slug: wotc-srd
+document__title: 5e Core Rules
+document__license_url: http://open5e.com/legal
+document__url: http://dnd.wizards.com/articles/features/systems-reference-document-srd
+cost: 25 gp
+damage_dice: 1d6
+damage_type: piercing
+weight: 2 lb.
+properties:
+  - ammunition (range 80/320)
+  - two-handed
+```

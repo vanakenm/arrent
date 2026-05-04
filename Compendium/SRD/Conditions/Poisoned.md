@@ -1,0 +1,16 @@
+---
+archivist: true
+entity_type: condition
+slug: poisoned
+name: Poisoned
+compendium: SRD
+---
+
+```condition
+slug: poisoned
+name: Poisoned
+desc: '* A poisoned creature has disadvantage on attack rolls and ability checks.'
+document__slug: wotc-srd
+document__title: 5e Core Rules
+document__url: http://dnd.wizards.com/articles/features/systems-reference-document-srd
+```

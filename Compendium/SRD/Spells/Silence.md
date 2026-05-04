@@ -1,0 +1,26 @@
+---
+archivist: true
+entity_type: spell
+slug: silence
+name: Silence
+compendium: SRD
+---
+
+```spell
+name: Silence
+level: 2
+school: Illusion
+casting_time: 1 action
+range: 120 feet
+components: V, S
+duration: Up to 10 minutes
+concentration: true
+ritual: true
+classes:
+  - Cleric
+  - Druid
+  - Ranger
+  - Bard
+description:
+  - For the duration, no sound can be created within or pass through a 20-foot-radius sphere centered on a point you choose within range. Any creature or object entirely inside the sphere is immune to thunder damage, and creatures are deafened while entirely inside it. Casting a spell that includes a verbal component is impossible there.
+```

@@ -1,0 +1,11 @@
+{
+  "settings": {
+    "compendiumRoot": "Compendium",
+    "userEntityFolder": "me",
+    "srdImported": true,
+    "ttrpgRootDir": "/",
+    "externalContextPaths": [],
+    "defaultMultiColumn": false,
+    "multiColumnThreshold": 20
+  }
+}

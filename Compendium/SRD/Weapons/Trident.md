@@ -1,0 +1,24 @@
+---
+archivist: true
+entity_type: weapon
+slug: trident
+name: Trident
+compendium: SRD
+---
+
+```weapon
+name: Trident
+slug: trident
+category: Martial Melee Weapons
+document__slug: wotc-srd
+document__title: 5e Core Rules
+document__license_url: http://open5e.com/legal
+document__url: http://dnd.wizards.com/articles/features/systems-reference-document-srd
+cost: 5 gp
+damage_dice: 1d6
+damage_type: piercing
+weight: 4 lb.
+properties:
+  - thrown (range 20/60)
+  - versatile (1d8)
+```

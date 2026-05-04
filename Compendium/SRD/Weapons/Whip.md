@@ -1,0 +1,24 @@
+---
+archivist: true
+entity_type: weapon
+slug: whip
+name: Whip
+compendium: SRD
+---
+
+```weapon
+name: Whip
+slug: whip
+category: Martial Melee Weapons
+document__slug: wotc-srd
+document__title: 5e Core Rules
+document__license_url: http://open5e.com/legal
+document__url: http://dnd.wizards.com/articles/features/systems-reference-document-srd
+cost: 2 gp
+damage_dice: 1d4
+damage_type: slashing
+weight: 3 lb.
+properties:
+  - finesse
+  - reach
+```

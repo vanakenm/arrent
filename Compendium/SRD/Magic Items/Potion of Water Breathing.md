@@ -1,0 +1,16 @@
+---
+archivist: true
+entity_type: item
+slug: potion-of-water-breathing
+name: Potion of Water Breathing
+compendium: SRD
+---
+
+```item
+name: Potion of Water Breathing
+type: Potion
+rarity: uncommon
+entries:
+  - You can breathe underwater for 1 hour after drinking this potion. Its cloudy green fluid smells of the sea and has a jellyfish-like bubble floating in it.
+attunement: false
+```

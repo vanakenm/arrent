@@ -1,0 +1,26 @@
+---
+archivist: true
+entity_type: spell
+slug: magic-weapon
+name: Magic Weapon
+compendium: SRD
+---
+
+```spell
+name: Magic Weapon
+level: 2
+school: Transmutation
+casting_time: 1 bonus action
+range: Touch
+components: V, S
+duration: Up to 1 hour
+concentration: true
+ritual: false
+classes:
+  - Cleric
+  - Wizard
+description:
+  - You touch a nonmagical weapon. Until the spell ends, that weapon becomes a magic weapon with a +1 bonus to attack rolls and damage rolls.
+at_higher_levels:
+  - When you cast this spell using a spell slot of 4th level or higher, the bonus increases to +2. When you use a spell slot of 6th level or higher, the bonus increases to +3.
+```

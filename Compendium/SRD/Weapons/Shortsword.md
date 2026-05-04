@@ -1,0 +1,24 @@
+---
+archivist: true
+entity_type: weapon
+slug: shortsword
+name: Shortsword
+compendium: SRD
+---
+
+```weapon
+name: Shortsword
+slug: shortsword
+category: Martial Melee Weapons
+document__slug: wotc-srd
+document__title: 5e Core Rules
+document__license_url: http://open5e.com/legal
+document__url: http://dnd.wizards.com/articles/features/systems-reference-document-srd
+cost: 10 gp
+damage_dice: 1d6
+damage_type: piercing
+weight: 2 lb.
+properties:
+  - finesse
+  - light
+```

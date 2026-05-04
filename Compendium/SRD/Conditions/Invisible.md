@@ -1,0 +1,18 @@
+---
+archivist: true
+entity_type: condition
+slug: invisible
+name: Invisible
+compendium: SRD
+---
+
+```condition
+slug: invisible
+name: Invisible
+desc: |-
+  * An invisible creature is impossible to see without the aid of magic or a special sense. For the purpose of hiding, the creature is heavily obscured. The creature's location can be detected by any noise it makes or any tracks it leaves.
+  * Attack rolls against the creature have disadvantage, and the creature's attack rolls have advantage.
+document__slug: wotc-srd
+document__title: 5e Core Rules
+document__url: http://dnd.wizards.com/articles/features/systems-reference-document-srd
+```

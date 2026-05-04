@@ -1,0 +1,24 @@
+---
+archivist: true
+entity_type: weapon
+slug: spear
+name: Spear
+compendium: SRD
+---
+
+```weapon
+name: Spear
+slug: spear
+category: Simple Melee Weapons
+document__slug: wotc-srd
+document__title: 5e Core Rules
+document__license_url: http://open5e.com/legal
+document__url: http://dnd.wizards.com/articles/features/systems-reference-document-srd
+cost: 1 gp
+damage_dice: 1d6
+damage_type: piercing
+weight: 3 lb.
+properties:
+  - thrown (range 20/60)
+  - versatile (1d8)
+```

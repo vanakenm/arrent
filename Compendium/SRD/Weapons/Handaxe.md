@@ -1,0 +1,24 @@
+---
+archivist: true
+entity_type: weapon
+slug: handaxe
+name: Handaxe
+compendium: SRD
+---
+
+```weapon
+name: Handaxe
+slug: handaxe
+category: Simple Melee Weapons
+document__slug: wotc-srd
+document__title: 5e Core Rules
+document__license_url: http://open5e.com/legal
+document__url: http://dnd.wizards.com/articles/features/systems-reference-document-srd
+cost: 5 gp
+damage_dice: 1d6
+damage_type: slashing
+weight: 2 lb.
+properties:
+  - light
+  - thrown (range 20/60)
+```
