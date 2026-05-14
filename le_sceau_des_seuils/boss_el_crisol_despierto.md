@@ -12,6 +12,8 @@ Il ne s'agit pas d'un gardien placé par Rufina. C'est quelque chose qu'elle a r
 
 **Déclencheur :** Le boss s'active quand les PJ pénètrent dans F30 et touchent la Clé du Seuil -- ou plus tôt si l'alerte maximale est atteinte dans l'aile intérieure.
 
+
+
 ---
 
 ## Lieu de combat : La Chambre du Grand Creuset
@@ -48,6 +50,7 @@ Taille recommandée : 20 × 20 cases (30 m × 30 m)
 PLATEFORME = Élévation +3 m, accessible par 2 échelles
 BASSIN = Zone de failles de ley (3d8 force si on y entre)
 ```
+
 
 ### Éléments de décor
 

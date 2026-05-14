@@ -7,5 +7,14 @@
     "externalContextPaths": [],
     "defaultMultiColumn": false,
     "multiColumnThreshold": 20
+  },
+  "tabManagerState": {
+    "openTabs": [
+      {
+        "tabId": "tab-1778775018538-k0vck4y",
+        "conversationId": "conv-1778775133872-igmqsnhjz"
+      }
+    ],
+    "activeTabId": "tab-1778775018538-k0vck4y"
   }
 }

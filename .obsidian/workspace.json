@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "le_sceau_des_seuils/acte_iii_la_memoria_de_la_fragua.md",
+                "file": "fights/el_crisol.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "acte_iii_la_memoria_de_la_fragua"
+              "title": "el_crisol"
             }
           }
         ]
@@ -164,13 +164,23 @@
               "icon": "lucide-list",
               "title": "Outline of acte_iii_la_memoria_de_la_fragua"
             }
+          },
+          {
+            "id": "8fde81e0d01f021a",
+            "type": "leaf",
+            "state": {
+              "type": "archivist-inquiry",
+              "state": {},
+              "icon": "bot",
+              "title": "Archivist Inquiry"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 434.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,37 +192,39 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "obsidian42-brat:BRAT": false,
-      "archivist-gg:Open Archivist Inquiry": false
+      "archivist-gg:Open Archivist Inquiry": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "926eb6eb43d55f71",
+  "active": "8fde81e0d01f021a",
   "lastOpenFiles": [
-    "Compendium/SRD/Monsters/Adult Blue Dragon.md",
+    "fights/adult_blue_dragon.md",
+    "fights/dao.md",
     "z_next.md",
+    "fights/el_crisol.md",
+    "fights",
+    "le_sceau_des_seuils/boss_el_crisol_despierto.md",
+    "Compendium/SRD/Monsters/Young Red Dragon.md",
+    "Compendium/SRD/Weapons/Flail.md",
+    "Compendium/SRD/Monsters/Ancient Brass Dragon.md",
+    "Compendium/SRD/Monsters/Adult Red Dragon.md",
+    "Compendium/SRD/Monsters/Adult Brass Dragon.md",
+    "Compendium/SRD/Monsters/Adult Gold Dragon.md",
+    "Compendium/SRD/Classes/Monk.md",
+    "Compendium/SRD/Classes/Cleric.md",
+    "Compendium/SRD/Feats/Grappler.md",
+    "Compendium/SRD/_compendium.md",
+    "pjs/polypheme.md",
+    "pjs/sylvain.md",
+    "pjs/zangra.md",
+    "pjs/varys.md",
+    "pjs/malo.md",
+    "pjs/bledios.md",
+    "zz_usage.md",
+    "le_sceau_des_seuils/acte_iii_la_memoria_de_la_fragua.md",
+    "Compendium/SRD/Monsters/Adult Blue Dragon.md",
     "Compendium/SRD/Backgrounds/Acolyte.md",
     "Compendium/SRD/Classes/Wizard.md",
-    "Compendium/SRD/Classes/Warlock.md",
-    "Compendium/SRD/Classes/Sorcerer.md",
-    "Compendium/SRD/Classes/Rogue.md",
-    "Compendium/SRD/Classes/Ranger.md",
-    "Compendium/SRD/Classes/Paladin.md",
-    "Compendium/SRD/Classes/Monk.md",
-    "Compendium/SRD/Classes/Fighter.md",
-    "Compendium/SRD/Classes/Druid.md",
-    "Compendium/SRD/Classes/Cleric.md",
-    "Compendium/SRD/Classes/Bard.md",
-    "Compendium/SRD/Classes/Barbarian.md",
-    "Compendium/SRD/Conditions/Unconscious.md",
-    "Compendium/SRD/Conditions/Stunned.md",
-    "Compendium/SRD/Conditions/Restrained.md",
-    "Compendium/SRD/Conditions/Prone.md",
-    "Compendium/SRD/Conditions/Poisoned.md",
-    "Compendium/SRD/Conditions/Petrified.md",
-    "Compendium/SRD/Conditions/Paralyzed.md",
-    "Compendium/SRD/Conditions/Invisible.md",
-    "Compendium/SRD/Conditions/Incapacitated.md",
-    "Compendium/SRD/Conditions/Grappled.md",
-    "Compendium/SRD/Conditions/Frightened.md",
     "Compendium/SRD/Backgrounds",
     "Compendium/SRD/Classes",
     "Compendium/SRD/Conditions",
@@ -221,7 +233,6 @@
     "Compendium/SRD/Armor",
     "Compendium/SRD/Magic Items",
     "Compendium/SRD/Spells",
-    "Compendium/SRD/Monsters",
-    "Compendium/SRD"
+    "Compendium/SRD/Monsters"
   ]
 }

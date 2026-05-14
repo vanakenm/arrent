@@ -4,7 +4,6 @@ Malo va observer leur retour, qu'ils apparaissent, évitent de sortir leurs arme
 Ils ont une clé.
 
 
-
 Un mot de passe pour que les Horreur Armuées les laisse passer
 
 Je défend Nan Skiat.
@@ -102,20 +101,70 @@ Passage sans trace
 
 - Pas croiser ! (vont entendre)
 
+## Le quartier des gardes
+
+Dortoirs (de meilleure qualité)
+Des officiers
+Des escalier vers le haut
+
 ## L'usine
 
 Du monde. Des duergars invisibles (Tuk).
 2 gardes (duergar) devant la porte
 
-Ouvrir la porte (va passer inaperçu)
+Ouvrir la porte (va passer inaperçu).
 
 ### Arcanaloth
 
 Il va sortir de la porte gardée pendant que les PJs sont dans la salle
 
 L'arcanaloth a un moment ? (il voit l'invisible)
-"Oh... qu'est ce que nous avons là." (en téléphathie chez le barde)
-"Des intrus ? Curieux"
+
+Il voit les PJs passer vu qu'il sort de la porte (Sylvain et Bledios en tous les cas)
+
+- "Oh... qu'est ce que nous avons là." (en téléphathie chez le barde)
+- "Des intrus ? Curieux"
 
 En télépathie
+
+# Le coeur de la forteresse
+
+- bureau arcanaloth
+- 2 helmed horrors
+
+### Télépathie
+
+- "Oh... qu'est ce que nous avons là."
+- "Qu'est ce qui vous amène ici ? Ce n'est la météo"
+- "Un endroit qui attise ma curiosité
+- "Un jeune hommme avec un esprit acéré... quelque chose qui va vous menez loin - ou à servir de combustible". Vous fait demi tour maintenant.
+
+Le Masque d'Estela (de quoi obtenir ce qu'il veut d'un des 13)
+
+Vous m'en laissez un ici
+Larcin
+
+Pourquoi vous ne foutteriez pas le camps ?
+- Une promesse demande Sylvain ?
+- Malo: plutôt ma promesse
+- Ah je sais je vais en garder un
+
+Va rester avec vous: Sylvain (ou PJ va présent)
+Recherche le masque d'Estela
+
+Ah j'ai un truc quand même - la pièce entre les deux armures c'est mon bureau - il y a une clé dans le tiroir en haut à droite. Vous ne touchez à rien d'autre.
+
+Reste 20 minute d'invis
+
+## Vers El Crisol
+Une pièce carrée avec des portes vers:
+- Les quartiers de l'Arcanaloth
+- Une grande porte avec une serrure complexe
+- Les quartiers du Dao
+
+
+# Enemi Rufina
+
+Don Rodrigez
+
 
