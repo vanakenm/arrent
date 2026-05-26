@@ -3,18 +3,18 @@
   "title": "Create Obsidian combat tracker for el_crisol",
   "titleGenerationStatus": "success",
   "createdAt": 1778775133876,
-  "updatedAt": 1778776030868,
-  "lastResponseAt": 1778776030868,
+  "updatedAt": 1778798860883,
+  "lastResponseAt": 1778798860883,
   "sessionId": "59b39037-4172-4601-9ab4-49c8b644ddce",
   "sdkSessionId": "59b39037-4172-4601-9ab4-49c8b644ddce",
   "currentNote": "z_next.md",
   "usage": {
     "model": "opus[1m]",
     "inputTokens": 1,
-    "cacheCreationInputTokens": 3645,
-    "cacheReadInputTokens": 40189,
+    "cacheCreationInputTokens": 1517,
+    "cacheReadInputTokens": 53288,
     "contextWindow": 1000000,
-    "contextTokens": 43835,
-    "percentage": 4
+    "contextTokens": 54806,
+    "percentage": 5
   }
 }

@@ -94,17 +94,17 @@ El Crisol émerge du creuset comme un colosse de métal en fusion et de pierre a
 **El Crisol Despierto -- Phase 1**
 *Créature artificielle de Grande taille*
 
-| Stat | Valeur |
-|---|---|
-| CA | 17 (armure naturelle) |
-| Points de vie | 190 |
-| Vitesse | 0 (ancré) |
-| FOR | 24 (+7) |
-| DEX | 4 (-3) |
-| CON | 22 (+6) |
-| INT | 3 (-4) |
-| SAG | 6 (-2) |
-| CHA | 1 (-5) |
+| Stat          | Valeur                |
+| ------------- | --------------------- |
+| CA            | 17 (armure naturelle) |
+| Points de vie | 190                   |
+| Vitesse       | 0 (ancré)             |
+| FOR           | 24 (+7)               |
+| DEX           | 4 (-3)                |
+| CON           | 22 (+6)               |
+| INT           | 3 (-4)                |
+| SAG           | 6 (-2)                |
+| CHA           | 1 (-5)                |
 
 **Jets de sauvegarde :** For +11, Con +10
 

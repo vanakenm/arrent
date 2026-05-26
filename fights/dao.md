@@ -12,15 +12,15 @@ tags:
 > [!tip] Utilisation
 > `Tab` pour naviguer entre les cellules, editez PV Courant et sorts au fil du combat.
 
-| Init | Nom                              | PV Max | PV Courant | CA | Niv 1 | Niv 2 | Niv 3 | Niv 4 | Notes              |
-| ---- | -------------------------------- | ------ | ---------- | -- | ----- | ----- | ----- | ----- | ------------------ |
-| +17  | [[pjs/varys\|Varys]]             | 75     | 75         | 17 | -     | -     | -     | -     | Rage 6/16          |
-| +16  | [[pjs/zangra\|Zangra]]           | 45     | 45         | 16 | oooo  | oox   | xxo   | o     | Inspiration 2/4    |
-| +14  | [[pjs/malo\|Malo]]               | 58     | 58         | 16 | -     | -     | -     | -     |                    |
-| +14  | [[pjs/sylvain\|Sylvain]]         | 60     | 60         | 22 | ooo   | ox    | -     | -     |                    |
-| +7   | [[pjs/bledios\|Bledios]]         | 52     | 52         | 16 | oooo  | xoo   | ooo   | o     | Forme animale 2/2  |
-|      | [[pjs/polypheme\|Polypheme]]     | ?      | ?          | ?  | -     | -     | -     | -     | Stats manquantes   |
-| +1   | **Dao**                          | 200    | 200        | 18 | -     | -     | -     | -     | Fly 30, Burrow 30  |
+| Init | Nom                          | PV Max | PV Courant | CA  | Niv 1 | Niv 2 | Niv 3 | Niv 4 | Notes             |
+| ---- | ---------------------------- | ------ | ---------- | --- | ----- | ----- | ----- | ----- | ----------------- |
+| +17  | [[pjs/varys\|Varys]]         | 75     | 75         | 17  | -     | -     | -     | -     | Rage 6/16         |
+| +16  | [[pjs/zangra\|Zangra]]       | 45     | 45         | 16  | oooo  | oox   | xxo   | o     | Inspiration 2/4   |
+| +14  | [[pjs/malo\|Malo]]           | 58     | 58         | 16  | -     | -     | -     | -     |                   |
+| +14  | [[pjs/sylvain\|Sylvain]]     | 60     | 60         | 22  | ooo   | ox    | -     | -     |                   |
+| +7   | [[pjs/bledios\|Bledios]]     | 52     | 52         | 16  | oooo  | xoo   | ooo   | o     | Forme animale 2/2 |
+|      | [[pjs/polypheme\|Polypheme]] | 58     | 58         | ?   | -     | -     | -     | -     | Stats manquantes  |
+| +1   | **Dao**                      | 200    | 200        | 18  | -     | -     | -     | -     | Fly 30, Burrow 30 |
 
 ### Rappels Dao
 

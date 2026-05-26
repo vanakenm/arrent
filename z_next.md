@@ -13,7 +13,6 @@ Intérieur
 35 minutes à l'intérieur
 
 J'ai viré le blindsight sinon la scène (et donc des Helmed Horrors)
-
 # Caravanes
 
 3 chariots
@@ -137,7 +136,7 @@ En télépathie
 - "Oh... qu'est ce que nous avons là."
 - "Qu'est ce qui vous amène ici ? Ce n'est la météo"
 - "Un endroit qui attise ma curiosité
-- "Un jeune hommme avec un esprit acéré... quelque chose qui va vous menez loin - ou à servir de combustible". Vous fait demi tour maintenant.
+- "Un jeune hommme avec un esprit vif... quelque chose qui va vous menez loin - ou à servir de combustible". Vous fait demi tour maintenant.
 
 Le Masque d'Estela (de quoi obtenir ce qu'il veut d'un des 13)
 
@@ -155,14 +154,42 @@ Recherche le masque d'Estela
 Ah j'ai un truc quand même - la pièce entre les deux armures c'est mon bureau - il y a une clé dans le tiroir en haut à droite. Vous ne touchez à rien d'autre.
 
 Reste 20 minute d'invis
-
+### Le bureau
+Venir volet la clé
+Les Armures laissent passer sans réaction (mais regardent)
+### Le creuset
+2 armures (elles vont se battre - El Registrador ne veut pas que ca se sache)
+devant la porte du Creuset d'El Crisol
 ## Vers El Crisol
 Une pièce carrée avec des portes vers:
 - Les quartiers de l'Arcanaloth
-- Une grande porte avec une serrure complexe
+- Le creuset une grande porte avec une serrure complexe
 - Les quartiers du Dao
+- Actuellement vide
+## El Crisol
+Pièce comme sur la carte avec une porte identique en face, fermée
+Les deux porte se ferment quand les PJs rentrent (tous ? Certains ?)
+Sas donc elle ne sont jamais ouvertes toutes les deux
 
+Sim au dela
+Portes coincées (dague magique d'un côté, hache de lancer de l'autre)
+Bras qui bouge
 
+> Les murs de cette salle circulaire sont couverts de bas-reliefs représentant des forgerons au travail, aujourd'hui figés dans des poses de terreur. Quatre piliers massifs se dressent aux coins de la salle, parcourus de tuyaux de métal noir d'où s'échappe une lueur orange pulsante. Au centre, un creuset de pierre de dix mètres de haut, fissures irradiant une lumière aveuglante, vibre de plus en plus fort. 
+> Un bassin d'énergie
+
+## Au dela
+Salle du trone du Dao
+Bureau - Alarme dessus
+Glyphe
+
+Salle des coffres
+Argent
+Trois coffres
+Un coffre (qui contient le masque)
+Un coffre Le sceau des seuils
+
+Un coffre une baguette (command ou équivalent)
 # Enemi Rufina
 
 Don Rodrigez
