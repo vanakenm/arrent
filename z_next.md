@@ -167,6 +167,7 @@ Une pièce carrée avec des portes vers:
 - Les quartiers du Dao
 - Actuellement vide
 ## El Crisol
+
 Pièce comme sur la carte avec une porte identique en face, fermée
 Les deux porte se ferment quand les PJs rentrent (tous ? Certains ?)
 Sas donc elle ne sont jamais ouvertes toutes les deux
@@ -190,6 +191,39 @@ Un coffre (qui contient le masque)
 Un coffre Le sceau des seuils
 
 Un coffre une baguette (command ou équivalent)
+## Sortir
+
+L'arcanaloth va aider ? Oui, un peu... mais Sim ne peut pas le contacter et il va s'assurer d'être loin de ce qui se passe - genre dans l'espace garde
+
+Armures sans réactions au passage des PJs 
+### Usine
+
+Les duerguars dans l'usine
+
+Les gardes pigent ce qui se passe, ils vont aller voir et l'alarme va sonner en quelques minutes  (la glyphe dans le bureau de l'Arcanaloth)
+
+Le hangar
+L'alarme va arriver à la cour avant les PJs (via les espaces des gardes et le dragon fait des tours assez serrés - et il a blindsight)
+
+Des gardes arrivent pour verrouiller et garder toutes les portes mais ils sont encore en route
+
+Duergars x6
+26 - 0
+26 - 0
+26 - 26 (armure)
+26 - 0
+26 - 26 (armure)
+26 - 26 (armure)
+
+## La cour
+Le dragon fait approcher
+une centraine de mètre jusqu'au pont - et on fait sans doute fermer la porte
+
+Seul aspect positif, les armures vont les laisser passer si besoin.
+### Sylvain
+L'arcanaloth va le faire sortir, en trucidant les gardes (et/ou demander à Sylvain de le faire)
+Bon on ne va pas pouvoir sortir par le même chemin que vos compagnons, venez avec moi
+Bon on doit récupérer un anneau sans ca ca va être complexe de sortir (il ment, lui peut empêcher les Horreur de le frapper, mais ca lui fait une explicaiton sur comment ils sont sortis !).
 # Enemi Rufina
 
 Don Rodrigez

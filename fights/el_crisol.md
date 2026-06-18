@@ -25,18 +25,25 @@ ll Crisol émerge du creuset comme un colosse de métal en fusion et de pierre a
 ***Impulsion tellurique (Recharge 5-6).*** El Crisol libère une onde d'énergie. Toutes les créatures dans un rayon de 6 m effectuent un JS de Constitution DD 17. *Raté :* 36 (8d8) dégâts de force et repoussé de 4,5 m. *Réussi :* la moitié des dégâts, pas de déplacement.
 
 ***Frappe sismique (1/tour).*** El Crisol frappe le sol. Toutes les créatures au sol dans un rayon de 3 m effectuent un JS de Dextérité DD 16. *Raté :* 18 (4d8) dégâts contondants et à terre. *Réussi :* la moitié. 
+
+# Préparation prochain combat dans la cour (Duergar puis dragon)
+
+Malo 15
+Varys 14
+Bledios 13
+
 ## Phase 1 : L'Enclume (El Yunque)
 
 | Init | Nom                          | PV Max | PV Courant | CA  | Niv 1 | Niv 2 | Niv 3 | Niv 4 | Notes                       |
 | ---- | ---------------------------- | ------ | ---------- | --- | ----- | ----- | ----- | ----- | --------------------------- |
-| 17   | [[pjs/varys\|Varys]]         | 75     | 32         | 17  | -     | -     | -     | -     | Rage 13/16                  |
+| 22   | [[pjs/polypheme\|Polypheme]] | 58     | 58         | 16  | -     | -     | -     | -     | Stats manquantes            |
+| 17   | [[pjs/varys\|Varys]]         | 75     | 54         | 19  | -     | -     | -     | -     | Rage 15/16                  |
 |      | [[pjs/zangra\|Zangra]]       | 45     | 45         | 16  | oooo  | oox   | xxo   | o     | Inspiration 2/4             |
-| 16   | [[pjs/malo\|Malo]]           | 58     | 43         | 16  | -     | -     | -     | -     |                             |
+| 16   | [[pjs/malo\|Malo]]           | 58     | 22         | 16  | -     | -     | -     | -     |                             |
 |      | [[pjs/sylvain\|Sylvain]]     | 60     | 60         | 22  | ooo   | ox    | -     | -     |                             |
-| 15   | [[pjs/bledios\|Bledios]]     | 52     | 52         | 16  | oooo  | xxo   | oxx   | o     | Forme animale 2/2           |
-|      | [[pjs/polypheme\|Polypheme]] | 58     | 58         | 16  | -     | -     | -     | -     | Stats manquantes            |
+| 15   | [[pjs/bledios\|Bledios]]     | 52     | 31         | 16  | xooo  | xxo   | oxx   | x     | Forme animale 2/2           |
 | 3    | **El Crisol P1**             | 190    | 190        | 17  | -     | -     | -     | -     | Ancré, 2 attaques (3 si C2) |
-
+Ce que je dois faire: utiliser ses actions légendaires après le prochain... mais ce sera après
 
 ### Conduits
 

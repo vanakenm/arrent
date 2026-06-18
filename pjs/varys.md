@@ -19,7 +19,7 @@ _Aucun objet sans attunement actuellement_
 
 ### Potions
 - Potion Invis
-- Potion 8D4+8
+- ~~Potion 8D4+8 (claquée après la salle du levier)~~
 
 ### Bénéfictions
 - Bracelet de par +12 sur un jet
