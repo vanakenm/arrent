@@ -11,13 +11,13 @@ tags:
 > [!tip] Utilisation
 > `Tab` pour naviguer entre les cellules, editez PV Courant au fil du combat.
 
-| Status                       | Init | Nom                      | PV Max | PV Courant | CA  | Niv 1 | Niv 2 | Niv 3 | Niv 4 | Notes             |
-| ---------------------------- | ---- | ------------------------ | ------ | ---------- | --- | ----- | ----- | ----- | ----- | ----------------- |
-|                              | 18   | [[pjs/varys\|Varys]]     | 75     | 52         | 17  | -     | -     | -     | -     | Rage 12/16        |
-|                              |      | [[pjs/malo\|Malo]]       | 58     | 58         | 16  | -     | -     | -     | -     |                   |
-|                              | 10   | [[pjs/bledios\|Bledios]] | 52     | 52         | 16  | oooo  | xxo   | xxo   | o     | Forme animale 0/2 |
-| Metal brulant<br>désavantage | 14   | **Helmed Horror 1**      | 60     | 0          | 20  | -     | -     | -     | -     | Fly 30            |
-|                              | 14   | **Helmed Horror 2**      | 60     | 0          | 20  | -     | -     | -     | -     | Fly 30            |
+| Status | Init | Nom                      | PV Max | PV Courant | CA  | Niv 1 | Niv 2 | Niv 3 | Niv 4 | Notes             |
+| ------ | ---- | ------------------------ | ------ | ---------- | --- | ----- | ----- | ----- | ----- | ----------------- |
+|        | 14   | [[pjs/malo\|Malo]]       | 58     | 58         | 16  | -     | -     | -     | -     |                   |
+|        | 13   | [[pjs/varys\|Varys]]     | 75     | 22         | 17  | -     | -     | -     | -     | Rage 2/16         |
+|        | 11   | [[pjs/bledios\|Bledios]] | 52     | 52         | 16  | oooo  | xxo   | xxo   | o     | Forme animale 0/2 |
+|        | 11   | **Helmed Horror 1**      | 60     | 0          | 20  | -     | -     | -     | -     | Fly 30            |
+|        | 11   | **Helmed Horror 2**      | 60     | 0          | 20  | -     | -     | -     | -     | Fly 30            |
 
 
 ### Spell Immunities

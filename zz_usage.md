@@ -1,6 +1,7 @@
 # Sort en cours
 Passage sans trace de Lau sur le groupe
-Invi mich sur Varys, Sylvain, Polypheme, Malo 57m
+Invi mich sur , Sylvain, Polypheme, Malo 30m
+Varys
 Mich en humain
 Potion invis chez Malo
 
@@ -10,9 +11,10 @@ Mic à le sac avec les coffrets
 - 1 sorts niveau 2: amélioration carac
 - 1 sorts niveau 2: amélioration carac de dex sur Greg
 # Mich
+Lui reste 2 sort niveau 1
 
-- 2 sorts niv 2
-- 2 sort niv 2
+- 3 sorts niv 2 (meta brulant)
+-  sort niv 2
 - 2 sort niv 3 (double invis sim/mich)
 - 1 sort niv 4 (triple invisible)
 - 2 transformations
