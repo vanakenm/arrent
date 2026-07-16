@@ -1,0 +1,353 @@
+{
+  "name": "Polyphème",
+  "identity": {
+    "race": "Humain",
+    "class": "Rôdeur — Maître des Bêtes (Beast Master)",
+    "secondaryClass": null,
+    "level": 8,
+    "background": null
+  },
+  "combatStats": {
+    "hpMax": 68,
+    "hpCurrent": 68,
+    "ac": 16,
+    "initiative": 4,
+    "speed": "Base + 1,5m (Errance) / Escalade : égale à la marche / Nage : égale à la marche",
+    "hitDice": null
+  },
+  "abilityScores": {
+    "str": {
+      "score": 12,
+      "modifier": 0
+    },
+    "dex": {
+      "score": 20,
+      "modifier": 0
+    },
+    "con": {
+      "score": 14,
+      "modifier": 0
+    },
+    "int": {
+      "score": 10,
+      "modifier": 0
+    },
+    "wis": {
+      "score": 14,
+      "modifier": 0
+    },
+    "cha": {
+      "score": 8,
+      "modifier": 0
+    }
+  },
+  "proficiencyBonus": null,
+  "savingThrows": [
+    {
+      "ability": "str",
+      "proficient": false,
+      "bonus": null
+    },
+    {
+      "ability": "dex",
+      "proficient": false,
+      "bonus": null
+    },
+    {
+      "ability": "con",
+      "proficient": false,
+      "bonus": null
+    },
+    {
+      "ability": "int",
+      "proficient": false,
+      "bonus": null
+    },
+    {
+      "ability": "wis",
+      "proficient": false,
+      "bonus": null
+    },
+    {
+      "ability": "cha",
+      "proficient": false,
+      "bonus": null
+    }
+  ],
+  "skills": [
+    {
+      "name": "Acrobaties",
+      "ability": "dex",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Arcanes",
+      "ability": "int",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Athlétisme",
+      "ability": "str",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Discrétion",
+      "ability": "dex",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Dressage",
+      "ability": "wis",
+      "proficient": true,
+      "expertise": false,
+      "bonus": null,
+      "note": "avantage (via Kin Animal)"
+    },
+    {
+      "name": "Escamotage",
+      "ability": "dex",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Histoire",
+      "ability": "int",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Intimidation",
+      "ability": "cha",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Investigation",
+      "ability": "int",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Médecine",
+      "ability": "wis",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Nature",
+      "ability": "int",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Perception",
+      "ability": "wis",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Perspicacité",
+      "ability": "wis",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Persuasion",
+      "ability": "cha",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Religion",
+      "ability": "int",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Représentation",
+      "ability": "cha",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Supercherie",
+      "ability": "cha",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Survie",
+      "ability": "wis",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Tromperie",
+      "ability": "cha",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    }
+  ],
+  "skillsNote": "1 expertise au choix (Explorateur Aguerri)",
+  "proficienciesAndLanguages": {
+    "languages": null,
+    "armor": null,
+    "weapons": null,
+    "tools": null
+  },
+  "spellcasting": {
+    "slots": [
+      {
+        "level": 1,
+        "max": null,
+        "current": null
+      },
+      {
+        "level": 2,
+        "max": null,
+        "current": null
+      },
+      {
+        "level": 3,
+        "max": null,
+        "current": null
+      }
+    ],
+    "grantedByClassLevel": [
+      {
+        "characterLevel": 3,
+        "name": "Familier",
+        "englishName": "Find Familiar"
+      },
+      {
+        "characterLevel": 5,
+        "name": "Esprit guérisseur",
+        "englishName": "Healing Spirit"
+      },
+      {
+        "characterLevel": 9,
+        "name": "Invoquer des animaux",
+        "englishName": "Conjure Animals"
+      }
+    ],
+    "innate": [],
+    "byLevel": [
+      {
+        "level": 1,
+        "knownCount": 4,
+        "spells": []
+      },
+      {
+        "level": 2,
+        "knownCount": 2,
+        "spells": []
+      },
+      {
+        "level": 3,
+        "knownCount": 2,
+        "spells": []
+      }
+    ]
+  },
+  "resources": [
+    {
+      "name": "Ennemi Favori",
+      "min": 0,
+      "max": null,
+      "current": null,
+      "description": "Max = bonus de maîtrise, récupération au repos long. Marque une cible après l'avoir touchée (1 minute). 1×/tour sur la cible marquée : +1d6 dégâts supplémentaires (progression 1d4 niv.1 → 1d6 niv.6 → 1d8 niv.14)."
+    }
+  ],
+  "capabilities": [
+    {
+      "name": "Explorateur Aguerri (Canny Explorer)",
+      "description": "1 expertise au choix. Fourrageur : trouve 2× plus de nourriture/eau, en cas d'échec trouve au moins pour 1 personne. Guetteur : pas de malus de -5 à la Perception passive en déplacement rapide, même en activité secondaire. Éclaireur : se déplace furtivement à allure normale. Pisteur Rapide : piste à allure rapide, repérer une piste prend 1 min en zone fermée / 10 min en extérieur. Trailblazer : terrain difficile ne ralentit pas le déplacement, avantage sur Nature pour identifier les dangers. Guide : peut guider un groupe de 6 créatures avec déplacement furtif à allure normale, terrain difficile ignoré.",
+      "recovery": "Passif"
+    },
+    {
+      "name": "Style de Combat : Combat à Deux Armes",
+      "description": "Ajoute le modificateur de caractéristique aux dégâts de la deuxième attaque. Peut dégainer ou ranger une arme supplémentaire par tour.",
+      "recovery": "Passif"
+    },
+    {
+      "name": "Tueur d'Ennemis (Foe Slayer)",
+      "description": "Ajoute le modificateur de SAG au jet d'attaque ou aux dégâts. Peut être décidé avant ou après le jet, mais avant application des effets.",
+      "recovery": "1×/tour"
+    },
+    {
+      "name": "Kin Animal (Animal Kin)",
+      "description": "Avantage sur les jets de Dressage. Parle et comprend les bêtes comme sous l'effet de Parler aux animaux (permanent).",
+      "recovery": "Passif"
+    },
+    {
+      "name": "Attaque Supplémentaire",
+      "description": "Peut attaquer deux fois lors de l'action Attaquer",
+      "recovery": "Passif"
+    },
+    {
+      "name": "Errance (Roving)",
+      "description": "Vitesse de marche +1,5m. Vitesse d'escalade et de nage = vitesse de marche. Peut utiliser Foncer ou Se désengager en action bonus.",
+      "recovery": "Passif"
+    },
+    {
+      "name": "Foulée des Terres (Land's Stride)",
+      "description": "Détails à compléter.",
+      "recovery": "Passif"
+    },
+    {
+      "name": "Compagnon Bestial Primaire (Primal Beast Companion)",
+      "description": "Amical, obéit aux ordres. Stat block au choix : Bête de Terre, Bête de Mer ou Bête des Cieux. Communication télépathique jusqu'à 300m. Action : voir/entendre par ses sens jusqu'au début du prochain tour (sourd/aveugle pendant ce temps). Si un ennemi est à 1,5m du compagnon et visible par lui, vous le voyez également. Combat : agit pendant votre tour, par défaut action Esquiver, action bonus pour lui ordonner une autre action (maintenue tant que pertinente), vous pouvez sacrifier une attaque pour lui donner l'action Attaquer, si vous êtes incapacité le compagnon agit librement. Résurrection : dans l'heure suivant sa mort, dépenser un emplacement de sort niv.1+ et le toucher, revient à la vie après 1 minute avec tous ses PV.",
+      "recovery": "Invoqué par une action ; nouveau compagnon possible à chaque repos long"
+    },
+    {
+      "name": "Lien Mystique (Mystic Bond)",
+      "description": "Niveau 5 : le compagnon (dans un rayon de 30m) sert de catalyseur de sort, les sorts lancés en action bonus sans composante gestuelle peuvent être déclenchés via l'action bonus du compagnon. Niveau 7 : les attaques du compagnon comptent comme magiques, les sorts ciblant uniquement vous affectent aussi le compagnon s'il est à 9m ou moins.",
+      "recovery": "Passif"
+    }
+  ],
+  "equipment": {
+    "attunement": {
+      "max": 3,
+      "current": null,
+      "items": []
+    },
+    "nonAttunement": [],
+    "weaponsAndArmor": [],
+    "potions": []
+  },
+  "blessingsAndActiveEffects": [],
+  "companion": {
+    "beastType": null,
+    "statBlock": null,
+    "name": null,
+    "hp": null,
+    "ac": null,
+    "speed": null,
+    "attacks": null,
+    "specialAbilities": null
+  },
+  "notes": "",
+  "status": ""
+}

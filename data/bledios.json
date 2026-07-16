@@ -1,0 +1,308 @@
+{
+  "name": "Bledios",
+  "identity": {
+    "race": "Humain",
+    "class": "Druide — Cercle de la Plaine",
+    "secondaryClass": null,
+    "level": 8,
+    "background": "Outlander"
+  },
+  "combatStats": {
+    "hpMax": 52,
+    "hpCurrent": 52,
+    "ac": 16,
+    "initiative": 7,
+    "speed": null,
+    "hitDice": null
+  },
+  "abilityScores": {
+    "str": {
+      "score": 9,
+      "modifier": -1
+    },
+    "dex": {
+      "score": 14,
+      "modifier": 2
+    },
+    "con": {
+      "score": 15,
+      "modifier": 2
+    },
+    "int": {
+      "score": 13,
+      "modifier": 1
+    },
+    "wis": {
+      "score": 18,
+      "modifier": 4
+    },
+    "cha": {
+      "score": 11,
+      "modifier": 0
+    }
+  },
+  "proficiencyBonus": 3,
+  "savingThrows": [
+    {
+      "ability": "str",
+      "proficient": false,
+      "bonus": null
+    },
+    {
+      "ability": "dex",
+      "proficient": false,
+      "bonus": null
+    },
+    {
+      "ability": "con",
+      "proficient": false,
+      "bonus": null
+    },
+    {
+      "ability": "int",
+      "proficient": true,
+      "bonus": null
+    },
+    {
+      "ability": "wis",
+      "proficient": true,
+      "bonus": null
+    },
+    {
+      "ability": "cha",
+      "proficient": false,
+      "bonus": null
+    }
+  ],
+  "skills": [
+    {
+      "name": "Acrobaties",
+      "ability": "dex",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Arcanes",
+      "ability": "int",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Athlétisme",
+      "ability": "str",
+      "proficient": true,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Discrétion",
+      "ability": "dex",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Dressage",
+      "ability": "wis",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Escamotage",
+      "ability": "dex",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Histoire",
+      "ability": "int",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Intimidation",
+      "ability": "cha",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Investigation",
+      "ability": "int",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Médecine",
+      "ability": "wis",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Nature",
+      "ability": "int",
+      "proficient": true,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Perception",
+      "ability": "wis",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Perspicacité",
+      "ability": "wis",
+      "proficient": true,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Persuasion",
+      "ability": "cha",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Religion",
+      "ability": "int",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Représentation",
+      "ability": "cha",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Supercherie",
+      "ability": "cha",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Survie",
+      "ability": "wis",
+      "proficient": true,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Tromperie",
+      "ability": "cha",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    }
+  ],
+  "proficienciesAndLanguages": {
+    "languages": null,
+    "armor": null,
+    "weapons": null,
+    "tools": null
+  },
+  "spellcasting": {
+    "slots": [
+      {
+        "level": 1,
+        "max": 4,
+        "current": 4
+      },
+      {
+        "level": 2,
+        "max": 3,
+        "current": 1
+      },
+      {
+        "level": 3,
+        "max": 3,
+        "current": 3
+      },
+      {
+        "level": 4,
+        "max": 2,
+        "current": 2
+      }
+    ],
+    "innate": [],
+    "byLevel": [
+      {
+        "level": 1,
+        "knownCount": null,
+        "spells": []
+      },
+      {
+        "level": 2,
+        "knownCount": null,
+        "spells": []
+      },
+      {
+        "level": 3,
+        "knownCount": null,
+        "spells": []
+      },
+      {
+        "level": 4,
+        "knownCount": null,
+        "spells": []
+      }
+    ]
+  },
+  "resources": [
+    {
+      "name": "Forme Sauvage",
+      "min": 0,
+      "max": 2,
+      "current": 2,
+      "description": "CR max : 1. Restrictions : Aucune."
+    }
+  ],
+  "capabilities": [],
+  "equipment": {
+    "attunement": {
+      "max": 3,
+      "current": null,
+      "items": [
+        {
+          "name": "Amulette coeur",
+          "description": null
+        },
+        {
+          "name": "Anneau de sort niv 3",
+          "description": "See Invisibility"
+        }
+      ]
+    },
+    "nonAttunement": [
+      {
+        "name": "Lunettes de vision nocturne",
+        "description": null
+      }
+    ],
+    "weaponsAndArmor": [],
+    "potions": []
+  },
+  "blessingsAndActiveEffects": [
+    {
+      "description": "+12 sur un jet",
+      "active": true
+    }
+  ],
+  "companion": null,
+  "notes": "",
+  "status": ""
+}

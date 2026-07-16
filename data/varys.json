@@ -1,0 +1,211 @@
+{
+  "name": "Varys",
+  "identity": {
+    "race": "Elfe des Bois",
+    "class": "Barbare — Voie du Guerrier Totémique (Totem : Ours)",
+    "secondaryClass": null,
+    "level": 8,
+    "background": "Héros du Peuple"
+  },
+  "combatStats": {
+    "hpMax": 93,
+    "hpCurrent": 93,
+    "ac": 20,
+    "initiative": 17,
+    "speed": "45 pieds / 13,5m (35 pieds Elfe des Bois [Fleet of Foot] + 10 pieds Fast Movement, sans armure lourde)",
+    "hitDice": null
+  },
+  "abilityScores": {
+    "str": { "score": 16, "modifier": 3 },
+    "dex": { "score": 15, "modifier": 2 },
+    "con": { "score": 18, "modifier": 4 },
+    "int": { "score": 8, "modifier": -1 },
+    "wis": { "score": 12, "modifier": 1 },
+    "cha": { "score": 10, "modifier": 0 }
+  },
+  "proficiencyBonus": 3,
+  "savingThrows": [
+    { "ability": "str", "proficient": true, "bonus": null },
+    { "ability": "dex", "proficient": false, "bonus": null },
+    { "ability": "con", "proficient": true, "bonus": null },
+    { "ability": "int", "proficient": false, "bonus": null },
+    { "ability": "wis", "proficient": false, "bonus": null },
+    { "ability": "cha", "proficient": false, "bonus": null }
+  ],
+  "skills": [
+    { "name": "Acrobaties", "ability": "dex", "proficient": false, "expertise": false, "bonus": null },
+    { "name": "Arcanes", "ability": "int", "proficient": false, "expertise": false, "bonus": null },
+    { "name": "Athlétisme", "ability": "str", "proficient": true, "expertise": false, "bonus": null },
+    { "name": "Discrétion", "ability": "dex", "proficient": true, "expertise": false, "bonus": null, "note": "Aspect de la Bête : Loup" },
+    { "name": "Dressage", "ability": "wis", "proficient": true, "expertise": false, "bonus": null, "note": "Héros du Peuple" },
+    { "name": "Escamotage", "ability": "dex", "proficient": false, "expertise": false, "bonus": null },
+    { "name": "Histoire", "ability": "int", "proficient": false, "expertise": false, "bonus": null },
+    { "name": "Intimidation", "ability": "cha", "proficient": true, "expertise": false, "bonus": null },
+    { "name": "Investigation", "ability": "int", "proficient": false, "expertise": false, "bonus": null },
+    { "name": "Médecine", "ability": "wis", "proficient": false, "expertise": false, "bonus": null },
+    { "name": "Nature", "ability": "int", "proficient": false, "expertise": false, "bonus": null },
+    { "name": "Perception", "ability": "wis", "proficient": true, "expertise": false, "bonus": null, "note": "Keen Sense (Elfe)" },
+    { "name": "Perspicacité", "ability": "wis", "proficient": false, "expertise": false, "bonus": null },
+    { "name": "Persuasion", "ability": "cha", "proficient": false, "expertise": false, "bonus": null },
+    { "name": "Religion", "ability": "int", "proficient": false, "expertise": false, "bonus": null },
+    { "name": "Représentation", "ability": "cha", "proficient": false, "expertise": false, "bonus": null },
+    { "name": "Supercherie", "ability": "cha", "proficient": false, "expertise": false, "bonus": null },
+    { "name": "Survie", "ability": "wis", "proficient": true, "expertise": false, "bonus": null, "note": "Héros du Peuple" },
+    { "name": "Tromperie", "ability": "cha", "proficient": false, "expertise": false, "bonus": null }
+  ],
+  "proficienciesAndLanguages": {
+    "languages": "Commun, Elfique",
+    "armor": "Armures légères, armures intermédiaires, boucliers",
+    "weapons": "Armes simples, armes de guerre ; maîtrise raciale (Elfe) : épée longue, épée courte, arc long",
+    "tools": "Un type d'outils d'artisan (à préciser), un véhicule (à préciser) — Héros du Peuple"
+  },
+  "spellcasting": null,
+  "resources": [
+    {
+      "name": "Fureur (Rage)",
+      "min": 0,
+      "max": 17,
+      "current": 6,
+      "description": "Max = 9 + niveau de Barbare. Récupération totale au repos long. Récupération en combat : au début du tour, +1 Fureur par tranche de 5 dégâts non-psychiques subis depuis le dernier tour (seule la plus grosse attaque subie compte). Alimente les Manœuvres Sauvages. DD des jets de sauvegarde imposés par les manœuvres : 8 + bonus de maîtrise + modificateur de CON (= 15 actuellement)."
+    }
+  ],
+  "capabilities": [
+    { "name": "Elf Weapon Training", "description": "Maîtrise de l'épée longue, de l'épée courte et de l'arc long.", "recovery": "Passif" },
+    { "name": "Fleet of Foot", "description": "Vitesse de marche de base portée à 35 pieds.", "recovery": "Passif" },
+    { "name": "Mask of the Wild", "description": "Peut tenter de se cacher même lorsqu'il n'est que légèrement obscurci par le feuillage, une forte pluie, la neige qui tombe, la brume et autres phénomènes naturels.", "recovery": "Passif" },
+    { "name": "Darkvision", "description": "Vision dans le noir 18m (60 ft) : voit dans la pénombre comme en pleine lumière, et dans le noir comme dans la pénombre. Ne distingue pas les couleurs dans le noir, seulement des nuances de gris.", "recovery": "Passif" },
+    { "name": "Fey Ancestry", "description": "Avantage aux jets de sauvegarde contre être charmé ; la magie ne peut pas l'endormir.", "recovery": "Passif" },
+    { "name": "Trance", "description": "Ne dort pas ; médite 4h/jour (semi-conscient) pour obtenir le même bénéfice qu'un humain après 8h de sommeil.", "recovery": "Passif" },
+    { "name": "Keen Sense", "description": "Maîtrise en Perception.", "recovery": "Passif" },
+    { "name": "Unarmored Defense", "description": "Sans armure : CA = 12 + modificateur de DEX + modificateur de CON. Réduction de dégâts innée égale au modificateur de CON contre tous les dégâts non-psychiques (appliquée avant toute autre mitigation). Peut utiliser un bouclier et conserver ces bénéfices.", "recovery": "Passif" },
+    { "name": "Fighting Style : Great Weapon Fighting", "description": "Sur un jet de dégâts de 1 ou 2 avec une arme de corps-à-corps tenue à deux mains (propriété à deux mains ou polyvalente) : relance le dé, doit garder le nouveau résultat même si c'est encore 1 ou 2.", "recovery": "Passif" },
+    { "name": "Reckless Attack", "description": "Sur la première attaque du tour, peut attaquer avec témérité : avantage aux jets d'attaque de corps-à-corps en FOR ce tour, mais avantage aux jets d'attaque contre lui jusqu'à son prochain tour.", "recovery": "Sur la première attaque du tour" },
+    { "name": "Danger Sense", "description": "Avantage aux jets de sauvegarde de DEX contre des effets visibles (pièges, sorts). Nécessite de ne pas être aveuglé, sourd ou incapacité.", "recovery": "Passif" },
+    { "name": "Primal Path : Spirit Seeker", "description": "Beast Sense : touche une bête consentante (action) ; pendant 1h, peut utiliser son action pour voir/entendre par ses sens. Speak with Animals : comprend et communique verbalement avec les bêtes.", "recovery": "Passif / Action pour Beast Sense" },
+    { "name": "Bear Spirit Totem", "description": "En rage : résistance à tous les dégâts sauf psychiques.", "recovery": "Passif (pendant la rage)" },
+    { "name": "Ability Score Improvement", "description": "Score de Force augmenté de 2.", "recovery": "Passif" },
+    { "name": "Extra Attack", "description": "Peut attaquer deux fois, au lieu d'une, lors de l'action Attaquer.", "recovery": "Passif" },
+    { "name": "Fast Movement", "description": "Vitesse +10 pieds tant qu'il ne porte pas d'armure lourde.", "recovery": "Passif" },
+    { "name": "Aspect of the Beast : Ours", "description": "Capacité de charge (charge max et poids max soulevé) doublée ; avantage aux jets de FOR pour pousser, tirer, soulever ou briser des objets.", "recovery": "Passif" },
+    { "name": "Aspect of the Beast : Aigle", "description": "Voit jusqu'à 1,6km sans difficulté, avec assez de détails comme si l'objet était à 30m. La faible luminosité n'impose pas de désavantage aux tests de Perception (SAG).", "recovery": "Passif" },
+    { "name": "Aspect of the Beast : Loup", "description": "Peut pister d'autres créatures en se déplaçant à vive allure, et se déplacer furtivement à allure normale. Maîtrise en Discrétion.", "recovery": "Passif" },
+    { "name": "Feat : Great Weapon Mastery", "description": "Sur un coup critique ou une réduction à 0 PV avec une arme de corps-à-corps : une attaque d'arme de corps-à-corps supplémentaire en action bonus. Avant une attaque de corps-à-corps avec une arme lourde maîtrisée : peut prendre -5 au jet d'attaque pour +10 aux dégâts en cas de réussite.", "recovery": "Sur critique/KO, ou au choix avant une attaque" },
+    { "name": "Feral Instinct", "description": "Avantage aux jets d'initiative. Si surpris en début de combat et non incapacité, peut agir normalement à son premier tour à condition d'entrer en rage avant toute autre action.", "recovery": "Passif" },
+    { "name": "Ability Score Improvement", "description": "Score de Constitution augmenté de 2.", "recovery": "Passif" },
+    { "name": "Rustic Hospitality (Héros du Peuple)", "description": "Peut trouver refuge, repos ou soins auprès des gens du peuple (sauf s'il s'est montré dangereux pour eux). Ils le protègent de la loi ou de ceux qui le recherchent, sans toutefois risquer leur vie pour lui.", "recovery": "Passif" }
+  ],
+  "savageManeuvers": [
+    {
+      "name": "Rage",
+      "furyCost": "3 (niveau 8 — voir table)",
+      "action": "Action bonus (B)",
+      "description": "Si non armuré lourd : avantage aux jets et JS de FOR ; bonus aux dégâts sur attaque de corps-à-corps en FOR ; résistance aux dégâts contondants, perforants et tranchants. Le coût en Fureur et le bonus de dégâts évoluent avec le niveau de Barbare.",
+      "progressionTable": [
+        { "level": 1, "cost": 5, "damage": "+2" },
+        { "level": 2, "cost": 5, "damage": "+2" },
+        { "level": 3, "cost": 4, "damage": "+2" },
+        { "level": 4, "cost": 4, "damage": "+2" },
+        { "level": 5, "cost": 4, "damage": "+2" },
+        { "level": 6, "cost": 3, "damage": "+2" },
+        { "level": 7, "cost": 3, "damage": "+2" },
+        { "level": 8, "cost": 3, "damage": "+2" },
+        { "level": 9, "cost": 3, "damage": "+3" },
+        { "level": 10, "cost": 3, "damage": "+3" },
+        { "level": 11, "cost": 3, "damage": "+3" },
+        { "level": 12, "cost": 2, "damage": "+3" },
+        { "level": 13, "cost": 2, "damage": "+3" },
+        { "level": 14, "cost": 2, "damage": "+3" },
+        { "level": 15, "cost": 2, "damage": "+3" },
+        { "level": 16, "cost": 2, "damage": "+4" },
+        { "level": 17, "cost": 1, "damage": "+4" },
+        { "level": 18, "cost": 1, "damage": "+4" },
+        { "level": 19, "cost": 1, "damage": "+4" },
+        { "level": 20, "cost": 0, "damage": "+4" }
+      ]
+    },
+    {
+      "name": "Provoke",
+      "furyCost": 2,
+      "action": "Action bonus (B)",
+      "description": "Chaque ennemi dans un cône de 4,5m (15 ft) devant vous doit réussir un jet de sauvegarde de SAG. Sur un échec : désavantage à tous les jets d'attaque contre des cibles autres que vous jusqu'à la fin de votre prochain tour."
+    },
+    {
+      "name": "Shield the Weak",
+      "furyCost": 2,
+      "action": "Réaction (R)",
+      "description": "Quand un allié à 1,5m de vous est attaqué : vous gagnez des PV temporaires égaux à deux fois votre bonus de maîtrise. Jusqu'à votre prochain tour, chaque fois qu'un ennemi touche cet allié, vous subissez le coup à sa place."
+    },
+    {
+      "name": "Unmovable Stance",
+      "furyCost": 1,
+      "action": "Action bonus (B)",
+      "description": "Posture défensive : jusqu'à votre prochain tour, vous êtes considéré comme occupant également les cases à 1,5m à votre gauche et à votre droite, bloquant le passage des ennemis."
+    },
+    {
+      "name": "Bash",
+      "furyCost": 2,
+      "action": "Action bonus (B)",
+      "description": "Frappe un ennemi en action bonus. L'ennemi effectue un jet de sauvegarde de FOR ; en cas d'échec, il est mis à terre."
+    },
+    {
+      "name": "Roar",
+      "furyCost": 3,
+      "action": "Action bonus (B)",
+      "description": "Rugissement terrifiant : chaque créature à 1,5m de vous doit réussir un jet de sauvegarde de SAG ou être effrayée jusqu'à votre prochain tour."
+    },
+    {
+      "name": "Unstoppable Charge",
+      "furyCost": 4,
+      "action": "Action (A)",
+      "description": "Effectue l'action Foncer. Peut traverser un espace occupé pour 1,5m de mouvement supplémentaire ; la créature traversée fait un jet de sauvegarde de DEX — succès : elle s'écarte ; échec : elle est piétinée (mise à terre, 1 + modificateur de FOR dégâts)."
+    },
+    {
+      "name": "Whirlwind",
+      "furyCost": 5,
+      "action": "Action (A)",
+      "description": "Si aucune autre action utilisée ce tour : perd 4,5m (15 ft) de vitesse restante, se déplace en frappant tout ce qui est à 1,5m de lui pendant le mouvement (chaque ennemi touché une seule fois, dégâts lancés une fois mais jet de touche individuel par ennemi ; Reckless Attack / Great Weapon Mastery s'appliquent à toutes les attaques). Le tour se termine dès l'arrêt du mouvement ou après 15m parcourus. Reste vulnérable aux attaques d'opportunité."
+    },
+    {
+      "name": "Beastial Surge",
+      "furyCost": 5,
+      "action": "Action bonus (B)",
+      "description": "Pendant 1 minute : distance de saut doublée, vitesse d'escalade égale à la vitesse de marche, attaques de corps-à-corps infligent 1d6 dégâts supplémentaires d'un type associé à une bête au choix (ex. tranchant pour des griffes, perforant pour des crocs)."
+    },
+    {
+      "name": "Titan's Grip",
+      "furyCost": 6,
+      "action": "Attaque (T)",
+      "description": "Nécessite une créature agrippée à deux mains : traitée comme une arme de corps-à-corps simple avec la propriété de lancer (20/60 ft). Une Attaque projette la créature au sol ou sur une cible (jet de touche requis) : 4d10 + modificateur de FOR dégâts contondants, mise à terre dans un espace adjacent à la cible ; la cible subit les mêmes dégâts si l'attaque réussit. Si la créature est lancée, l'agrippement prend fin ; sinon elle obtient un jet de sauvegarde de FOR pour se libérer."
+    }
+  ],
+  "equipment": {
+    "attunement": {
+      "max": 3,
+      "current": 2,
+      "items": [
+        {
+          "name": "Épée de Vol de Vie +1",
+          "englishName": "Sword of Life Stealing +1",
+          "description": "Sur un 20 naturel au jet d'attaque : 10 dégâts nécrotiques supplémentaires à la cible (sauf construct/mort-vivant) ; vous récupérez des PV égaux aux dégâts supplémentaires infligés."
+        },
+        {
+          "name": "Bracelets de Défense",
+          "englishName": "Bracers of Defense",
+          "description": "+2 CA si non armuré et sans bouclier (cumulable avec Défense sans Armure)."
+        }
+      ]
+    },
+    "nonAttunement": [],
+    "weaponsAndArmor": [],
+    "potions": [
+      { "name": "Potion Invis", "description": null },
+      { "name": "Potion 8D4+8", "description": "claquée après la salle du levier", "used": true }
+    ]
+  },
+  "blessingsAndActiveEffects": [
+    { "description": "Bracelet de +12 sur un jet", "active": true }
+  ],
+  "companion": null,
+  "notes": "",
+  "status": ""
+}

@@ -1,0 +1,313 @@
+{
+  "name": "Zangra",
+  "identity": {
+    "race": "Tiefling",
+    "class": "Barde",
+    "secondaryClass": null,
+    "level": 7,
+    "background": null
+  },
+  "combatStats": {
+    "hpMax": 45,
+    "hpCurrent": 45,
+    "ac": 16,
+    "initiative": 2,
+    "speed": null,
+    "hitDice": null
+  },
+  "abilityScores": {
+    "str": {
+      "score": 8,
+      "modifier": -1
+    },
+    "dex": {
+      "score": 14,
+      "modifier": 2
+    },
+    "con": {
+      "score": 12,
+      "modifier": 1
+    },
+    "int": {
+      "score": 14,
+      "modifier": 2
+    },
+    "wis": {
+      "score": 10,
+      "modifier": 0
+    },
+    "cha": {
+      "score": 18,
+      "modifier": 4
+    }
+  },
+  "proficiencyBonus": 3,
+  "savingThrows": [
+    {
+      "ability": "str",
+      "proficient": false,
+      "bonus": null
+    },
+    {
+      "ability": "dex",
+      "proficient": false,
+      "bonus": null
+    },
+    {
+      "ability": "con",
+      "proficient": false,
+      "bonus": null
+    },
+    {
+      "ability": "int",
+      "proficient": false,
+      "bonus": null
+    },
+    {
+      "ability": "wis",
+      "proficient": false,
+      "bonus": null
+    },
+    {
+      "ability": "cha",
+      "proficient": false,
+      "bonus": null
+    }
+  ],
+  "skills": [
+    {
+      "name": "Acrobaties",
+      "ability": "dex",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Arcanes",
+      "ability": "int",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Athlétisme",
+      "ability": "str",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Discrétion",
+      "ability": "dex",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Dressage",
+      "ability": "wis",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Escamotage",
+      "ability": "dex",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Histoire",
+      "ability": "int",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Intimidation",
+      "ability": "cha",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Investigation",
+      "ability": "int",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Médecine",
+      "ability": "wis",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Nature",
+      "ability": "int",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Perception",
+      "ability": "wis",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Perspicacité",
+      "ability": "wis",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Persuasion",
+      "ability": "cha",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Religion",
+      "ability": "int",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Représentation",
+      "ability": "cha",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Supercherie",
+      "ability": "cha",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Survie",
+      "ability": "wis",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Tromperie",
+      "ability": "cha",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    }
+  ],
+  "proficienciesAndLanguages": {
+    "languages": null,
+    "armor": null,
+    "weapons": null,
+    "tools": null
+  },
+  "spellcasting": {
+    "slots": [
+      {
+        "level": 1,
+        "max": 4,
+        "current": 4
+      },
+      {
+        "level": 2,
+        "max": 3,
+        "current": 2
+      },
+      {
+        "level": 3,
+        "max": 3,
+        "current": 1
+      },
+      {
+        "level": 4,
+        "max": 1,
+        "current": 1
+      }
+    ],
+    "innate": [],
+    "byLevel": [
+      {
+        "level": 1,
+        "knownCount": null,
+        "spells": []
+      },
+      {
+        "level": 2,
+        "knownCount": null,
+        "spells": []
+      },
+      {
+        "level": 3,
+        "knownCount": null,
+        "spells": []
+      },
+      {
+        "level": 4,
+        "knownCount": null,
+        "spells": []
+      }
+    ]
+  },
+  "resources": [
+    {
+      "name": "Inspiration Bardique",
+      "min": 0,
+      "max": 4,
+      "current": 2,
+      "description": "À donner à un allié pour ajouter un dé d'inspiration à un jet."
+    }
+  ],
+  "capabilities": [],
+  "equipment": {
+    "attunement": {
+      "max": 3,
+      "current": 2,
+      "items": [
+        {
+          "name": "Anneau de subtle casting",
+          "description": null
+        },
+        {
+          "name": "Amulette +1 aux jets de caractéristique",
+          "description": null
+        }
+      ]
+    },
+    "nonAttunement": [
+      {
+        "name": "Bracelet cantrip",
+        "description": null
+      }
+    ],
+    "weaponsAndArmor": [],
+    "potions": [
+      {
+        "name": "Potion Gazeuse",
+        "description": null
+      }
+    ]
+  },
+  "blessingsAndActiveEffects": [
+    {
+      "description": "Bracelet de +12 sur un jet",
+      "active": true
+    }
+  ],
+  "companion": null,
+  "notes": "",
+  "status": ""
+}

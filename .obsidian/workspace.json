@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z_next.md",
+                "file": "retour-citadel.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "z_next"
+              "title": "retour-citadel"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "arcanaloth",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -204,20 +204,32 @@
       "obsidian42-brat:BRAT": false,
       "archivist-gg:Open Archivist Inquiry": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "bmo-chatbot:BMO Chatbot": false,
       "copilot:Open Copilot Chat": false
     }
   },
   "active": "926eb6eb43d55f71",
   "lastOpenFiles": [
+    "z_next.md",
+    "le_sceau_des_seuils/suivi.md",
+    "le_sceau_des_seuils/sorties.md",
+    "status-spell-casted.md",
+    "retour-citadel.md",
+    "le_sceau_des_seuils/approche.md",
+    "pjs/polypheme.md",
+    "pjs/malo.md",
+    "pjs/bledios.md",
+    "pjs/varys.md",
+    "pjs/items/Carquois aux Mille Ruses.md",
+    "pjs/items",
+    "copilot/copilot-conversations/D&D_Character_Sheets_Creator@20260702_183722.md",
+    "citadel-civilisations/zinda_gazetteer.md",
+    "citadel-civilisations/godsbreath_gazetteer.md",
+    "citadel-civilisations/san_citlan_gazetteer.md",
+    "zz_usage.md",
     "fights/sylvain.md",
     "fights/helmed_horrors.md",
-    "zz_usage.md",
     "fights/duerguars.md",
-    "pjs/malo.md",
     "pjs/sylvain.md",
-    "pjs/polypheme.md",
-    "z_next.md",
     "fights/el_crisol_phase3_variante.md",
     "copilot/copilot-conversations/D&D_Duergar_Combat_Encounter@20260618_191312.md",
     "copilot/copilot-conversations",
@@ -225,27 +237,14 @@
     "copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
     "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
     "copilot/copilot-custom-prompts/Rewrite as tweet.md",
-    "copilot/copilot-custom-prompts/Remove URLs.md",
-    "copilot/copilot-custom-prompts/Generate glossary.md",
-    "copilot/copilot-custom-prompts/Generate table of contents.md",
-    "copilot/copilot-custom-prompts/Make longer.md",
-    "copilot/copilot-custom-prompts/Make shorter.md",
-    "copilot/copilot-custom-prompts/Emojify.md",
-    "copilot/copilot-custom-prompts/Explain like I am 5.md",
-    "copilot/copilot-custom-prompts/Simplify.md",
-    "copilot/copilot-custom-prompts/Summarize.md",
-    "copilot/copilot-custom-prompts/Translate to Chinese.md",
-    "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
     "copilot/copilot-custom-prompts",
     "copilot",
-    "BMO/Profiles/BMO.md",
     "BMO/Profiles",
     "BMO",
     "carte_pj.png",
     "fights",
     "Compendium/SRD/Backgrounds",
     "Compendium/SRD/Classes",
-    "Compendium/SRD/Conditions",
-    "Compendium/SRD/Feats"
+    "Compendium/SRD/Conditions"
   ]
 }

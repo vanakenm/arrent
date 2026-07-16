@@ -1,0 +1,326 @@
+{
+  "name": "Sylvain",
+  "identity": {
+    "race": null,
+    "class": "Paladin — Kampknecht",
+    "secondaryClass": null,
+    "level": null,
+    "background": null
+  },
+  "combatStats": {
+    "hpMax": 68,
+    "hpCurrent": 68,
+    "ac": 22,
+    "initiative": 0,
+    "speed": null,
+    "hitDice": null
+  },
+  "abilityScores": {
+    "str": {
+      "score": 18,
+      "modifier": 4
+    },
+    "dex": {
+      "score": 10,
+      "modifier": 0
+    },
+    "con": {
+      "score": 14,
+      "modifier": 2
+    },
+    "int": {
+      "score": 8,
+      "modifier": -1
+    },
+    "wis": {
+      "score": 12,
+      "modifier": 1
+    },
+    "cha": {
+      "score": 16,
+      "modifier": 3
+    }
+  },
+  "proficiencyBonus": 3,
+  "savingThrows": [
+    {
+      "ability": "str",
+      "proficient": false,
+      "bonus": null
+    },
+    {
+      "ability": "dex",
+      "proficient": false,
+      "bonus": null
+    },
+    {
+      "ability": "con",
+      "proficient": false,
+      "bonus": null
+    },
+    {
+      "ability": "int",
+      "proficient": false,
+      "bonus": null
+    },
+    {
+      "ability": "wis",
+      "proficient": true,
+      "bonus": null
+    },
+    {
+      "ability": "cha",
+      "proficient": true,
+      "bonus": null
+    }
+  ],
+  "skills": [
+    {
+      "name": "Acrobaties",
+      "ability": "dex",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Arcanes",
+      "ability": "int",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Athlétisme",
+      "ability": "str",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Discrétion",
+      "ability": "dex",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Dressage",
+      "ability": "wis",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Escamotage",
+      "ability": "dex",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Histoire",
+      "ability": "int",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Intimidation",
+      "ability": "cha",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Investigation",
+      "ability": "int",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Médecine",
+      "ability": "wis",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Nature",
+      "ability": "int",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Perception",
+      "ability": "wis",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Perspicacité",
+      "ability": "wis",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Persuasion",
+      "ability": "cha",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Religion",
+      "ability": "int",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Représentation",
+      "ability": "cha",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Supercherie",
+      "ability": "cha",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Survie",
+      "ability": "wis",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Tromperie",
+      "ability": "cha",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    }
+  ],
+  "proficienciesAndLanguages": {
+    "languages": null,
+    "armor": null,
+    "weapons": null,
+    "tools": null
+  },
+  "spellcasting": {
+    "ability": "cha",
+    "saveDC": 14,
+    "attackBonus": 6,
+    "focus": "Symbole sacré",
+    "slots": [
+      {
+        "level": 1,
+        "max": 3,
+        "current": 3
+      },
+      {
+        "level": 2,
+        "max": 2,
+        "current": 1
+      }
+    ],
+    "innate": [],
+    "byLevel": [
+      {
+        "level": 1,
+        "knownCount": null,
+        "spells": []
+      },
+      {
+        "level": 2,
+        "knownCount": null,
+        "spells": []
+      }
+    ]
+  },
+  "resources": [
+    {
+      "name": "Divine Sense",
+      "min": 0,
+      "max": 4,
+      "current": 4,
+      "description": "Action : jusqu'à la fin du prochain tour, détecte le bien et le mal — perçoit tout ce qui est affecté par Sanctuaire ou la position de toute créature céleste, fiélonne ou morte-vivante dans un rayon de 18m qui n'est pas derrière une couverture totale."
+    },
+    {
+      "name": "Lay on Hands Pool",
+      "min": 0,
+      "max": 40,
+      "current": 40,
+      "description": "Réservoir de soin (40 PV/repos long). Action, toucher une créature : restaure un nombre de PV du réservoir au choix, ou dépense 5 PV pour guérir une maladie ou neutraliser un poison affectant la cible."
+    }
+  ],
+  "capabilities": [
+    { "name": "Fighting Style : Dueling", "description": "En maniant une arme de corps-à-corps à une main sans autre arme : +2 aux jets de dégâts avec cette arme.", "recovery": "Passif" },
+    { "name": "Divine Smite", "description": "Sur un coup avec une attaque d'arme de corps-à-corps : dépense un emplacement de sort pour infliger 2d8 dégâts radiants supplémentaires, +1d8 par niveau d'emplacement au-dessus du 1er (max 5d8), +1d8 supplémentaire contre les morts-vivants ou fiélons (max 6d8 au total).", "recovery": "Spécial (dépense un emplacement de sort)" },
+    { "name": "Divine Health", "description": "Immunisé contre les maladies.", "recovery": "Passif" },
+    { "name": "Serment Sacré : Kampknecht", "description": "Voie du Serment choisie.", "recovery": "Passif" },
+    { "name": "Channel Divinity", "description": "Option de Conduit Divin liée au Serment (Kampknecht).", "recovery": "Action ; recharge au repos court" },
+    { "name": "Ability Score Improvement", "description": "Deux augmentations de caractéristique investies en Charisme.", "recovery": "Passif" },
+    { "name": "Extra Attack", "description": "Peut attaquer deux fois, au lieu d'une, lorsqu'il effectue l'action Attaquer.", "recovery": "Passif" },
+    { "name": "Aura of Protection", "description": "Tant qu'il est conscient, accorde à toutes les créatures amicales (lui compris) dans un rayon de 3m (10 ft) un bonus de +3 à tous les jets de sauvegarde.", "recovery": "Passif" },
+    { "name": "Clakdentaggël (Imposition des mains Orc)", "description": "Utilisation alternative du réservoir d'Imposition des mains : 2 points (action bonus, toucher, 1 cible, restaure 0 à 1 PV, permet une attaque gratuite) ; 5 points (action, annule Empoisonné, Effrayé, Étourdi ou Charmé).", "recovery": "Puise dans le réservoir Lay on Hands" }
+  ],
+  "equipment": {
+    "attunement": {
+      "max": 3,
+      "current": 3,
+      "items": [
+        {
+          "name": "Armure",
+          "description": null
+        },
+        {
+          "name": "Marteau",
+          "description": null
+        },
+        {
+          "name": "Épée radieuse",
+          "description": null
+        }
+      ]
+    },
+    "nonAttunement": [
+      {
+        "name": "Anneau de déguisement",
+        "description": null
+      }
+    ],
+    "weaponsAndArmor": [],
+    "potions": [
+      {
+        "name": "Potion de souffle",
+        "description": "8D6 sur un cône 10 feets"
+      },
+      {
+        "name": "Potion Invis",
+        "description": null
+      }
+    ]
+  },
+  "blessingsAndActiveEffects": [
+    {
+      "description": "+12 sur un jet",
+      "active": true
+    },
+    {
+      "description": "Blessing of the Forge — CA +1 sur une armure ou Arme magique +1 (au choix, renouvelé à chaque repos long)",
+      "active": true
+    }
+  ],
+  "companion": null,
+  "notes": "Background à compléter.",
+  "status": ""
+}

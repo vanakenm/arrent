@@ -1,0 +1,369 @@
+{
+  "name": "Malo",
+  "identity": {
+    "race": "Humain",
+    "class": "Rôdeur — Gloomstalker",
+    "secondaryClass": "Roublard — Membre de la Ligue des Ombres",
+    "level": 8,
+    "background": "Criminel"
+  },
+  "combatStats": {
+    "hpMax": 65,
+    "hpCurrent": 65,
+    "ac": 16,
+    "initiative": 6,
+    "speed": null,
+    "hitDice": null
+  },
+  "abilityScores": {
+    "str": {
+      "score": 8,
+      "modifier": 0
+    },
+    "dex": {
+      "score": 18,
+      "modifier": 4
+    },
+    "con": {
+      "score": 14,
+      "modifier": 0
+    },
+    "int": {
+      "score": 12,
+      "modifier": 0
+    },
+    "wis": {
+      "score": 14,
+      "modifier": 0
+    },
+    "cha": {
+      "score": 10,
+      "modifier": 0
+    }
+  },
+  "proficiencyBonus": 3,
+  "savingThrows": [
+    {
+      "ability": "str",
+      "proficient": true,
+      "bonus": null
+    },
+    {
+      "ability": "dex",
+      "proficient": false,
+      "bonus": null
+    },
+    {
+      "ability": "con",
+      "proficient": true,
+      "bonus": null
+    },
+    {
+      "ability": "int",
+      "proficient": false,
+      "bonus": null
+    },
+    {
+      "ability": "wis",
+      "proficient": false,
+      "bonus": null
+    },
+    {
+      "ability": "cha",
+      "proficient": false,
+      "bonus": null
+    }
+  ],
+  "skills": [
+    {
+      "name": "Acrobaties",
+      "ability": "dex",
+      "proficient": true,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Arcanes",
+      "ability": "int",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Athlétisme",
+      "ability": "str",
+      "proficient": true,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Discrétion",
+      "ability": "dex",
+      "proficient": true,
+      "expertise": true,
+      "bonus": null
+    },
+    {
+      "name": "Escamotage",
+      "ability": "dex",
+      "proficient": true,
+      "expertise": true,
+      "bonus": null
+    },
+    {
+      "name": "Histoire",
+      "ability": "int",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Intimidation",
+      "ability": "cha",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Investigation",
+      "ability": "int",
+      "proficient": true,
+      "expertise": true,
+      "bonus": null
+    },
+    {
+      "name": "Médecine",
+      "ability": "wis",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Nature",
+      "ability": "int",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Perception",
+      "ability": "wis",
+      "proficient": true,
+      "expertise": true,
+      "bonus": null
+    },
+    {
+      "name": "Perspicacité",
+      "ability": "wis",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Persuasion",
+      "ability": "cha",
+      "proficient": true,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Religion",
+      "ability": "int",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Représentation",
+      "ability": "cha",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Supercherie",
+      "ability": "cha",
+      "proficient": true,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Survie",
+      "ability": "wis",
+      "proficient": true,
+      "expertise": false,
+      "bonus": null
+    },
+    {
+      "name": "Tromperie",
+      "ability": "cha",
+      "proficient": false,
+      "expertise": false,
+      "bonus": null
+    }
+  ],
+  "proficienciesAndLanguages": {
+    "languages": "Commun + 3 langues supplémentaires (à remplir)",
+    "armor": "Armures légères, armures intermédiaires, boucliers",
+    "weapons": "Armes simples, armes de guerre",
+    "tools": "Outils de voleur (expertise), un jeu de société"
+  },
+  "spellcasting": {
+    "slots": [
+      {
+        "level": 1,
+        "max": 4,
+        "current": 4
+      },
+      {
+        "level": 2,
+        "max": 2,
+        "current": 2
+      }
+    ],
+    "innate": [
+      {
+        "name": "Déguisement",
+        "englishName": "Disguise Self",
+        "usage": "action, 1×/repos long"
+      },
+      {
+        "name": "Pas des ombres",
+        "englishName": "Shadow Step",
+        "usage": "action bonus, téléportation ombre à ombre (18m)"
+      }
+    ],
+    "byLevel": [
+      {
+        "level": 1,
+        "knownCount": 6,
+        "spells": []
+      },
+      {
+        "level": 2,
+        "knownCount": 2,
+        "spells": []
+      }
+    ]
+  },
+  "resources": [
+    {
+      "name": "Faveurs (Ligue des Ombres)",
+      "min": 0,
+      "max": 6,
+      "current": 3,
+      "description": "Max = bonus de maîtrise × 2. Récupération : long repos dans un établissement avec présence de la ligue (+1), journée de travail pour la ligue (+2), aider un membre (+1 à +3). Paliers : Tier 0 (trivial, gratuit, non suivi), Tier 1 (standard, coûte 1–3 FV, réglé hors-jeu), Tier 2 (majeur, suivi en jeu, remboursé en jeu)."
+    }
+  ],
+  "capabilities": [
+    {
+      "name": "Style de Combat : Tir",
+      "description": "+2 aux jets d'attaque avec des armes à distance",
+      "recovery": "Passif"
+    },
+    {
+      "name": "Chasseur des Ténèbres (Dread Ambusher)",
+      "description": "Ajoute le modificateur de SAG à l'initiative. Au premier tour de combat : +3m de mouvement supplémentaire, une attaque supplémentaire infligeant +1d8 dégâts.",
+      "recovery": "Passif / premier tour de combat"
+    },
+    {
+      "name": "Action furtive",
+      "description": "Se cacher en action bonus",
+      "recovery": "Action bonus"
+    },
+    {
+      "name": "Vision des Ombres (Umbral Sight)",
+      "description": "Vision dans le noir : 18m",
+      "recovery": "Passif"
+    },
+    {
+      "name": "Voile des Ombres (Umbral Shroud)",
+      "description": "Invisible tant que dans l'obscurité",
+      "recovery": "Passif"
+    },
+    {
+      "name": "Chasseur de Primes (Bounty Hunter)",
+      "description": "Maîtrise en Investigation. Les créatures touchées par Liens Enchevêtrés ont un désavantage à leur JS.",
+      "recovery": "Passif"
+    },
+    {
+      "name": "Attaque Sournoise",
+      "description": "Dégâts supplémentaires (2d6) si avantage ou allié adjacent. Doit utiliser une arme à finesse ou à distance.",
+      "recovery": "1×/tour"
+    },
+    {
+      "name": "Argot des Voleurs (Thieves' Cant)",
+      "description": "Langage codé des criminels",
+      "recovery": "Passif"
+    },
+    {
+      "name": "Action Rusée (Cunning Action)",
+      "description": "Foncer, Se désengager, ou Se cacher en action bonus",
+      "recovery": "Action bonus"
+    },
+    {
+      "name": "Né dans les Ombres",
+      "description": "Action furtive gratuite si dans l'obscurité",
+      "recovery": "1×/round"
+    },
+    {
+      "name": "Marqué par les Ombres",
+      "description": "Maîtrise en Persuasion et Supercherie (ou expertise si déjà maîtrisé). Peut utiliser le modificateur DEX à la place de CHA pour Persuasion/Supercherie avec des membres ou lors d'activités criminelles.",
+      "recovery": "Passif"
+    },
+    {
+      "name": "Lié par les Ombres",
+      "description": "Accès au réseau de la Ligue des Ombres, exploité sous forme de Faveurs (FV) — voir ressources.",
+      "recovery": "Passif"
+    },
+    {
+      "name": "Don : Perceur (Piercer)",
+      "description": "+1 DEX (inclus dans les caractéristiques). Sur un coup infligeant des dégâts perforants : relance un dé de dégâts, garde le nouveau résultat. Sur un coup critique perforant : un dé de dégâts supplémentaire.",
+      "recovery": "1×/tour"
+    },
+    {
+      "name": "Attaque Supplémentaire",
+      "description": "Peut attaquer deux fois lors de l'action Attaquer",
+      "recovery": "Passif"
+    }
+  ],
+  "equipment": {
+    "attunement": {
+      "max": 3,
+      "current": 2,
+      "items": [
+        {
+          "name": "Arc long +1 des Ténèbres",
+          "description": "+1 aux jets d'attaque et de dégâts à distance. Peut lancer Ténèbres (1×/repos long, sans composante)."
+        },
+        {
+          "name": "Dague de poison",
+          "description": "+1, +2D10 de poison"
+        },
+        {
+          "name": "Carquois aux Mille Ruses",
+          "englishName": "Quiver of Many Tricks",
+          "description": null,
+          "link": "pjs/items/Carquois aux Mille Ruses.md"
+        }
+      ]
+    },
+    "nonAttunement": [],
+    "weaponsAndArmor": [],
+    "potions": [
+      {
+        "name": "Potion de poison",
+        "description": null
+      }
+    ]
+  },
+  "blessingsAndActiveEffects": [
+    {
+      "description": "+12 sur un jet",
+      "active": false
+    }
+  ],
+  "companion": null,
+  "notes": "",
+  "status": ""
+}

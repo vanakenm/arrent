@@ -223,7 +223,7 @@ Le dragon fait approcher
 une centraine de mètre jusqu'au pont - et on fait sans doute fermer la porte
 
 Seul aspect positif, les armures vont les laisser passer si besoin.
-### Sylvain 
+### Sylvain
 L'arcanaloth va le faire sortir, en trucidant les gardes (et/ou demander à Sylvain de le faire)
 Bon on ne va pas pouvoir sortir par le même chemin que vos compagnons, venez avec moi
 Bon on doit récupérer un anneau sans ca ca va être complexe de sortir (il ment, lui peut empêcher les Horreur de le frapper, mais ca lui fait une explicaiton sur comment ils sont sortis !).

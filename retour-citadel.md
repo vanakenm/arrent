@@ -1,5 +1,26 @@
 # Rikton
 
+## TODO
+
+Faire la règle précise pour le bracelet
+
+## Le bracelet
+
+Spécifique pour être protégé / ignoré de golems de magie (contextuel)
+Javeline de foudre
+
+## Ecoute et félicite
+
+Maribel et la ville
+Canaux de magie
+La tour
+Demi plan
+La forteresse
+
+Vous êtes incroyables.
+Vous pensez qu'ils préparent quoi avec leurs machines de guerre.
+Excellent pour le Seuil.
+
 ## L'alliance
 
 Ca ne s'arrange pas - ils ont des alliés dans le conseil. Il sont à trois.
