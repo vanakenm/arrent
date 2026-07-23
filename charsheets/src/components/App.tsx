@@ -11,13 +11,15 @@ import {
   writeJsonFile,
 } from '../lib/fsAccess';
 import { clearDraft, loadDraft, saveDraft } from '../lib/drafts';
+import { staticCharacters } from '../lib/staticData';
 import CharacterList from './CharacterList';
 import CharacterSheet from './CharacterSheet';
 
-type Status = 'checking' | 'unsupported' | 'no-handle' | 'needs-permission' | 'loading' | 'ready' | 'error';
+type Status = 'checking' | 'no-handle' | 'needs-permission' | 'loading' | 'ready' | 'error';
 
 export default function App() {
   const [status, setStatus] = useState<Status>('checking');
+  const [readOnly, setReadOnly] = useState(false);
   const [dirHandle, setDirHandle] = useState<any | null>(null);
   const [characters, setCharacters] = useState<Map<string, LoadedCharacter>>(new Map());
   const [selected, setSelected] = useState<string | null>(null);
@@ -27,7 +29,9 @@ export default function App() {
   useEffect(() => {
     (async () => {
       if (!isFileSystemAccessSupported()) {
-        setStatus('unsupported');
+        // Mobile Chrome, Firefox, Safari, etc. — fall back to the JSON bundled
+        // at build time, read-only, with no folder picker needed.
+        loadStatic();
         return;
       }
       const stored = await getStoredDirHandle();
@@ -44,6 +48,16 @@ export default function App() {
       }
     })();
   }, []);
+
+  function loadStatic() {
+    setReadOnly(true);
+    const entries: [string, LoadedCharacter][] = staticCharacters.map(({ fileName, data }) => [
+      fileName,
+      { fileName, data, savedSnapshot: JSON.stringify(data) },
+    ]);
+    setCharacters(new Map(entries));
+    setStatus('ready');
+  }
 
   async function loadAll(handle: any) {
     setStatus('loading');
@@ -166,18 +180,6 @@ export default function App() {
     return set;
   }, [characters]);
 
-  if (status === 'unsupported') {
-    return (
-      <div className="center-message">
-        <h1>Fiches de personnages</h1>
-        <p>
-          Ce navigateur ne supporte pas la File System Access API. Ouvrez cette page avec une version récente de
-          Chrome ou Edge.
-        </p>
-      </div>
-    );
-  }
-
   if (status === 'checking') {
     return <div className="center-message">Chargement…</div>;
   }
@@ -215,9 +217,15 @@ export default function App() {
   const selectedCharacter = selected ? characters.get(selected) : null;
 
   return (
-    <div className="app-layout">
+    <div className={selectedCharacter ? 'app-layout has-selection' : 'app-layout'}>
       <aside className="sidebar">
-        <h1>Arrent</h1>
+        <h1>Arrent{readOnly && <span className="badge badge-readonly title-badge">Lecture seule</span>}</h1>
+        <nav className="top-nav no-print">
+          <a href="/" className="active">
+            Personnages
+          </a>
+          <a href="/notes">Notes</a>
+        </nav>
         <CharacterList
           names={names}
           displayNames={displayNames}
@@ -225,23 +233,33 @@ export default function App() {
           selected={selected}
           onSelect={setSelected}
         />
-        <button className="link-button" onClick={handleChangeDirectory}>
-          Changer de dossier
-        </button>
+        {!readOnly && (
+          <button className="link-button" onClick={handleChangeDirectory}>
+            Changer de dossier
+          </button>
+        )}
       </aside>
       <main className="main-content">
         {selectedCharacter ? (
-          <CharacterSheet
-            character={selectedCharacter.data}
-            dirty={dirtyNames.has(selectedCharacter.fileName)}
-            saving={saving}
-            error={error}
-            onChange={(updater) => handleEdit(selectedCharacter.fileName, updater)}
-            onSave={() => handleSave(selectedCharacter.fileName)}
-            onReload={() => handleReload(selectedCharacter.fileName)}
-          />
+          <>
+            <div className="mobile-topbar">
+              <button className="link-button" onClick={() => setSelected(null)}>
+                ← Personnages
+              </button>
+            </div>
+            <CharacterSheet
+              character={selectedCharacter.data}
+              dirty={dirtyNames.has(selectedCharacter.fileName)}
+              saving={saving}
+              error={error}
+              readOnly={readOnly}
+              onChange={readOnly ? undefined : (updater) => handleEdit(selectedCharacter.fileName, updater)}
+              onSave={readOnly ? undefined : () => handleSave(selectedCharacter.fileName)}
+              onReload={readOnly ? undefined : () => handleReload(selectedCharacter.fileName)}
+            />
+          </>
         ) : (
-          <p>Aucun fichier .json trouvé dans le dossier sélectionné.</p>
+          <p className="mobile-hint">Choisissez un personnage dans la liste.</p>
         )}
       </main>
     </div>

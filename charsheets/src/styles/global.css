@@ -38,6 +38,13 @@ body {
 .sidebar h1 {
   font-size: 1.2rem;
   margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.title-badge {
+  font-size: 0.7rem;
 }
 
 .character-list {
@@ -137,6 +144,23 @@ button:disabled {
 .badge-dirty {
   background: #e0a02033;
   color: #a06c00;
+}
+
+.badge-readonly {
+  background: #7a4fd133;
+  color: var(--accent);
+}
+
+.mobile-topbar {
+  display: none;
+}
+
+.mobile-hint {
+  opacity: 0.7;
+}
+
+.notes-readonly {
+  white-space: pre-wrap;
 }
 
 .error {
@@ -268,6 +292,231 @@ li.used,
 .progression-table table {
   margin-top: 0.25rem;
   font-size: 0.85rem;
+}
+
+/* --- Notes browser --- */
+
+.top-nav {
+  display: flex;
+  gap: 1rem;
+  padding: 0.75rem 1.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.top-nav a {
+  color: inherit;
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+.top-nav a.active {
+  opacity: 1;
+  font-weight: 600;
+}
+
+.sidebar .top-nav {
+  padding: 0;
+  border-bottom: none;
+  gap: 0.75rem;
+  font-size: 0.9rem;
+}
+
+.notes-page {
+  padding: 0 1.5rem 2rem;
+}
+
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  padding: 1rem 0 0;
+  font-size: 0.9rem;
+}
+
+.breadcrumb a {
+  color: inherit;
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.breadcrumb .sep {
+  opacity: 0.4;
+}
+
+.notes-main {
+  padding-top: 1rem;
+  min-width: 0;
+}
+
+.folder-listing {
+  list-style: none;
+  padding: 0;
+  columns: 16rem;
+  column-gap: 2rem;
+}
+
+.folder-listing.folders {
+  margin-bottom: 1.5rem;
+}
+
+.folder-listing li {
+  break-inside: avoid;
+}
+
+.folder-listing a {
+  display: block;
+  padding: 0.3rem 0;
+  color: inherit;
+  text-decoration: none;
+}
+
+.folder-listing a:hover {
+  text-decoration: underline;
+}
+
+.sibling-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+
+.sibling-nav a {
+  color: inherit;
+}
+
+.markdown-body {
+  max-width: 60rem;
+}
+
+.markdown-body img {
+  max-width: 100%;
+}
+
+.markdown-body table {
+  margin: 1rem 0;
+}
+
+.markdown-body pre {
+  background: #8881;
+  padding: 0.75rem 1rem;
+  border-radius: 0.4rem;
+  overflow-x: auto;
+}
+
+.markdown-body code {
+  background: #8882;
+  padding: 0.1rem 0.3rem;
+  border-radius: 0.25rem;
+}
+
+.markdown-body pre code {
+  background: none;
+  padding: 0;
+}
+
+.markdown-body blockquote {
+  border-left: 3px solid var(--accent);
+  margin: 1rem 0;
+  padding: 0.25rem 1rem;
+  opacity: 0.85;
+}
+
+@media (max-width: 768px) {
+  .app-layout {
+    display: block;
+    min-height: 100vh;
+  }
+
+  .sidebar {
+    border-right: none;
+    min-height: 100vh;
+  }
+
+  .main-content {
+    padding: 0;
+  }
+
+  /* Mobile is single-pane: show the character list OR the sheet, not both. */
+  .app-layout.has-selection .sidebar {
+    display: none;
+  }
+
+  .app-layout:not(.has-selection) .main-content {
+    display: none;
+  }
+
+  .mobile-topbar {
+    display: flex;
+    position: sticky;
+    top: 0;
+    background: Canvas;
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid var(--border);
+    z-index: 10;
+  }
+
+  .mobile-topbar .link-button {
+    margin: 0;
+    opacity: 1;
+    font-size: 1rem;
+  }
+
+  .sheet {
+    padding: 0 1rem 2rem;
+  }
+
+  .character-item {
+    padding: 0.9rem 0.75rem;
+    font-size: 1.05rem;
+  }
+
+  .sheet-header {
+    padding-top: 1rem;
+  }
+
+  .sheet-actions {
+    width: 100%;
+  }
+
+  .sheet-actions button {
+    flex: 1 1 auto;
+  }
+
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+    max-width: 100%;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  table td.description-cell {
+    white-space: normal;
+    min-width: 12rem;
+  }
+
+  .kv {
+    grid-template-columns: 6.5rem 1fr;
+  }
+
+  .stat-box {
+    flex: 1 1 6rem;
+  }
+
+  .notes-page {
+    padding: 0 1rem 2rem;
+  }
+
+  .folder-listing {
+    columns: 1;
+  }
 }
 
 @media print {

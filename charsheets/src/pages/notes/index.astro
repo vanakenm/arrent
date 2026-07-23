@@ -1,0 +1,14 @@
+---
+import NotesLayout from '../../layouts/NotesLayout.astro';
+import FolderListing from '../../components/FolderListing.astro';
+import { getFolderChildren, getBreadcrumb } from '../../lib/notesFs';
+
+const { folders, files } = getFolderChildren('');
+---
+
+<NotesLayout title="Notes" crumbs={getBreadcrumb([])}>
+  <article class="markdown-body">
+    <h1>Notes de campagne</h1>
+    <FolderListing folders={folders} files={files} />
+  </article>
+</NotesLayout>

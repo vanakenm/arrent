@@ -27,6 +27,10 @@ Ca ne s'arrange pas - ils ont des alliés dans le conseil. Il sont à trois.
 
 ## "Que feriez vous?"
 
+
+A Sylvain - je veux vous parler. Je voudrais votre opinion.
+
+
 J'ai fait de cet endroit mon foyer. 
 J'ai appris qu'un danger la guettait et donc j'ai agit.
 

@@ -1,0 +1,34 @@
+---
+import type { FolderRef, NoteFile } from '../lib/notesFs';
+
+interface Props {
+  folders: FolderRef[];
+  files: NoteFile[];
+}
+
+const { folders, files } = Astro.props;
+---
+
+{
+  folders.length > 0 && (
+    <ul class="folder-listing folders">
+      {folders.map((f) => (
+        <li>
+          <a href={`/notes/${f.path.split('/').map(encodeURIComponent).join('/')}`}>📁 {f.name}</a>
+        </li>
+      ))}
+    </ul>
+  )
+}
+{
+  files.length > 0 && (
+    <ul class="folder-listing files">
+      {files.map((note) => (
+        <li>
+          <a href={`/notes/${note.slug.map(encodeURIComponent).join('/')}`}>{note.title}</a>
+        </li>
+      ))}
+    </ul>
+  )
+}
+{folders.length === 0 && files.length === 0 && <p class="muted">Dossier vide.</p>}

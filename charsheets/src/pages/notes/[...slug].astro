@@ -1,0 +1,82 @@
+---
+import NotesLayout from '../../layouts/NotesLayout.astro';
+import FolderListing from '../../components/FolderListing.astro';
+import type { NoteFile } from '../../lib/notesFs';
+import {
+  getAllNotes,
+  getAllFolderPaths,
+  getNoteBySlug,
+  getFolderChildren,
+  getBreadcrumb,
+  getSiblingNav,
+  renderNote,
+} from '../../lib/notesFs';
+
+export async function getStaticPaths() {
+  const notePaths = getAllNotes().map((note) => ({
+    params: { slug: note.slug.join('/') },
+    props: { kind: 'note' as const },
+  }));
+  const folderPaths = getAllFolderPaths().map((folderPath) => ({
+    params: { slug: folderPath },
+    props: { kind: 'folder' as const },
+  }));
+  return [...notePaths, ...folderPaths];
+}
+
+const { kind } = Astro.props as { kind: 'note' | 'folder' };
+const { slug } = Astro.params;
+const slugParts = (slug ?? '').split('/');
+const crumbs = getBreadcrumb(slugParts);
+
+let pageTitle: string;
+let html: string | null = null;
+let folders: { name: string; path: string }[] = [];
+let files: NoteFile[] = [];
+let prevNote: NoteFile | null = null;
+let nextNote: NoteFile | null = null;
+
+if (kind === 'note') {
+  const note = getNoteBySlug(slugParts)!;
+  const rendered = renderNote(note);
+  pageTitle = rendered.title;
+  html = rendered.html;
+  const sibling = getSiblingNav(note);
+  prevNote = sibling.prev;
+  nextNote = sibling.next;
+} else {
+  pageTitle = slugParts[slugParts.length - 1];
+  const children = getFolderChildren(slugParts.join('/'));
+  folders = children.folders;
+  files = children.files;
+}
+---
+
+<NotesLayout title={pageTitle} crumbs={crumbs}>
+  <article class="markdown-body">
+    <h1>{pageTitle}</h1>
+    {
+      html !== null ? (
+        <>
+          <Fragment set:html={html} />
+          {(prevNote || nextNote) && (
+            <nav class="sibling-nav">
+              {prevNote ? (
+                <a href={`/notes/${prevNote.slug.map(encodeURIComponent).join('/')}`}>← {prevNote.title}</a>
+              ) : (
+                <span />
+              )}
+              {nextNote ? (
+                <a href={`/notes/${nextNote.slug.map(encodeURIComponent).join('/')}`}>{nextNote.title} →</a>
+              ) : (
+                <span />
+              )}
+            </nav>
+          )}
+        </>
+      ) : (
+        <FolderListing folders={folders} files={files} />
+      )
+    }
+  </article>
+</NotesLayout>

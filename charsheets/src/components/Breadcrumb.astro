@@ -1,0 +1,26 @@
+---
+import type { BreadcrumbEntry } from '../lib/notesFs';
+
+interface Props {
+  crumbs: BreadcrumbEntry[];
+}
+
+const { crumbs } = Astro.props;
+---
+
+<nav class="breadcrumb">
+  {
+    crumbs.map((c, i) => (
+      <>
+        {i > 0 && <span class="sep">/</span>}
+        {i === crumbs.length - 1 ? (
+          <span>{c.name}</span>
+        ) : (
+          <a href={c.path === '' ? '/notes' : `/notes/${c.path.split('/').map(encodeURIComponent).join('/')}`}>
+            {c.name}
+          </a>
+        )}
+      </>
+    ))
+  }
+</nav>

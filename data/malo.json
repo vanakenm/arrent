@@ -348,7 +348,12 @@
         }
       ]
     },
-    "nonAttunement": [],
+    "nonAttunement": [
+      {
+        "name": "Pierre de l'orc",
+        "description": "3 charges. Action : dépenser 1 charge pour invoquer un esprit de chef de guerre orc (warchief)."
+      }
+    ],
     "weaponsAndArmor": [],
     "potions": [
       {

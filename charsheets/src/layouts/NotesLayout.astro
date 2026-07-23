@@ -1,0 +1,32 @@
+---
+import '../styles/global.css';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import type { BreadcrumbEntry } from '../lib/notesFs';
+
+interface Props {
+  title: string;
+  crumbs: BreadcrumbEntry[];
+}
+
+const { title, crumbs } = Astro.props;
+---
+
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title} — Arrent</title>
+  </head>
+  <body>
+    <nav class="top-nav no-print">
+      <a href="/">Personnages</a>
+      <a href="/notes" class="active">Notes</a>
+    </nav>
+    <div class="notes-page">
+      <Breadcrumb crumbs={crumbs} />
+      <main class="notes-main">
+        <slot />
+      </main>
+    </div>
+  </body>
+</html>

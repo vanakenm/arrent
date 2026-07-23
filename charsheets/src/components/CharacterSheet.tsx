@@ -14,9 +14,10 @@ interface Props {
   dirty: boolean;
   saving: boolean;
   error: string | null;
-  onChange: (updater: (c: Character) => Character) => void;
-  onSave: () => void;
-  onReload: () => void;
+  readOnly?: boolean;
+  onChange?: (updater: (c: Character) => Character) => void;
+  onSave?: () => void;
+  onReload?: () => void;
 }
 
 function clamp(value: number, min: number | null, max: number | null): number {
@@ -26,20 +27,25 @@ function clamp(value: number, min: number | null, max: number | null): number {
   return v;
 }
 
-export default function CharacterSheet({ character: c, dirty, saving, error, onChange, onSave, onReload }: Props) {
+export default function CharacterSheet({ character: c, dirty, saving, error, readOnly, onChange, onSave, onReload }: Props) {
   return (
     <div className="sheet">
       <header className="sheet-header">
         <h2>{c.name}</h2>
         <div className="sheet-actions no-print">
-          {dirty && <span className="badge badge-dirty">Non enregistré</span>}
+          {readOnly && <span className="badge badge-readonly">Lecture seule</span>}
+          {!readOnly && dirty && <span className="badge badge-dirty">Non enregistré</span>}
           <button onClick={() => window.print()}>Imprimer / Enregistrer en PDF</button>
-          <button onClick={onReload} disabled={saving}>
-            Recharger depuis le fichier
-          </button>
-          <button className="primary" onClick={onSave} disabled={saving || !dirty}>
-            {saving ? 'Enregistrement…' : 'Enregistrer dans le fichier'}
-          </button>
+          {!readOnly && (
+            <>
+              <button onClick={onReload} disabled={saving}>
+                Recharger depuis le fichier
+              </button>
+              <button className="primary" onClick={onSave} disabled={saving || !dirty}>
+                {saving ? 'Enregistrement…' : 'Enregistrer dans le fichier'}
+              </button>
+            </>
+          )}
         </div>
       </header>
       {error && <p className="error no-print">{error}</p>}
@@ -67,15 +73,19 @@ export default function CharacterSheet({ character: c, dirty, saving, error, onC
           <label className="stat-box">
             <span>PV</span>
             <span className="hp-input">
-              <input
-                type="number"
-                value={c.combatStats.hpCurrent ?? ''}
-                onChange={(e) => {
-                  const raw = e.target.value === '' ? null : Number(e.target.value);
-                  const value = raw === null ? null : clamp(raw, 0, c.combatStats.hpMax);
-                  onChange((prev) => ({ ...prev, combatStats: { ...prev.combatStats, hpCurrent: value } }));
-                }}
-              />
+              {readOnly ? (
+                <strong>{c.combatStats.hpCurrent ?? '—'}</strong>
+              ) : (
+                <input
+                  type="number"
+                  value={c.combatStats.hpCurrent ?? ''}
+                  onChange={(e) => {
+                    const raw = e.target.value === '' ? null : Number(e.target.value);
+                    const value = raw === null ? null : clamp(raw, 0, c.combatStats.hpMax);
+                    onChange?.((prev) => ({ ...prev, combatStats: { ...prev.combatStats, hpCurrent: value } }));
+                  }}
+                />
+              )}
               <span>/ {c.combatStats.hpMax ?? '—'}</span>
             </span>
           </label>
@@ -200,25 +210,29 @@ export default function CharacterSheet({ character: c, dirty, saving, error, onC
                   <td>Niveau {slot.level}</td>
                   <td>{slot.max ?? '—'}</td>
                   <td>
-                    <input
-                      type="number"
-                      value={slot.current ?? ''}
-                      onChange={(e) => {
-                        const raw = e.target.value === '' ? null : Number(e.target.value);
-                        const value = raw === null ? null : clamp(raw, 0, slot.max);
-                        onChange((prev) => ({
-                          ...prev,
-                          spellcasting: prev.spellcasting
-                            ? {
-                                ...prev.spellcasting,
-                                slots: prev.spellcasting.slots.map((sl) =>
-                                  sl.level === slot.level ? { ...sl, current: value } : sl
-                                ),
-                              }
-                            : prev.spellcasting,
-                        }));
-                      }}
-                    />
+                    {readOnly ? (
+                      slot.current ?? '—'
+                    ) : (
+                      <input
+                        type="number"
+                        value={slot.current ?? ''}
+                        onChange={(e) => {
+                          const raw = e.target.value === '' ? null : Number(e.target.value);
+                          const value = raw === null ? null : clamp(raw, 0, slot.max);
+                          onChange?.((prev) => ({
+                            ...prev,
+                            spellcasting: prev.spellcasting
+                              ? {
+                                  ...prev.spellcasting,
+                                  slots: prev.spellcasting.slots.map((sl) =>
+                                    sl.level === slot.level ? { ...sl, current: value } : sl
+                                  ),
+                                }
+                              : prev.spellcasting,
+                          }));
+                        }}
+                      />
+                    )}
                   </td>
                 </tr>
               ))}
@@ -291,18 +305,22 @@ export default function CharacterSheet({ character: c, dirty, saving, error, onC
                 <tr key={r.name}>
                   <td>{r.name}</td>
                   <td>
-                    <input
-                      type="number"
-                      value={r.current ?? ''}
-                      onChange={(e) => {
-                        const raw = e.target.value === '' ? null : Number(e.target.value);
-                        const value = raw === null ? null : clamp(raw, r.min, r.max);
-                        onChange((prev) => ({
-                          ...prev,
-                          resources: prev.resources.map((res) => (res.name === r.name ? { ...res, current: value } : res)),
-                        }));
-                      }}
-                    />
+                    {readOnly ? (
+                      r.current ?? '—'
+                    ) : (
+                      <input
+                        type="number"
+                        value={r.current ?? ''}
+                        onChange={(e) => {
+                          const raw = e.target.value === '' ? null : Number(e.target.value);
+                          const value = raw === null ? null : clamp(raw, r.min, r.max);
+                          onChange?.((prev) => ({
+                            ...prev,
+                            resources: prev.resources.map((res) => (res.name === r.name ? { ...res, current: value } : res)),
+                          }));
+                        }}
+                      />
+                    )}
                   </td>
                   <td>{r.max ?? '—'}</td>
                   <td className="description-cell">{r.description ?? ''}</td>
@@ -464,29 +482,37 @@ export default function CharacterSheet({ character: c, dirty, saving, error, onC
 
       <section>
         <h3>Statut actuel</h3>
-        <input
-          type="text"
-          className="status-input"
-          placeholder="ex. Empoisonné, en ville, recherche par la garde…"
-          value={c.status}
-          onChange={(e) => {
-            const value = e.target.value;
-            onChange((prev) => ({ ...prev, status: value }));
-          }}
-        />
+        {readOnly ? (
+          <p>{c.status || '—'}</p>
+        ) : (
+          <input
+            type="text"
+            className="status-input"
+            placeholder="ex. Empoisonné, en ville, recherche par la garde…"
+            value={c.status}
+            onChange={(e) => {
+              const value = e.target.value;
+              onChange?.((prev) => ({ ...prev, status: value }));
+            }}
+          />
+        )}
       </section>
 
       <section>
         <h3>Notes</h3>
-        <textarea
-          className="notes-textarea"
-          rows={6}
-          value={c.notes}
-          onChange={(e) => {
-            const value = e.target.value;
-            onChange((prev) => ({ ...prev, notes: value }));
-          }}
-        />
+        {readOnly ? (
+          <p className="notes-readonly">{c.notes || '—'}</p>
+        ) : (
+          <textarea
+            className="notes-textarea"
+            rows={6}
+            value={c.notes}
+            onChange={(e) => {
+              const value = e.target.value;
+              onChange?.((prev) => ({ ...prev, notes: value }));
+            }}
+          />
+        )}
       </section>
     </div>
   );
