@@ -1,0 +1,1 @@
+Les créatures animées par magie (type Artificiel / Constructs) ignorent le porteur tant qu'il ne se comporte pas de manière hostile.

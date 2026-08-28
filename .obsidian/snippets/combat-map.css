@@ -1,0 +1,38 @@
+/* Cases de mur grises pour les cartes de combat (tables markdown) */
+.mur {
+  display: inline-block;
+  width: 100%;
+  height: 1.4em;
+  background-color: #999999;
+}
+
+/* Pastilles de token : <span class="tok tok-X">X</span>
+   CSS ne sait pas cibler "si la cellule contient X" directement (pas de
+   :contains en CSS pur) — on encode la couleur via la classe tok-X plutôt
+   que via le texte. Pour ajouter un nouveau token : dupliquer une règle
+   tok-X ci-dessous avec une nouvelle lettre/couleur. */
+.tok {
+  display: inline-block;
+  width: 1.6em;
+  height: 1.6em;
+  line-height: 1.6em;
+  text-align: center;
+  border-radius: 50%;
+  font-weight: 600;
+  border: 2px solid currentColor;
+}
+
+.tok-J { color: #2f9e58; background-color: #2f9e5833; } /* Jade Guardian - vert jade */
+.tok-S { color: #2f6fed; background-color: #2f6fed33; } /* Sylvain */
+.tok-B { color: #e8871e; background-color: #e8871e33; } /* Bledios */
+.tok-M { color: #8b3fd6; background-color: #8b3fd633; } /* Malo */
+.tok-P { color: #a5682a; background-color: #a5682a33; } /* Polyphème */
+.tok-L { color: #555555; background-color: #55555533; } /* Liu */
+
+/* Notes avec `cssclass: wide-note` dans le frontmatter : ignore la largeur
+   de ligne "lisible" d'Obsidian pour laisser les tableaux (carte, init)
+   utiliser toute la largeur du panneau au lieu de scroller horizontalement. */
+.wide-note .cm-sizer,
+.wide-note .markdown-preview-sizer {
+  max-width: none !important;
+}

@@ -1,8 +1,8 @@
 For centuries, the nation of Great Xing has been synonymous with power and prestige, with no finer example than the country’s glorious capital: Yongjing. The city teems with scholars, bureaucrats, artisans, and performers. But Yongjing was not always so vibrant. Beneath the fine floor tiles and immaculate garden paths lie the remains of prior dynasties and their long-dead citizens—concealing a turbulent past marked by war, subjugation, and famine.
 
 The rule of the Xing dynasty has brought wealth, stability, and peace to Great Xing. But now the imperial secret of longevity has been exhausted, which means the White Jade Emperor’s long reign will end soon. The Grand Secretary who governs Great Xing according to the emperor’s command knows that it’s only a matter of time before word of the emperor’s impending death gets out and the stability of the empire is put to the test.
-Yongjing Features
-
+Yongjing Features 
+ 
 Those familiar with Yongjing know the following details:
 
 Hallmarks. Yongjing is known for its courtly drama and labyrinthine bureaucracy. Its rulers enjoy exceptionally long lifespans.
@@ -26,9 +26,11 @@ Spousal palaces line the east and west sides of the Inner Butterfly Court, each 
 Kiln District
 
 The southwest part of Yongjing houses hundreds of earthen kilns, where the famed white-and-blue porcelain of Great Xing is painted and fired. Potters work in assembly lines to meet a quota of hundreds of pieces a day, with twenty percent of those pieces going to the emperor. Xing porcelain fetches exorbitant prices in foreign markets, so armed guards accompany every shipment that leaves the city. At the Office of Authenticity, imperial artificers apply intricate identifying marks to each piece. Despite this, counterfeiting is a constant problem.
+
 The Old City
 
 Over the centuries, the rulers of Yongjing have expanded and updated the city, building on top of existing architecture. As a result, many structures conceal forgotten chambers, hidden passages, dusty traps, and ancient artifacts beneath their floors. Expeditions into the subterranean Old City are common, whether staged officially on behalf of the emperor or undertaken in secret by criminals and treasure hunters.
+
 Life in Yongjing
 
 Residents of Yongjing take great pride in their city and frequently boast about everything from its venerable age and historic architecture to its lack of unsavory elements—such as the rats and diseases that are so common in other, lesser cities.
@@ -71,7 +73,7 @@ Numerous dwarven dynasties have ruled Great Xing, with the human population gene
 Adventures in Yongjing
 
 Consider the plots on the Yongjing Adventures table when planning adventures in Yongjing.
-Yongjing Adventures d4 	Adventure
+Yongjing Adventures d4'Adventure
 1 	The characters are hired to investigate strange behavior by a notoriously aloof minister who has shut himself in his offices and communicates only through his door. No one yet knows the minister has been replaced by an opportunistic kenku.
 2 	After saving the emperor from a reef shark placed in his bath, the emperor’s primary spouse, Lord Meng Shan, hires the characters to disprove accusations that he planted the creature himself.
 3 	Agents in the Ministry of Arcana hire the characters to kill four treasonous mages, not realizing two of the traitors are the emperor’s own children.

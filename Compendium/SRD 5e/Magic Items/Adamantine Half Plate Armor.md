@@ -1,0 +1,24 @@
+---
+archivist: true
+entity_type: item
+slug: srd-5e_item_adamantine-half-plate-armor
+name: Adamantine Half Plate Armor
+compendium: SRD 5e
+source: SRD 5.1
+archivist_compendium_imported_at: '2026-07-23T06:27:54.044Z'
+---
+
+```item
+slug: srd-5e_item_adamantine-half-plate-armor
+name: Adamantine Half Plate Armor
+edition: '2014'
+source: SRD 5.1
+type: armor
+rarity: uncommon
+tier: major
+base_item: '[[SRD 5e/Armor/Half plate]]'
+attunement:
+  required: false
+description: This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you're wearing it, any critical hit against you becomes a normal hit.
+weight: 40
+```

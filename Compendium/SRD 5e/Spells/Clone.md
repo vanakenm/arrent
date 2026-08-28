@@ -1,0 +1,27 @@
+---
+archivist: true
+entity_type: spell
+slug: srd-5e_spell_clone
+name: Clone
+compendium: SRD 5e
+source: SRD 5.1
+archivist_compendium_imported_at: '2026-07-23T06:27:53.807Z'
+---
+
+```spell
+slug: srd-5e_spell_clone
+name: Clone
+edition: '2014'
+source: SRD 5.1
+level: 8
+school: necromancy
+casting_time: 1hour
+range: Touch
+components: V, S, M (A diamond worth at least 1,000 gp and at least 1 cubic inch of flesh of the creature that is to be cloned, which the spell consumes, and a vessel worth at least 2,000 gp that has a sealable lid and is large enough to hold a Medium creature, such as a huge urn, coffin, mud-filled cyst in the ground, or crystal container filled with salt water.)
+duration: instantaneous
+concentration: false
+ritual: false
+description: This spell grows an inert duplicate of a living creature as a safeguard against death. This clone forms inside a sealed vessel and grows to full size and maturity after 120 days; you can also choose to have the clone be a younger version of the same creature. It remains inert and endures indefinitely, as long as its vessel remains undisturbed. At any time after the clone matures, if the original creature dies, its soul transfers to the clone, provided that the soul is free and willing to return. The clone is physically identical to the original and has the same personality, memories, and abilities, but none of the original's equipment. The original creature's physical remains, if they still exist, become inert and can't thereafter be restored to life, since the creature's soul is elsewhere.
+classes:
+  - wizard
+```

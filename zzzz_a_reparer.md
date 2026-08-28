@@ -62,16 +62,26 @@ Reste:
 C'est Hassan Sabah qui est seigneur d'Akharin Sangar
 Navid a la diplo (ambassadeur), et les affaires étrangères
 
+
 Il y a des caravanes à l'extérieur - beaucoup à dicuter après 50 ans de règnes Angélique
 
 Navid
-
 
 ## Navid
 
 - Demander de l'aide pour Darvhan ? Ca pourrait être intéressant
 - Ah ben génial ca met l'ambiance
 - Quelques dizaines de gens qui n'ont pas froid aux yeux
+
+## Paladins
+
+Premier Ordonateur
+
+Commandeur Marzieh
+
+20 paladins (sur 50)
+
+# Ciadel
 
 ## Nostro
 
@@ -80,6 +90,9 @@ C'est comopliqué de le garder
 ## Sim
 
 1 journée
-
 Enfant de la lumière
+
+## Yeonido
+
+Hiro Watanabe 
 

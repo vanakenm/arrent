@@ -8,20 +8,63 @@
         "type": "tabs",
         "children": [
           {
-            "id": "926eb6eb43d55f71",
+            "id": "b7cb973aa1438c56",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "retour-citadel.md",
+                "file": "pjs/polypheme.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "retour-citadel"
+              "title": "polypheme"
+            }
+          },
+          {
+            "id": "f754aab89b7be1df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pjs/sylvain.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "sylvain"
+            }
+          },
+          {
+            "id": "67c1a0040c9f3f4b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pjs/varys.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "varys"
+            }
+          },
+          {
+            "id": "d1e368812a5fc65a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "fights/jade_guardians.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "jade_guardians"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -156,41 +199,22 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "le_sceau_des_seuils/acte_iii_la_memoria_de_la_fragua.md",
+                "file": "fights/jade_guardians.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of acte_iii_la_memoria_de_la_fragua"
-            }
-          },
-          {
-            "id": "8fde81e0d01f021a",
-            "type": "leaf",
-            "state": {
-              "type": "archivist-inquiry",
-              "state": {},
-              "icon": "bot",
-              "title": "Archivist Inquiry"
-            }
-          },
-          {
-            "id": "34c4943818fdd7f2",
-            "type": "leaf",
-            "state": {
-              "type": "copilot-chat-view",
-              "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
+              "title": "Outline of jade_guardians"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 402.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -204,47 +228,47 @@
       "obsidian42-brat:BRAT": false,
       "archivist-gg:Open Archivist Inquiry": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "copilot:Open Copilot Chat": false
+      "copilot:Open Copilot Chat": false,
+      "archivist-gg:New character": false
     }
   },
-  "active": "926eb6eb43d55f71",
+  "active": "5762b928234955e0",
   "lastOpenFiles": [
-    "z_next.md",
-    "le_sceau_des_seuils/suivi.md",
-    "le_sceau_des_seuils/sorties.md",
-    "status-spell-casted.md",
-    "retour-citadel.md",
-    "le_sceau_des_seuils/approche.md",
-    "pjs/polypheme.md",
+    "buried_dynasty/fouilles.md",
+    "fights/jade_guardians.md",
+    "fights/jade_guardians.md.tmp.123464.362d22d294e8",
+    "buried_dynasty/pj_brief.md",
+    "buried_dynasty/dramatis_personae.md",
+    "buried_dynasty/pj_brief.md.tmp.123464.2eeef9f8f500",
+    "buried_dynasty/next_buried_dynasty.md",
     "pjs/malo.md",
-    "pjs/bledios.md",
+    "fights/jade_guardians.md.tmp.123464.6255d46c3a61",
     "pjs/varys.md",
-    "pjs/items/Carquois aux Mille Ruses.md",
-    "pjs/items",
-    "copilot/copilot-conversations/D&D_Character_Sheets_Creator@20260702_183722.md",
-    "citadel-civilisations/zinda_gazetteer.md",
-    "citadel-civilisations/godsbreath_gazetteer.md",
-    "citadel-civilisations/san_citlan_gazetteer.md",
-    "zz_usage.md",
-    "fights/sylvain.md",
-    "fights/helmed_horrors.md",
-    "fights/duerguars.md",
     "pjs/sylvain.md",
-    "fights/el_crisol_phase3_variante.md",
-    "copilot/copilot-conversations/D&D_Duergar_Combat_Encounter@20260618_191312.md",
-    "copilot/copilot-conversations",
-    "copilot/copilot-custom-prompts/Clip Web Page.md",
-    "copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
-    "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
-    "copilot/copilot-custom-prompts/Rewrite as tweet.md",
-    "copilot/copilot-custom-prompts",
-    "copilot",
-    "BMO/Profiles",
-    "BMO",
-    "carte_pj.png",
-    "fights",
-    "Compendium/SRD/Backgrounds",
-    "Compendium/SRD/Classes",
-    "Compendium/SRD/Conditions"
+    "pjs/polypheme.md",
+    "fights/sylvain et les duergars.md",
+    "pjs/bledios.md",
+    "pjs/items/Bracelet du gardien.md",
+    "retour-citadel.md",
+    "le_sceau_des_seuils/z_next.md",
+    "Untitled.md",
+    "status-spell-casted.md",
+    "pjs/items/Carquois aux Mille Ruses.md",
+    "fights/jade_guardians.md.tmp.123464.4131b22d9d76",
+    "fights/jade_guardians.md.tmp.123464.deb20255e34d",
+    "copilot/copilot-conversations/Polypheme_Malo_Fight_Stats_Addition@20260827_181735.md",
+    "Compendium/SRD 5e/_compendium.md",
+    "Compendium/SRD 5e/Weapons/Whip.md",
+    "Compendium/SRD 5e/Weapons/Warhammer.md",
+    "Compendium/SRD 5e/Weapons/War Pick.md",
+    "Compendium/SRD 5e/Weapons/Trident.md",
+    "Compendium/SRD 5e/Weapons/Spear.md",
+    "Compendium/SRD 5e/Weapons/Sling.md",
+    "Compendium/SRD 5e/OptionalFeatures",
+    "Compendium/SRD 5e/Magic Items",
+    "Compendium/SRD 5e/Backgrounds",
+    "Compendium/SRD 5e/Subclasses",
+    "Compendium/SRD 5e/Conditions",
+    "le_sceau_des_seuils/carte_pj.png"
   ]
 }

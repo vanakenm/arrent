@@ -1,12 +1,17 @@
 {
   "settings": {
     "compendiumRoot": "Compendium",
-    "userEntityFolder": "me",
     "srdImported": true,
-    "ttrpgRootDir": "/",
-    "externalContextPaths": [],
     "defaultMultiColumn": false,
-    "multiColumnThreshold": 20
+    "multiColumnThreshold": 20,
+    "playerCharactersFolder": "PlayerCharacters",
+    "portraitsFolder": "",
+    "hiddenCompendiums": [
+      "SRD 5e"
+    ],
+    "userEntityFolder": "me",
+    "ttrpgRootDir": "/",
+    "externalContextPaths": []
   },
   "tabManagerState": {
     "openTabs": [

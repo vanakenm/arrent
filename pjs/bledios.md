@@ -10,7 +10,7 @@
 ---
 
 ## Statistiques de Combat
-- **PV Max:** 52 (actuels: 52)
+- **PV Max:** 59 (actuels: 59)
 - **CA:** 16
 - **Initiative:** +7
 - **Vitesse:**
