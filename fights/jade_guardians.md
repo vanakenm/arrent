@@ -12,17 +12,17 @@ tags:
 > `Tab` pour naviguer entre les cellules, editez PV Courant et Init au fil du combat.
 > Rappel scénario : pas plus de 2 gardiens actifs en même temps — le 3e s'anime au début du tour suivant si un gardien est détruit. Le combat s'arrête une fois la porte de bronze ouverte (symbole ki-lin).
 
-| Status    | Init | Nom                      | PV Max  | PV Courant    | CA  | Niv 1 | Niv 2 | Niv 3 | Niv 4 | Notes                                               |
-| --------- | ---- | ------------------------ | ------- | ------------- | --- | ----- | ----- | ----- | ----- | --------------------------------------------------- |
-|           | 20   | [[pjs/malo\|Malo]]       | 65+4    | 65+4          | 16  | oooo  | oo    | -     | -     | Gloomstalker/Roublard, Attaque Sournoise 2d6        |
-| hâte      | 18   | [[pjs/sylvain\|Sylvain]] | 73+4    | 25+4          | 22  | xxxx  | xxo   | -     | -     | +5 Aide, 10/40 points de paladin, claqué un shield  |
-|           |      |                          |         |               |     |       |       |       |       |                                                     |
-|           | 17   | **Liu (Zhong Yin)**      | 27/32   | 32            | 12  | -     | -     | -     | -     | Espion — fuit/se cache plutôt que de tenir, +5 Aide |
-|           | 14   | **Jade Guardian 1**      | 0       | 0             | 17  | -     | -     | -     | -     | Actif                                               |
-|           | 14   | **Jade Guardian 5**      | 0       | 0             | 17  | -     | -     | -     | -     | Actif                                               |
-|           | 14   | **Jade Guardian 3**      | 0       | 0             | 17  | -     | -     | -     | -     | Yvan                                                |
-|           | 14   | **Jade Guardian 1**      | 0       | 0             | 17  | -     | -     | -     | -     | Sim                                                 |
-| Ours brun | 8    | [[pjs/bledios\|Bledios]] | 59/64+4 | 24 (druide)+4 | 17  | xxo   | ooo   | xxo   | oo    | Forme sauvage 1/2, +5 Aide                          |
+| Status    | Init | Nom                      | PV Max  | PV Courant    | CA  | Niv 1 | Niv 2 | Niv 3 | Niv 4 | Notes                                                                    |
+| --------- | ---- | ------------------------ | ------- | ------------- | --- | ----- | ----- | ----- | ----- | ------------------------------------------------------------------------ |
+|           | 20   | [[pjs/malo\|Malo]]       | 65+4    | 65+4          | 16  | oooo  | oo    | -     | -     | Gloomstalker/Roublard, Attaque Sournoise 2d6                             |
+| hâte      | 18   | [[pjs/sylvain\|Sylvain]] | 73+4    | 73+4          | 22  | xxxx  | xxo   | -     | -     | +5 Aide, 10/40 points de paladin, claqué un shield,c claqué 6 dés de vie |
+|           |      |                          |         |               |     |       |       |       |       |                                                                          |
+|           | 17   | **Liu (Zhong Yin)**      | 27/32   | 32            | 12  | -     | -     | -     | -     | Espion — fuit/se cache plutôt que de tenir, +5 Aide                      |
+|           | 14   | **Jade Guardian 1**      | 0       | 0             | 17  | -     | -     | -     | -     | Actif                                                                    |
+|           | 14   | **Jade Guardian 5**      | 0       | 0             | 17  | -     | -     | -     | -     | Actif                                                                    |
+|           | 14   | **Jade Guardian 3**      | 0       | 0             | 17  | -     | -     | -     | -     | Yvan                                                                     |
+|           | 14   | **Jade Guardian 1**      | 0       | 0             | 17  | -     | -     | -     | -     | Sim                                                                      |
+| Ours brun | 8    | [[pjs/bledios\|Bledios]] | 59/61+4 | 24 (druide)+4 | 17  | xoo   | ooo   | xox   | oo    | Forme sauvage 2/2, +5 Aide, 5 dés de vie claqué                          |
 
 
 > [!tip] Légende

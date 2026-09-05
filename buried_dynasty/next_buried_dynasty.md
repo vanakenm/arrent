@@ -1,5 +1,112 @@
-# Next
+Les PJs ont fait un repo long, reste les dés de vie utilisés par Bledios et Sylvain.
 
+## Jour 2
+### Le palais de la Duchesse Deng Bo Han
+
+#### Descente
+Descente de plusieurs niveaux avec un détour ou l'autre pour cause d'ébouli
+Trace de shambling mound le long des murs.
+Version améliorée:
+- C'est un champignon
+- Pleine de lichen collant
+- Envoie deux "spores":
+	- Un qui brule
+	- Un qui fait émerger une sorte de myconide
+
+Elle passe devant régulièrement - donc passer trop de temps ou faire du bruit devant la porte va créer des problèmes.
+#### La grande porte
+A crocheter (très difficile) ou enfoncer (très difficile, bruyant)
+
+**Protection magique (niveau 4) : Chien Fidèle + Gardien de la Foi**
+- **Chien Fidèle (invisible)** posté devant la porte : aboie dès qu'une créature sans le mot de passe/symbole ki-lin s'approche à moins de 9m — alerte immédiatement les 4 guerriers de jade derrière. Si on insiste malgré l'aboiement (ou qu'on l'attaque), il mord : +5 au toucher, 4d8 perforant.
+- **Gardien de la Foi** ancré sur la porte (rayon 3m) : quiconque tente de crocheter/forcer/endommager la porte sans le bon mot de passe subit 20 dégâts radiants (DD 18 Sagesse pour moitié). Dure 8h ou jusqu'à 60 dégâts encaissés.
+- **Détection** : DD 18 Perception/Arcanes pour repérer les deux effets avant de déclencher quoi que ce soit.
+- **Désamorçage** : le symbole ki-lin (ou le mot de passe correct) rend les deux inoffensifs pour celui qui l'utilise ; le Chien se tait et le Gardien reste passif.
+
+4 guerriers de jade derrière.
+
+Avant la grande porte (à ouvrir et protégée), puis appartements de la duchesse !
+
+Il va montrer une immense déférence et trouver une image du dragon célese devant une montagne (qu'il connait)
+Il va y trouver également un rouleau de prière pour se purifier avant de rentrer dans sa caverne
+### Pendant ce temps - le groupe Action
+
+#### Attaque sur les griffons
+Contexte : les PJ sont au fond de la Ville Ancienne (plusieurs niveaux sous terre) → Xarxis a largement plusieurs minutes devant lui, aucune pression de temps. Ils peuvent se permettre d'être patients et précis plutôt que de foncer.
+
+**Plan**
+1. Repérage tranquille (Valthoril) : observer les rotations, attendre le bon moment (Grouik isolé/inattentif), choisir l'angle de tir. Pas de compte à rebours, ils prennent le temps qu'il faut.
+2. Tir sur Grouik depuis planque totale (arc long de Valthoril, Marque du chasseur + Ambuscade redoutable pour maximiser le premier coup). Silence pré-posé (épée des Ombres de Caelyndor ou sort) si besoin de couvrir le bruit d'impact/cri. 
+	1. 3 attaques à 1D8+5, +1D8 sur la première, +10 au dégat avec tireur d'élite - 4D8 + 15 + 30.
+	2. 12 de CA, 17 avec tireur d'élite, avantage et +8 au toucher, suffit sans doute de deux pour le tuer.
+3. 
+4. **Ce que Grouik arrive à faire passer à Sylvain avant de mourir** — dépend de si le premier coup le tue net ou non (à toi de juger selon ses PV réels) :
+   - **Coup fatal net** (one-shot) : le lien se coupe sec, sans info. Sylvain sent juste un vide brutal — "la vue disparaît avec Grouik", aucun détail.
+   - **Grouik encaisse et a un instant avant de tomber** (touché mais pas à 0, ou une 2e volée nécessaire) : il transmet un réflexe instinctif via le lien.
+     - *Base (automatique)* : Sylvain perçoit "attaqué à distance, des flèches" — pas de visuel net.
+     - *Bonus (si Grouik a eu le temps de voir l'attaquant* — pas de couverture totale au moment du 2e tir, ou Perception de Grouik bat la Discrétion du tireur) : le flash transmis inclut aussi "un elfe" — un indice qui peut nourrir la paranoïa/enquête plus tard, sans tout dévoiler sur Xarxis.
+4. Une fois Grouik mort, toujours pas d'urgence : plutôt que de paniquer/disperser à la va-vite, ils prennent le temps de gérer les 4 griffons calmement.
+   - Comme les griffons ne sont pas fidèles à Sylvain personnellement (juste dressés comme destriers de guerre, sans lien affectif), sans Grouik pour faire autorité sur eux, quelqu'un avec du sang-froid animalier (Valthoril, Sagesse 16, Survie) peut tenter de calmer/mener chaque griffon un par un.
+   - Vu qu'ils ont le temps, ils privilégient le vol de plusieurs griffons plutôt que la dispersion pure — des montures volantes valent cher pour un groupe d'espions, et le temps ne joue plus contre eux. La dispersion (bruit fort/panique) reste leur solution de repli si un griffon réagit mal ou qu'ils se sentent repérés.
+5. Retrait sans précipitation vers leur planque, avec les griffons volés (autant que la patience et les jets le permettent).
+
+
+Sylvain va a recevoir un "il y a du bruit devant" - s'il "sort", va se faire cribler de flèches
+### Nuit 2
+Le groupe du neveu arrive pendant la journée, et les PJs sont probablement sans griffons.
+
+#### Le groupe envoyé par Xing Zhong Jie
+Le neveu de l'Empereur, informé que l'expédition de Wei risque de trouver une piste vers le Dragon Céleste avant lui, envoie une expédition rivale pour la contrecarrer directement sur place plutôt que d'attendre l'embuscade du retour.
+
+**Composition (~30 personnes)**
+- **La moitié (~15) sont des civils** : porteurs, ouvriers, un ou deux érudits/scribes — logistique de fouille, pas des combattants. Peuvent fuir, se planquer ou servir de cohue/couverture selon comment ça tourne.
+- **L'autre moitié (~15) sont des combattants** : gardes/soldats standards (bloc Guard/Veteran selon le besoin), encadrés par leurs deux chefs.
+
+**À leur tête : l'Âme Damnée de Zhong Jie**
+- Un guerrier rusé et puissant, dévoué corps et âme au neveu — celui qui fait le sale boulot que Zhong Jie ne peut pas signer de son nom. Duelliste cérébral plutôt que brute : préfère isoler et éliminer les menaces une par une (Sylvain en priorité s'il identifie le paladin comme le pilier du groupe).
+- Statant suggéré : CR 9-10, profil "assassin/duelliste" — forte esquive/CA, mobilité, attaques sournoises ou critiques amplifiés, quelques tours pour neutraliser un PJ isolé avant que le reste n'intervienne.
+
+**Secondé par un prêtre**
+- Support de terrain : soins sur la troupe, buffs, et probablement une ou deux incantations offensives de zone (type Colonne de Flammes/Spirit Guardians) si le combat s'engage vraiment.
+- Statant suggéré : CR 5-6, caster de soutien.
+
+#### Le rôle de Xarxis
+Ils n'interviennent jamais directement (toujours leur doctrine : pas de confrontation frontale), mais donnent un coup de main discret à ce groupe qui sert leurs intérêts sans qu'ils aient à se salir les mains :
+- **Renseignement** : ils indiquent à l'Âme Damnée où se trouvent les PJ (position, effectifs, état — tout ce qu'ils ont observé pendant leur propre espionnage).
+- **Don de matériel** : ils confient un ou deux objets alimentés par la **Lumière de Xarxis** — une source de lumière/radiance qu'ils ont dérobée ou captée quelque part (pas la leur à l'origine ; cohérent avec leur objectif habituel de "voler des artefacts"), et qu'ils préfèrent refiler à des intermédiaires jetables plutôt que de la garder ou de s'en servir eux-mêmes.
+
+**Objets consommables — Lumière de Xarxis** *(puissants, à usage unique, se consument après emploi)*
+- **Éclat de Lumière Captive** *(pour l'Âme Damnée)* — une fiole/gemme qu'on brise en action bonus : libère une explosion de lumière dans un rayon de 6m, DD 16 CON, dégâts radiants massifs (ex. 8d8, moitié si réussi) + aveuglé 1 tour en cas d'échec. Utilisable une seule fois, puis la gemme se consume en cendres.
+- **Sceau de Châtiment Radiant** *(pour le prêtre)* — objet à activer sur une arme ou un sort en cours d'incantation : la prochaine attaque touchée ou le prochain sort de dégâts lancé dans la minute inflige des dégâts radiants supplémentaires massifs (ex. +6d8 radiant) et consume l'objet, qu'il touche ou non.
+
+*(DD/dégâts à ajuster selon combien tu veux que ce groupe pèse sur le combat — pensés pour être un vrai danger ponctuel sans pouvoir être répétés.)*
+
+
+
+
+## ordre de marche
+
+Sylvain
+Bledios
+Liu
+Malo
+
+## Nuit 1
+
+ 
+### Observation par le groupe action
+Observe comment ca réagit
+Jette de la bidoche ou envoie un cheval ?
+Vont se dire qu'ils sont bien au taquet et seront préparés - action contre les griffons
+
+## Jour 1
+
+PJ  4747 PO + 225 PO de jade
+
+Liu souffle, sarcophage avec malédiction
+Lieu j'aurais besoin... je peux faire une prière pour demander apaiser l'esprit
+
+Camps - Xarxis pourrait chercher des crosses aux griffons mais il y a 
 ## Ville Ancienne
 
 Une première pièce (environs à trois étages de profondeur)
@@ -10,10 +117,23 @@ Des jades guardians
 
 Carte partielle gravée dans la pierre ou peinte sur une poterie brisée
 
+Lieu va demander si jouable de prendre des risques
+
+Vient espionner
+
+Ordre de marche
+Sylvain
+Bledios
+Liu
+Malo
+
 Le soir
 
-Jour 3: arrivée du groupe rival
+Espionnage par le groupe action
 
+Sarcophage énergie nécromancie
+
+Jour 3: arrivée du groupe rival 
 ## Arrivée
 
 Ils sont à la ville Ancienne avec Liu

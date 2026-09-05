@@ -55,12 +55,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fights/jade_guardians.md",
+                "file": "fights/shambling_mound.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "jade_guardians"
+              "title": "shambling_mound"
+            }
+          },
+          {
+            "id": "b6894f2f05f331a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pjs/malo.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "malo"
             }
           }
         ],
@@ -84,7 +98,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -96,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Valthoril",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -117,7 +133,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -226,49 +243,48 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "obsidian42-brat:BRAT": false,
-      "archivist-gg:Open Archivist Inquiry": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "copilot:Open Copilot Chat": false,
       "archivist-gg:New character": false
     }
   },
-  "active": "5762b928234955e0",
+  "active": "d1e368812a5fc65a",
   "lastOpenFiles": [
-    "buried_dynasty/fouilles.md",
-    "fights/jade_guardians.md",
-    "fights/jade_guardians.md.tmp.123464.362d22d294e8",
-    "buried_dynasty/pj_brief.md",
-    "buried_dynasty/dramatis_personae.md",
-    "buried_dynasty/pj_brief.md.tmp.123464.2eeef9f8f500",
     "buried_dynasty/next_buried_dynasty.md",
-    "pjs/malo.md",
-    "fights/jade_guardians.md.tmp.123464.6255d46c3a61",
+    "buried_dynasty/next_buried_dynasty.md.tmp.204780.fbb4b2232ab6",
+    "buried_dynasty/next_buried_dynasty.md.tmp.204780.370e89716784",
+    "xarxis/valthoril_briselune.md",
+    "xarxis/_apercu.md",
+    "fights/shambling_mound.md.tmp.204780.56e008218640",
+    "fights/shambling_mound.md",
+    "buried_dynasty/pj_brief.md",
+    "fights/jade_guardians.md",
+    "pjs/items/Bracelet du gardien.md",
+    "pjs/items/Carquois aux Mille Ruses.md",
+    "pjs/bledios.md",
+    "buried_dynasty/summary.md",
+    "buried_dynasty/scnenario.md",
+    "fights/shambling_mound.md.tmp.204780.a4a6fe17caec",
+    "fights/el_crisol_phase3_variante.md",
+    "buried_dynasty/fouilles.md",
     "pjs/varys.md",
     "pjs/sylvain.md",
+    "pjs/malo.md",
+    "fights/jade_guardians.md.tmp.123464.362d22d294e8",
+    "buried_dynasty/dramatis_personae.md",
+    "buried_dynasty/pj_brief.md.tmp.123464.2eeef9f8f500",
+    "fights/jade_guardians.md.tmp.123464.6255d46c3a61",
     "pjs/polypheme.md",
     "fights/sylvain et les duergars.md",
-    "pjs/bledios.md",
-    "pjs/items/Bracelet du gardien.md",
     "retour-citadel.md",
     "le_sceau_des_seuils/z_next.md",
     "Untitled.md",
     "status-spell-casted.md",
-    "pjs/items/Carquois aux Mille Ruses.md",
     "fights/jade_guardians.md.tmp.123464.4131b22d9d76",
     "fights/jade_guardians.md.tmp.123464.deb20255e34d",
     "copilot/copilot-conversations/Polypheme_Malo_Fight_Stats_Addition@20260827_181735.md",
     "Compendium/SRD 5e/_compendium.md",
-    "Compendium/SRD 5e/Weapons/Whip.md",
-    "Compendium/SRD 5e/Weapons/Warhammer.md",
-    "Compendium/SRD 5e/Weapons/War Pick.md",
-    "Compendium/SRD 5e/Weapons/Trident.md",
-    "Compendium/SRD 5e/Weapons/Spear.md",
-    "Compendium/SRD 5e/Weapons/Sling.md",
     "Compendium/SRD 5e/OptionalFeatures",
-    "Compendium/SRD 5e/Magic Items",
-    "Compendium/SRD 5e/Backgrounds",
-    "Compendium/SRD 5e/Subclasses",
-    "Compendium/SRD 5e/Conditions",
     "le_sceau_des_seuils/carte_pj.png"
   ]
 }
