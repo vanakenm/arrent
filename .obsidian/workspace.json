@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fights/shambling_mound.md",
+                "file": "buried_dynasty/next_buried_dynasty.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "shambling_mound"
+              "title": "next_buried_dynasty"
             }
           },
           {
@@ -128,13 +128,15 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -250,13 +252,13 @@
   },
   "active": "d1e368812a5fc65a",
   "lastOpenFiles": [
+    "fights/shambling_mound.md",
     "buried_dynasty/next_buried_dynasty.md",
     "buried_dynasty/next_buried_dynasty.md.tmp.204780.fbb4b2232ab6",
     "buried_dynasty/next_buried_dynasty.md.tmp.204780.370e89716784",
     "xarxis/valthoril_briselune.md",
     "xarxis/_apercu.md",
     "fights/shambling_mound.md.tmp.204780.56e008218640",
-    "fights/shambling_mound.md",
     "buried_dynasty/pj_brief.md",
     "fights/jade_guardians.md",
     "pjs/items/Bracelet du gardien.md",

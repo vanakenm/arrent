@@ -15,7 +15,7 @@ Version améliorée:
 
 Elle passe devant régulièrement - donc passer trop de temps ou faire du bruit devant la porte va créer des problèmes.
 #### La grande porte
-A crocheter (très difficile) ou enfoncer (très difficile, bruyant)
+A crocheter (très difficile) ou enfoncer (très difficile, bruyant). Liu a des idées d'où trouver une clé, mais cela va être long.
 
 **Protection magique (niveau 4) : Chien Fidèle + Gardien de la Foi**
 - **Chien Fidèle (invisible)** posté devant la porte : aboie dès qu'une créature sans le mot de passe/symbole ki-lin s'approche à moins de 9m — alerte immédiatement les 4 guerriers de jade derrière. Si on insiste malgré l'aboiement (ou qu'on l'attaque), il mord : +5 au toucher, 4d8 perforant.
@@ -36,7 +36,7 @@ Contexte : les PJ sont au fond de la Ville Ancienne (plusieurs niveaux sous terr
 
 **Plan**
 1. Repérage tranquille (Valthoril) : observer les rotations, attendre le bon moment (Grouik isolé/inattentif), choisir l'angle de tir. Pas de compte à rebours, ils prennent le temps qu'il faut.
-2. Tir sur Grouik depuis planque totale (arc long de Valthoril, Marque du chasseur + Ambuscade redoutable pour maximiser le premier coup). Silence pré-posé (épée des Ombres de Caelyndor ou sort) si besoin de couvrir le bruit d'impact/cri. 
+2. Tir sur Grouik depuis planque totale (arc long de /Valthoril, Marque du chasseur + Ambuscade redoutable pour maximiser le premier coup). Silence pré-posé (épée des Ombres de Caelyndor ou sort) si besoin de couvrir le bruit d'impact/cri. 
 	1. 3 attaques à 1D8+5, +1D8 sur la première, +10 au dégat avec tireur d'élite - 4D8 + 15 + 30.
 	2. 12 de CA, 17 avec tireur d'élite, avantage et +8 au toucher, suffit sans doute de deux pour le tuer.
 3. 
