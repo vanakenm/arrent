@@ -13,21 +13,30 @@ tags:
 > PJ au repos long : PV et ressources remis à fond.
 > Variante : plus un immense amas de mousse/champignon grouillant qu'une vraie plante — laisse des traces de lichen derrière elle et fait germer des myconides en soutien.
 
-| Status | Init | Nom | PV Max | PV Courant | CA | Niv 1 | Niv 2 | Niv 3 | Niv 4 | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| | | [[pjs/varys\|Varys]] | 93 | 93 | 20 | - | - | - | - | Fureur 17/17 |
-| | | [[pjs/zangra\|Zangra]] | 45 | 45 | 16 | oooo | ooo | ooo | o | Inspiration Bardique 4/4 |
-| | | [[pjs/malo\|Malo]] | 65 | 65 | 16 | oooo | oo | - | - | |
-| | | [[pjs/sylvain\|Sylvain]] | 68 | 68 | 22 | ooo | oo | - | - | Divine Sense 4/4, Lay on Hands 40/40 |
-| | | [[pjs/bledios\|Bledios]] | 59 | 59 | 16 | oooo | ooo | ooo | oo | Forme Sauvage 2/2 |
-| | | [[pjs/polypheme\|Polyphème]] | 68 | 68 | 16 | - | - | - | - | Ennemi Favori dispo |
-| | | **Shambling Mound** | 136 | 136 | 15 | - | - | - | - | Résiste froid/feu, immunisé foudre (soigné par dégâts foudre) |
-| | | **Myconide Adulte 1** | 22 | 22 | 12 | - | - | - | - | Pas encore invoqué — germe via Éclosion de Spores |
-| | | **Myconide Adulte 2** | 22 | 22 | 12 | - | - | - | - | Pas encore invoqué — germe via Éclosion de Spores |
+| Status | Init   | Nom                          | PV Max  | PV Courant | CA     | Niv 1    | Niv 2   | Niv 3   | Niv 4 | Notes                                                             |
+| ------ | ------ | ---------------------------- | ------- | ---------- | ------ | -------- | ------- | ------- | ----- | ----------------------------------------------------------------- |
+|        | 22     | [[pjs/malo\|Malo]]           | 65      | 65         | 16     | oooo     | oo      | -       | -     |                                                                   |
+|        | 19     | [[pjs/varys\|Varys]]         | 93+5    | 7          | 20     | -        | -       | -       | -     | Fureur 4/17                                                       |
+|        | ~~19~~ | ~~**Guerrier de Jade 1**~~   | ~~90~~  | ~~0~~      | ~~17~~ | ~~-~~    | ~~-~~   | ~~-~~   | ~~-~~ |                                                                   |
+|        | ~~19~~ | ~~**Guerrier de Jade 2**~~   | ~~90~~  | ~~0~~      | ~~17~~ | ~~-~~    | ~~-~~   | ~~-~~   | ~~-~~ |                                                                   |
+|        | ~~19~~ | ~~**Guerrier de Jade 3**~~   | ~~90~~  | ~~0~~      | ~~17~~ | ~~-~~    | ~~-~~   | ~~-~~   | ~~-~~ |                                                                   |
+|        | ~~19~~ | ~~**Guerrier de Jade 4**~~   | ~~90~~  | ~~0~~      | ~~17~~ | ~~-~~    | ~~-~~   | ~~-~~   | ~~-~~ |                                                                   |
+|        | 17     | Liu                          | 27+5    | 27+5       | 13     |          |         |         |       | Esquive                                                           |
+|        |        | ~~[[pjs/zangra\|Zangra]]~~   | ~~45~~  | ~~45~~     | ~~16~~ | ~~oooo~~ | ~~ooo~~ | ~~ooo~~ | ~~o~~ | ~~Inspiration Bardique 4/4~~                                      |
+|        | 16     | [[pjs/sylvain\|Sylvain]]     | 68      | 68         | 22     | oooo     | oxx     | -       | -     | Divine Sense 4/4, Lay on Hands 10/40. Critique sur 19. Haste      |
+|        | 15     | [[pjs/bledios\|Bledios]]     | 59      | 23         | 16     | oooo     | ooo     | xxx     | oo    | Forme Sauvage 1/2                                                 |
+|        |        | [[pjs/polypheme\|Polyphème]] | 68      | 68         | 16     | -        | -       | -       | -     | Ennemi Favori dispo                                               |
+|        |        | **Shambling Mound**      | 136 | 136    | 15 | -    | -   | -   | - | Résiste froid/feu, immunisé foudre (soigné par dégâts foudre) |
+|        |        | **Myconide Adulte 1**    | 22  | 22     | 12 | -    | -   | -   | - | Pas encore invoqué — germe via Éclosion de Spores             |
+|        |        | **Myconide Adulte 2**    | 22  | 22     | 12 | -    | -   | -   | - | Pas encore invoqué — germe via Éclosion de Spores             |
+
 
 ---
 
-### Rappels Shambling Mound (Lichen)
+21
+
+### 
+Rappels Shambling Mound (Lichen)
 _CR 5 — Amas fongique/lichen géant, non aligné. [[Compendium/SRD 5e/Monsters/Shambling Mound\|Fiche de base]]_
 
 - **CA 15** (armure naturelle) — **PV 136** (16d10+48)
@@ -74,6 +83,24 @@ _CR 1/2 — Petite plante fongique, neutre. Statblock condensé (adapté)._
 **Spores Pacifiantes (Action, Recharge 6) :** chaque créature à 3m du myconide doit réussir un DD 11 CON, sous peine de ne pouvoir utiliser qu'une action **ou** une action bonus (pas les deux) à son prochain tour, pendant 1 minute (nouveau jet à chaque tour pour se libérer).
 
 **Spores de Détresse (Réaction, quand réduit à la moitié de ses PV ou moins, 1×/jour) :** libère des spores d'alarme — la Mound et tout autre myconide à 9m qui peut le voir obtiennent l'avantage à leurs jets d'attaque contre la créature qui vient de le blesser, jusqu'à la fin de son prochain tour.
+
+---
+
+### Rappels Guerrier de Jade
+_Statue de jade animée (base Stone Golem adaptée). [[fights/jade_guardians\|Voir aussi]]_
+
+- **CA 17** — **PV 90**
+- **Immutable Form :** immunisé aux sorts/effets qui changeraient sa forme
+- **Résistance :** contondant/perforant/tranchant non magique
+- **Immunités dégâts :** poison, psychique
+- **Immunités d'état :** charmed, exhaustion, frightened, paralyzed, petrified, poisoned
+- **Sens :** Darkvision 18m (60ft)
+- Pas de Magic Resistance (contrairement au Stone Golem complet)
+
+**Multiattaque (Action) :** 2 attaques de Glaive.
+- **Glaive :** +8 au toucher, allonge 3m, **2d10+4** tranchant.
+
+**Ward of the Ki-lin (Recharge 6) :** cible une créature à 3m, DD 14 Sagesse ou désavantage aux jets d'attaque jusqu'à la fin de son prochain tour.
 
 ---
 

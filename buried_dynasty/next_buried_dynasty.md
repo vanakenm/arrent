@@ -1,6 +1,21 @@
 Les PJs ont fait un repo long, reste les dés de vie utilisés par Bledios et Sylvain.
 
+## Config des PJs
+
+### Bledios
+
 ## Jour 2
+Les PJs sont rentré malgré le gardien (dispellé) et le chien (dispellé aussi à coup de +12)
+Ils ont battu les 4 gardien
+
+Lieu va fouiller les environs (plus grand chose hors des pièges mécaniques)
+Ca va lui prendre du temps (le palais est grand)
+
+(repos court)
+
+Dans l'heure, le groupe action va s'en prendre aux griffons
+
+La shambling mound va passer la porte (peu se voir/s'entendre si garde)
 ### Le palais de la Duchesse Deng Bo Han
 
 #### Descente
@@ -19,7 +34,7 @@ A crocheter (très difficile) ou enfoncer (très difficile, bruyant). Liu a des 
 
 **Protection magique (niveau 4) : Chien Fidèle + Gardien de la Foi**
 - **Chien Fidèle (invisible)** posté devant la porte : aboie dès qu'une créature sans le mot de passe/symbole ki-lin s'approche à moins de 9m — alerte immédiatement les 4 guerriers de jade derrière. Si on insiste malgré l'aboiement (ou qu'on l'attaque), il mord : +5 au toucher, 4d8 perforant.
-- **Gardien de la Foi** ancré sur la porte (rayon 3m) : quiconque tente de crocheter/forcer/endommager la porte sans le bon mot de passe subit 20 dégâts radiants (DD 18 Sagesse pour moitié). Dure 8h ou jusqu'à 60 dégâts encaissés.
+- Dispellé: **Gardien de la Foi** ancré sur la porte (rayon 3m) : quiconque tente de crocheter/forcer/endommager la porte sans le bon mot de passe subit 20 dégâts radiants (DD 18 Sagesse pour moitié). Dure 8h ou jusqu'à 60 dégâts encaissés.
 - **Détection** : DD 18 Perception/Arcanes pour repérer les deux effets avant de déclencher quoi que ce soit.
 - **Désamorçage** : le symbole ki-lin (ou le mot de passe correct) rend les deux inoffensifs pour celui qui l'utilise ; le Chien se tait et le Gardien reste passif.
 
