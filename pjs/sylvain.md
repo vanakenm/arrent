@@ -161,9 +161,9 @@
 ## Équipement & Magie
 
 ### Objets avec Attunement (3/3)
-- Armure
-- Marteau
-- Épée radieuse
+- **Armure de protection +1** — +1 CA ; *Lance shield* 1×/jour
+- **Thrower** *(marteau de guerre, Rare)* — +1 ; revient dans la main une fois lancé ; +1d8 dégâts si la cible est Large, Huge ou Gargantuan
+- **Épée radieuse** *(Rare)* — +2 attaque/dégâts ; +1d8 radiant contre les morts-vivants ; lame activable en action bonus (finesse, radiant) ; émet de la lumière
 
 ### Objets sans Attunement
 - Anneau de déguisement

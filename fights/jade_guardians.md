@@ -6,7 +6,7 @@ tags:
   - combat
   - buried-dynasty
 ---
-# Combat : Sylvain & Bledios vs 3 Jade Guardians
+ # Combat : Sylvain & Bledios vs 3 Jade Guardians
 
 > [!tip] Utilisation
 > `Tab` pour naviguer entre les cellules, editez PV Courant et Init au fil du combat.
@@ -15,7 +15,7 @@ tags:
 | Status    | Init | Nom                      | PV Max  | PV Courant    | CA  | Niv 1 | Niv 2 | Niv 3 | Niv 4 | Notes                                                                    |
 | --------- | ---- | ------------------------ | ------- | ------------- | --- | ----- | ----- | ----- | ----- | ------------------------------------------------------------------------ |
 |           | 20   | [[pjs/malo\|Malo]]       | 65+4    | 65+4          | 16  | oooo  | oo    | -     | -     | Gloomstalker/Roublard, Attaque Sournoise 2d6                             |
-| hâte      | 18   | [[pjs/sylvain\|Sylvain]] | 73+4    | 73+4          | 22  | xxxx  | xxo   | -     | -     | +5 Aide, 10/40 points de paladin, claqué un shield,c claqué 6 dés de vie |
+|           | 18   | [[pjs/sylvain\|Sylvain]] | 73+4    | 73+4          | 22  | xxxx  | xxo   | -     | -     | +5 Aide, 10/40 points de paladin, claqué un shield,c claqué 6 dés de vie |
 |           |      |                          |         |               |     |       |       |       |       |                                                                          |
 |           | 17   | **Liu (Zhong Yin)**      | 27/32   | 32            | 12  | -     | -     | -     | -     | Espion — fuit/se cache plutôt que de tenir, +5 Aide                      |
 |           | 14   | **Jade Guardian 1**      | 0       | 0             | 17  | -     | -     | -     | -     | Actif                                                                    |

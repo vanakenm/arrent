@@ -189,11 +189,10 @@ _★★ = Expertise (bonus de maîtrise doublé)_
 
 ### Objets avec Attunement (2/3)
 - **Arc long +1 des Ténèbres** — +1 aux jets d'attaque et de dégâts à distance. Peut lancer *Ténèbres* (1×/repos long, sans composante)
-- **Dague** de poison (+1, +2D10 de poison)
-- [[Carquois aux Mille Ruses]] *(Quiver of Many Tricks)*
+- [[Carquois aux Mille Ruses]] *(Quiver of Many Tricks, Rare)*
 
 ### Objets sans Attunement
-_Aucun objet sans attunement actuellement_
+- **Dague +1 de venin** *(Rare)* — 1×/jour (jusqu'à l'aube) : enduit la lame ; sur touche, JS CON DD 15 ou empoisonné 1 min + 2D10 de poison
 
 ### Armes & Armures
 - 

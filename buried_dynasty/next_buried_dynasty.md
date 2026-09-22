@@ -1,5 +1,4 @@
 Les PJs ont fait un repo long, reste les dés de vie utilisés par Bledios et Sylvain.
-
 ## Config des PJs
 
 ### Bledios

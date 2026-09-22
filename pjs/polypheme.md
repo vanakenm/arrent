@@ -187,8 +187,8 @@ _Note : 1 expertise au choix (Explorateur Aguerri)_
 
 ## Équipement & Magie
 
-### Objets avec Attunement (X/3)
--
+### Objets avec Attunement (1/3)
+- **Twinfang Wardblades** *(cimeterres, Rare)* — lames d'argent élancées, forgées par un chanteur de lames elfe oublié : agilité à l'attaque comme à la défense
 
 ### Objets sans Attunement
 -

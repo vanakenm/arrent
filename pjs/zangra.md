@@ -127,11 +127,11 @@ _À compléter._
 ## Équipement & Magie
 
 ### Objets avec Attunement (2/3)
-- Anneau de subtle casting
-- Amulette +1 aux jets de caractéristique
+- **Whisper Ring** *(Rare)* — 3 points de sorcellerie ; Subtle Spell ; Careful Spell ; +1 au DD des sorts
+- **Amulette de chance** — +1 aux jets de caractéristique et de sauvegarde (cf. Pierre porte-bonheur)
 
 ### Objets sans Attunement
-- Bracelet cantrip
+- **Fire Bolt Bracer** *(Peu commun, 500 po)* — octroie le cantrip *Fire Bolt* (CHA)
 
 ### Armes & Armures
 - 

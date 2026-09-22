@@ -126,8 +126,8 @@ _À compléter._
 
 ## Équipement & Magie
 
-### Objets avec Attunement (X/3)
-- Amulette coeur
+### Objets avec Attunement (2/3)
+- **Amulette du Cœur Verdoyant** *(Rare, druide)* — conservée en Forme sauvage ; avantage aux JS contre charme/peur ; action bonus : dépense une Forme sauvage pour lancer *Soin des blessures* (niveau = ½ niveau de druide, arrondi au sup.)
 - Anneau de sort niv 3 — *See Invisibility*
 
 ### Objets sans Attunement

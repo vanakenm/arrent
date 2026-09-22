@@ -5,7 +5,7 @@ cssclass: wide-note
 tags:
   - combat
 ---
-
+ 
 # Combat : PJs vs Shambling Mound (variante Lichen)
 
 > [!tip] Utilisation
@@ -13,22 +13,18 @@ tags:
 > PJ au repos long : PV et ressources remis à fond.
 > Variante : plus un immense amas de mousse/champignon grouillant qu'une vraie plante — laisse des traces de lichen derrière elle et fait germer des myconides en soutien.
 
-| Status | Init   | Nom                          | PV Max  | PV Courant | CA     | Niv 1    | Niv 2   | Niv 3   | Niv 4 | Notes                                                             |
-| ------ | ------ | ---------------------------- | ------- | ---------- | ------ | -------- | ------- | ------- | ----- | ----------------------------------------------------------------- |
-|        | 22     | [[pjs/malo\|Malo]]           | 65      | 65         | 16     | oooo     | oo      | -       | -     |                                                                   |
-|        | 19     | [[pjs/varys\|Varys]]         | 93+5    | 7          | 20     | -        | -       | -       | -     | Fureur 4/17                                                       |
-|        | ~~19~~ | ~~**Guerrier de Jade 1**~~   | ~~90~~  | ~~0~~      | ~~17~~ | ~~-~~    | ~~-~~   | ~~-~~   | ~~-~~ |                                                                   |
-|        | ~~19~~ | ~~**Guerrier de Jade 2**~~   | ~~90~~  | ~~0~~      | ~~17~~ | ~~-~~    | ~~-~~   | ~~-~~   | ~~-~~ |                                                                   |
-|        | ~~19~~ | ~~**Guerrier de Jade 3**~~   | ~~90~~  | ~~0~~      | ~~17~~ | ~~-~~    | ~~-~~   | ~~-~~   | ~~-~~ |                                                                   |
-|        | ~~19~~ | ~~**Guerrier de Jade 4**~~   | ~~90~~  | ~~0~~      | ~~17~~ | ~~-~~    | ~~-~~   | ~~-~~   | ~~-~~ |                                                                   |
-|        | 17     | Liu                          | 27+5    | 27+5       | 13     |          |         |         |       | Esquive                                                           |
-|        |        | ~~[[pjs/zangra\|Zangra]]~~   | ~~45~~  | ~~45~~     | ~~16~~ | ~~oooo~~ | ~~ooo~~ | ~~ooo~~ | ~~o~~ | ~~Inspiration Bardique 4/4~~                                      |
-|        | 16     | [[pjs/sylvain\|Sylvain]]     | 68      | 68         | 22     | oooo     | oxx     | -       | -     | Divine Sense 4/4, Lay on Hands 10/40. Critique sur 19. Haste      |
-|        | 15     | [[pjs/bledios\|Bledios]]     | 59      | 23         | 16     | oooo     | ooo     | xxx     | oo    | Forme Sauvage 1/2                                                 |
-|        |        | [[pjs/polypheme\|Polyphème]] | 68      | 68         | 16     | -        | -       | -       | -     | Ennemi Favori dispo                                               |
-|        |        | **Shambling Mound**      | 136 | 136    | 15 | -    | -   | -   | - | Résiste froid/feu, immunisé foudre (soigné par dégâts foudre) |
-|        |        | **Myconide Adulte 1**    | 22  | 22     | 12 | -    | -   | -   | - | Pas encore invoqué — germe via Éclosion de Spores             |
-|        |        | **Myconide Adulte 2**    | 22  | 22     | 12 | -    | -   | -   | - | Pas encore invoqué — germe via Éclosion de Spores             |
+| Status          | Init  | Nom                          | PV Max | PV Courant | CA  | Niv 1    | Niv 2   | Niv 3   | Niv 4 | Notes                                                         |
+| --------------- | ----- | ---------------------------- | ------ | ---------- | --- | -------- | ------- | ------- | ----- | ------------------------------------------------------------- |
+|                 | 17    | [[pjs/varys\|Varys]]         | 93+5   | 26         | 20  | -        | -       | -       | -     | Fureur 2/17                                                   |
+| zzz             | 17    | Liu                          | 27+5   | 27+5       | 13  |          |         |         |       | Esquive                                                       |
+| Inspi           | 15    | [[pjs/sylvain\|Sylvain]]     | 68+3   | 71         | 22  | xooo     | oxx     | -       | -     | Divine Sense 4, Lay on Hands 20/40. Critique sur 19. Haste    |
+| Rayon de lune   | 14    | **Shambling Mound**          | 136    | 62         | 15  | -        | -       | -       | -     | Résiste froid/feu, immunisé foudre (soigné par dégâts foudre) |
+|                 | 10    | [[pjs/zangra\|Zangra]]       | 45     | 45         | 16  | **oooo** | **ooo** | **ooo** | **o** | Inspiration Bardique 4/5                                      |
+|                 | 5     | [[pjs/bledios\|Bledios]]     | 59     | 23         | 16  | oooo     | xoo     | xxx     | oo    | Forme Sauvage 0/2                                             |
+| au tour de malo | - >21 | [[pjs/malo\|Malo]]           | 65     | 60         | 16  | xooo     | oo      | -       | -     |                                                               |
+|                 | 14    | **Myconide Adulte 1**        | 0      | 22         | 12  | -        | -       | -       | -     |                                                               |
+|                 | 14    | **Myconide Adulte 2**        | 22     | 22         | 12  | -        | -       | -       | -     |                                                               |
+|                 |       | [[pjs/polypheme\|Polyphème]] | 68     | 68         | 16  | -        | -       | -       | -     | Ennemi Favori dispo                                           |
 
 
 ---
