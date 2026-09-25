@@ -22,15 +22,16 @@ tags:
 
 ## Table d'initiative
 
-| Status | Init | Nom                                                     | PV Max | PV Courant | CA  | Notes                                                        |
-| ------ | ---- | -------------------------------------------------------- | ------ | ---------- | --- | ------------------------------------------------------------- |
-|        |      | [[pjs/zangra\|Zangra]]                                    | 45     | 45         | 16  | Inspiration Bardique 2/4                                     |
-|        |      | **PJ 2 (à confirmer)**                                    | ?      | ?          | ?   | À compléter selon qui part avec Zangra                       |
-|        |      | **Caelyndor** ([[xarxis/caelyndor_la_lame_astrale\|fiche]]) | 84     | 84         | 18  | Avant-poste — corps-à-corps, Discrétion                      |
-|        |      | **Valthoril** ([[xarxis/valthoril_briselune\|fiche]])       | 72     | 72         | 17  | Avant-poste — embuscade à l'arc, tire en premier si possible |
-| réserve|      | **Thalindra** ([[xarxis/thalindra_coeur-de-lumiere\|fiche]]) | 64     | 64         | 16  | Planquée non loin — n'entre qu'en soutien                    |
-| réserve|      | **Alaethor** ([[xarxis/alaethor_ombrelune\|fiche]])          | 50     | 50         | 15  | Planqué non loin — illusions/contrôle si ça dégénère          |
-| réserve|      | **Elenthis** ([[xarxis/elenthis_sombremelodie\|fiche]])      | 60     | 60         | 17  | Planqué non loin — coordination télépathique, porte de secours |
+| Status  | Init | Nom                                                          | PV Max | PV Courant | CA  | Notes                                                          |
+| ------- | ---- | ------------------------------------------------------------ | ------ | ---------- | --- | -------------------------------------------------------------- |
+|         |      | Grouik                                                       | 42     | 42         | 12  | se relève une fois quand "tué"                                 |
+|         |      | [[pjs/zangra\|Zangra]]                                       | 45     | 45         | 16  | Inspiration Bardique 2/4                                       |
+|         |      | **PJ 2 (à confirmer)**                                       | ?      | ?          | ?   | À compléter selon qui part avec Zangra                         |
+|         |      | **Caelyndor** ([[xarxis/caelyndor_la_lame_astrale\|fiche]])  | 84     | 84         | 18  | Avant-poste — corps-à-corps, Discrétion                        |
+|         |      | **Valthoril** ([[xarxis/valthoril_briselune\|fiche]])        | 72     | 72         | 17  | Avant-poste — embuscade à l'arc, tire en premier si possible   |
+| réserve |      | **Thalindra** ([[xarxis/thalindra_coeur-de-lumiere\|fiche]]) | 64     | 64         | 16  | Planquée non loin — n'entre qu'en soutien                      |
+| réserve |      | **Alaethor** ([[xarxis/alaethor_ombrelune\|fiche]])          | 50     | 50         | 15  | Planqué non loin — illusions/contrôle si ça dégénère           |
+| réserve |      | **Elenthis** ([[xarxis/elenthis_sombremelodie\|fiche]])      | 60     | 60         | 17  | Planqué non loin — coordination télépathique, porte de secours |
 
 > [!warning] Équilibrage
 > 2 PJ (niveau 7-8) contre potentiellement 5 elfes astraux niveau 8, c'est très défavorable sur le papier si tout Xarxis s'engage à fond. Ne pas jouer ça comme un combat à mort classique : Xarxis cherche à neutraliser/faire fuir/capturer rapidement, pas à exterminer — et ils n'ont eux-mêmes aucune envie de perdre du monde pour ce coup-là. Si le duo Caelyndor/Valthoril domine clairement en 1-2 tours, la réserve n'a probablement pas besoin d'intervenir. Si les PJ tiennent bon ou infligent des dégâts sérieux, c'est un signal pour Xarxis de se retirer (cf. Retraite) plutôt que d'engager toute la réserve à mort.

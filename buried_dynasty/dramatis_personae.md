@@ -24,6 +24,13 @@
 |---|---|---|
 | Escouade masquée de Zhong Jie | Agents sans emblème envoyés pour voler/détruire ce que les PJ ramènent | Reprend le bloc "Escouade des Fantômes Impériaux" (1 Assassin + 3 Swashbuckler). Fuient si le combat tourne mal — les interroger peut donner un indice sur leur commanditaire sans le confirmer formellement |
 
+## Sur la montagne (Yunlong)
+
+| Nom | Rôle | Statut | Notes |
+|---|---|---|---|
+| Song Yun Tai | Grand Maître du Monastère du Nuage de Jade | Neutre, pas hostile par défaut | Descend spirituellement de la cour de la dynastie Yun ; propose les Épreuves à qui se présente de bonne foi |
+| Tian Yun Ke | Jeune moine de l'Ordre du Nuage de Jade | Corrompu — fait remonter des infos à Zhong Jie | Sa mère malade à Yongjing est "prise en charge" par les agents de Zhong Jie en échange de son silence complice ; DC 15 Perspicacité pour sentir son malaise |
+
 ## Liés à l'intrigue plus large (hors Yongjing)
 
 | Nom | Rôle | Notes |

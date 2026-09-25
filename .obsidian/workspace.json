@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fights/shambling_mound.md",
+                "file": "fights/xarxis_griffon.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "shambling_mound"
+              "title": "xarxis_griffon"
             }
           },
           {
@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -264,25 +264,28 @@
       "archivist-gg:New character": false
     }
   },
-  "active": "dd3ec714c235c3bb",
+  "active": "67c1a0040c9f3f4b",
   "lastOpenFiles": [
-    "xarxis/_apercu.md",
+    "buried_dynasty/palais_duchesse.md",
+    "pjs/malo.md",
+    "fights/jade_guardians.md",
     "fights/shambling_mound.md",
     "buried_dynasty/next_buried_dynasty.md",
+    "fights/embuscade_zhong_jie.md",
+    "retour-citadel.md",
+    "fights/xarxis_griffon.md",
+    "buried_dynasty/fouilles.md",
+    "xarxis/_apercu.md",
     "pjs/polypheme.md",
     "pjs/sylvain.md",
     "pjs/items/Carquois aux Mille Ruses.md",
     "buried_dynasty/dramatis_personae.md",
-    "fights/jade_guardians.md",
     "pjs/varys.md",
-    "retour-citadel.md",
     "buried_dynasty/summary.md",
-    "pjs/malo.md",
     "xarxis/alaethor_ombrelune.md",
     "xarxis/elenthis_sombremelodie.md",
     "xarxis/valthoril_briselune.md",
     "xarxis/thalindra_coeur-de-lumiere.md",
-    "fights/xarxis_griffon.md",
     "fights/xarxis_griffon.md.tmp.69480.9e55defc63e5",
     "Compendium/SRD 5e/Feats/Ability Score Improvement.md",
     "buried_dynasty/pj_brief.md",
@@ -291,9 +294,6 @@
     "Compendium/SRD 5e/_compendium.md",
     "Compendium/SRD 5e/Weapons/Whip.md",
     "Compendium/SRD 5e/Weapons/Warhammer.md",
-    "Compendium/SRD 5e/Weapons/War Pick.md",
-    "Compendium/SRD 5e/Weapons/Trident.md",
-    "Compendium/SRD 5e/Weapons/Spear.md",
     "Compendium/SRD 5e/OptionalFeatures",
     "Compendium/SRD 5e/Magic Items",
     "Compendium/SRD 5e/Backgrounds",

@@ -5,17 +5,19 @@ Les PJs ont fait un repo long, reste les dés de vie utilisés par Bledios et Sy
 
 ## Jour 2
 Les PJs sont rentré malgré le gardien (dispellé) et le chien (dispellé aussi à coup de +12)
-Ils ont battu les 4 gardien
+Ils ont battu les 4 gardiens
 
 Lieu va fouiller les environs (plus grand chose hors des pièges mécaniques)
 Ca va lui prendre du temps (le palais est grand)
 
-(repos court)
+(repos court interrompu)
 
 Dans l'heure, le groupe action va s'en prendre aux griffons
 
 La shambling mound va passer la porte (peu se voir/s'entendre si garde)
 ### Le palais de la Duchesse Deng Bo Han
+
+> Proposition de salles/pièges au-delà de la grande porte : [[buried_dynasty/palais_duchesse|palais_duchesse]].
 
 #### Descente
 Descente de plusieurs niveaux avec un détour ou l'autre pour cause d'ébouli
@@ -47,6 +49,8 @@ Il va y trouver également un rouleau de prière pour se purifier avant de rentr
 
 #### Attaque sur les griffons
 Contexte : les PJ sont au fond de la Ville Ancienne (plusieurs niveaux sous terre) → Xarxis a largement plusieurs minutes devant lui, aucune pression de temps. Ils peuvent se permettre d'être patients et précis plutôt que de foncer.
+
+Stats de grouik: destrier (comme le sort) - perception passive 8 donc Valthoril va approcher sans soucis
 
 **Plan**
 1. Repérage tranquille (Valthoril) : observer les rotations, attendre le bon moment (Grouik isolé/inattentif), choisir l'angle de tir. Pas de compte à rebours, ils prennent le temps qu'il faut.
@@ -83,6 +87,8 @@ Le neveu de l'Empereur, informé que l'expédition de Wei risque de trouver une 
 **Secondé par un prêtre**
 - Support de terrain : soins sur la troupe, buffs, et probablement une ou deux incantations offensives de zone (type Colonne de Flammes/Spirit Guardians) si le combat s'engage vraiment.
 - Statant suggéré : CR 5-6, caster de soutien.
+
+**Mage de combat** (évocateur ou profile équivalent)
 
 #### Le rôle de Xarxis
 Ils n'interviennent jamais directement (toujours leur doctrine : pas de confrontation frontale), mais donnent un coup de main discret à ce groupe qui sert leurs intérêts sans qu'ils aient à se salir les mains :
@@ -307,4 +313,66 @@ Zhong Jie lui-même ne se montre pas — il n'a aucune envie d'être identifié.
 
 Wei n'a pas d'yeux ici et n'intervient pas — les PJ sont seuls face à cette embuscade, ce qui devrait leur donner une bonne raison de se méfier encore plus de la cour de Yongjing en général.
 
-*Scène 3 (retour chez Wei avec la piste et l'indice sur l'embuscade, puis le morceau "à la recherche du Dragon Céleste" — sa grotte ne s'ouvrant qu'à de vrais héros) à rédiger quand tu seras prêt à enchaîner.*
+---
+
+## Scène 3 — Yunlong, la montagne du Dragon Céleste
+
+*Premiers éléments posés pour préparer cette partie — pas encore une scène entièrement rédigée, mais de quoi enchaîner.*
+
+### Retour chez Wei
+
+Les PJ reviennent avec les journaux de l'Impératrice, les trois potions de longévité, Lio Gong, et l'indice trouvé sur l'embuscade (sceau/mot codé). Wei écoute tout, remercie, mais c'est le témoignage de Lio Gong qui la fait réagir : un dragon d'or filant au-delà des nuages, une montagne reconnaissable. Croisé avec les indices déjà glanés par Liu au [[buried_dynasty/palais_duchesse|palais de la Duchesse]] (la fresque, sa déférence, le rouleau de prière), Liu identifie le lieu : **Yunlong**, un pic sacré à plusieurs jours de route au-delà des terres cultivées, réputé infranchissable et associé de longue date à des légendes de dragons et d'immortalité — jusqu'ici jamais relié concrètement au Dragon Céleste des Bénédictions.
+
+Wei finance l'expédition (vivres, guide jusqu'au pied de la montagne) et confirme, si on la pousse, ce qu'elle espérait sans oser le dire : une source vivante vaudrait bien plus qu'un fond de réserve. Elle ne peut pas envoyer ses propres agents plus loin — la légende locale veut que la montagne "juge" ceux qui s'en approchent, et elle n'a personne d'assez... digne. Elle laisse volontairement le sous-entendu planer sur les PJ.
+
+### Le chemin vers Yunlong
+
+Plusieurs jours de marche puis d'ascension, de plus en plus rude à mesure qu'on prend de l'altitude — sentiers étroits à flanc de falaise, ponts de corde effondrés à moitié, air qui se raréfie. Un ou deux petits événements de voyage suffisent (tempête, pont à réparer, faune curieuse) sans qu'il soit nécessaire d'en faire un combat.
+
+*Note de continuité* : Zhong Jie ne tente rien sur la montagne elle-même (cf. plus bas) — mais ses hommes ne sont pas totalement aveugles. Le fil qui les relie aux PJ ici passe par un informateur sur place plutôt que par une filature directe.
+
+### Le Monastère du Nuage de Jade
+
+À mi-hauteur, un monastère taillé à même la roche garde l'unique chemin praticable vers le sommet : le **Monastère du Nuage de Jade**, siège de l'**Ordre du Nuage de Jade**. *Révélation possible en jeu (DC 14 Histoire/Religion, ou donnée gratuitement si ça sert le rythme)* : cet ordre descend spirituellement de la cour de la dynastie Yun — ses moines n'ont jamais reconnu la légitimité de la dynastie Xing et se sont retirés ici après la chute du palais, pour continuer en silence ce que l'Impératrice des Nuages de Montagne cherchait elle-même : veiller sur l'accès au Dragon Céleste plutôt que le revendiquer.
+
+**Grand Maître Song Yun Tai** dirige l'ordre — âgé, direct, pas hostile par défaut. Il explique sans détour la règle : au-delà du monastère, seuls des êtres **parfaitement purs** peuvent fouler le sanctuaire — les moines eux-mêmes le sont, par des décennies de discipline ; des aventuriers de passage, quel que soit leur alignement ou leurs bonnes intentions, ne le sont pas d'emblée. Ce n'est pas une question de moralité au sens large mais un état rituel précis.
+
+**Trois façons d'avancer (à laisser ouvertes, pas de solution imposée) :**
+
+1. **Passer les Épreuves** (voie honnête, proposée par Song Yun Tai à qui se présente de bonne foi) — voir ci-dessous.
+2. **Filer en douce** — contourner le monastère par les à-pics environnants. Discrétion (DD 16-18 selon l'itinéraire) contre les rondes de moines ; se faire repérer n'est pas forcément un combat, les moines préfèrent raisonner/reconduire fermement plutôt que frapper en premier.
+3. **Forcer le passage** — les moines défendent le monastère si on s'en prend à eux, mais frappent pour neutraliser (dégâts contondants, Étourdissement au lieu de tuer). Suggestion de bloc : reflavorer un **Acolyte** (SRD, boosté à CR2-3, poings à mains nues avec un soupçon de Étourdissement en cas d'échec de JS CON) ×3-4, pas de nécessité d'un vrai statblock de moine dédié.
+
+**Ce que forcer/filer en douce ne résout pas** : passer le monastère ne suffit pas à passer la montagne elle-même (voir Barrière de Pureté ci-dessous) — ce qui remet une vraie valeur à l'option 1 même pour un groupe qui préfère l'action.
+
+**Le moine corrompu — Tian Yun Ke.** Un moine plus jeune, nerveux, dont la mère malade à Yongjing a été "prise en charge" par les agents de Xing Zhong Jie en échange de nouvelles régulières sur quiconque approcherait la montagne. *DC 15 Perspicacité* pour remarquer son malaise s'il croise les PJ. Il n'agit jamais contre eux directement (il n'en a ni le courage ni l'envie) — il se contente d'envoyer un message (pierre de communication ou messager) dès qu'il comprend que les PJ ont de bonnes chances d'atteindre le sommet. C'est ce signal qui déclenche la scène finale à Yongjing.
+
+### La Barrière de Pureté
+
+Le sanctuaire au-dessus du monastère est protégé par un voile ancien, de la même famille de magie que le [[buried_dynasty/palais_duchesse#Salle 4 — Sanctuaire du Dragon Céleste (appartements de la Duchesse)|Voile de Purification]] déjà rencontré chez la Duchesse — pas une coïncidence : les deux protections viennent du même legs rituel de la dynastie Yun. Quiconque franchit la limite sans purification rituelle subit le même type d'effet (DD 17 Sagesse, effrayé + dégâts psychiques) — invisibilité, discrétion ou force brute n'y changent rien, c'est un jugement spirituel, pas un mur physique.
+
+**Deux façons de s'en affranchir, pas mutuellement exclusives :**
+- **Le rouleau de prière** récupéré chez la Duchesse, s'il a été gardé et qu'un PJ (ou Liu) sait/peut le réciter correctement, accorde une purification temporaire (24h) — jolie récompense a posteriori pour ceux qui l'ont pris à l'époque.
+- **Le rituel du monastère** : si les PJ ont réussi les Épreuves (ou négocié la confiance de Song Yun Tai autrement), les moines enseignent/officient eux-mêmes la purification — pas de dead-end si le rouleau a été laissé sur place.
+
+### Les Épreuves (au monastère, si voie 1 choisie)
+
+Trois épreuves courtes, une par "aspect" à purifier — pas besoin qu'elles soient consécutives dans la même scène :
+
+- **Épreuve du Corps** : une ascension/parcours d'équilibre au-dessus du vide, sous l'œil des moines (DD physique au choix, ou jeu de rôle pur si tu préfères éviter un jet sec).
+- **Épreuve de l'Esprit** : une énigme/question posée par un moine, dont la réponse est plus facile à trouver pour qui a vraiment prêté attention aux indices déjà semés (fresques du palais, journaux de l'Impératrice, déférence de Liu) — belle occasion de récompenser la mémoire de la table plutôt qu'un simple jet.
+- **Épreuve du Cœur** : un dilemme de compassion/sacrifice plutôt qu'un test de force — ce que le Dragon juge, ce n'est pas la puissance mais l'intention.
+
+Réussir les trois n'est pas forcément nécessaire pour tout le monde — Song Yun Tai peut très bien juger qu'un groupe qui a échoué une épreuve mais montré une sincérité réelle mérite quand même de passer (à ta discrétion, pas de règle rigide ici).
+
+### Les Épreuves du Dragon Céleste (au sommet)
+
+Une fois la Barrière franchie, ce n'est plus les moines qui testent les PJ mais le Dragon lui-même — deux ou trois épreuves symboliques dans la même veine (vérité, sacrifice, courage) mais à l'échelle mythique, débouchant sur une audience avec le **Dragon Céleste des Bénédictions**. *Volontairement pas détaillé plus loin ici* : c'est le climax de l'arc, à construire quand tu seras prêt, une fois que tu sais ce que la table a fait pour mériter d'arriver jusque-là.
+
+### Le dernier coup de Zhong Jie (retour à Yongjing)
+
+Prévenu par Tian Yun Ke que les PJ ont franchi le monastère (ou pire, atteint le sommet), Zhong Jie sait que son pari politique avec Doña Rufina est sur le point de s'effondrer — il n'a plus rien à perdre à jouer sa dernière carte, cette fois à visage découvert si besoin, à l'arrivée des PJ à Yongjing plutôt que sur la montagne (terrain qu'il ne contrôle pas et où il n'a pas d'yeux directs).
+
+**Xarxis** ([[xarxis/_apercu|_apercu]]) l'aide une dernière fois, toujours en coulisses — même doctrine que lors de la première embuscade (cf. [[fights/embuscade_zhong_jie|embuscade_zhong_jie]]) : renseignement sur le retour des PJ, éventuellement un dernier objet à usage unique. Le **groupe Action** de Xarxis (Caelyndor, Valthoril, Thalindra, Alaethor, Elenthis — cf. [[xarxis/_apercu|_apercu]]) peut être celui qui transmet le renseignement final, sans s'engager davantage eux-mêmes.
+
+Suggestion : reprendre l'escouade de [[fights/embuscade_zhong_jie|embuscade_zhong_jie]] en version renforcée, avec cette fois Zhong Jie en personne présent (mais toujours pas au contact direct — un duelliste politique, pas un guerrier de première ligne) : sa présence physique est le signe que la partie se joue vraiment à quitte ou double pour lui. *À détailler une fois que tu sais ce que les PJ ramènent du sommet — l'enjeu exact de cette confrontation dépend de ce qu'ils ont obtenu du Dragon.*

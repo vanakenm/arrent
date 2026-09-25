@@ -13,26 +13,27 @@ tags:
 > PJ au repos long : PV et ressources remis à fond.
 > Variante : plus un immense amas de mousse/champignon grouillant qu'une vraie plante — laisse des traces de lichen derrière elle et fait germer des myconides en soutien.
 
-| Status          | Init  | Nom                          | PV Max | PV Courant | CA  | Niv 1    | Niv 2   | Niv 3   | Niv 4 | Notes                                                         |
-| --------------- | ----- | ---------------------------- | ------ | ---------- | --- | -------- | ------- | ------- | ----- | ------------------------------------------------------------- |
-|                 | 17    | [[pjs/varys\|Varys]]         | 93+5   | 26         | 20  | -        | -       | -       | -     | Fureur 2/17                                                   |
-| zzz             | 17    | Liu                          | 27+5   | 27+5       | 13  |          |         |         |       | Esquive                                                       |
-| Inspi           | 15    | [[pjs/sylvain\|Sylvain]]     | 68+3   | 71         | 22  | xooo     | oxx     | -       | -     | Divine Sense 4, Lay on Hands 20/40. Critique sur 19. Haste    |
-| Rayon de lune   | 14    | **Shambling Mound**          | 136    | 62         | 15  | -        | -       | -       | -     | Résiste froid/feu, immunisé foudre (soigné par dégâts foudre) |
-|                 | 10    | [[pjs/zangra\|Zangra]]       | 45     | 45         | 16  | **oooo** | **ooo** | **ooo** | **o** | Inspiration Bardique 4/5                                      |
-|                 | 5     | [[pjs/bledios\|Bledios]]     | 59     | 23         | 16  | oooo     | xoo     | xxx     | oo    | Forme Sauvage 0/2                                             |
-| au tour de malo | - >21 | [[pjs/malo\|Malo]]           | 65     | 60         | 16  | xooo     | oo      | -       | -     |                                                               |
-|                 | 14    | **Myconide Adulte 1**        | 0      | 22         | 12  | -        | -       | -       | -     |                                                               |
-|                 | 14    | **Myconide Adulte 2**        | 22     | 22         | 12  | -        | -       | -       | -     |                                                               |
-|                 |       | [[pjs/polypheme\|Polyphème]] | 68     | 68         | 16  | -        | -       | -       | -     | Ennemi Favori dispo                                           |
+| Status          | Init | Nom                          | PV Max | PV Courant | CA  | Niv 1    | Niv 2   | Niv 3   | Niv 4 | Notes                                                         |
+| --------------- | ---- | ---------------------------- | ------ | ---------- | --- | -------- | ------- | ------- | ----- | ------------------------------------------------------------- |
+| au tour de malo | 21   | [[pjs/malo\|Malo]]           | 65     | 54         | 16  | xooo     | oo      | -       | -     |                                                               |
+|                 | 18   | [[pjs/polypheme\|Polyphème]] | 68     | 68         | 16  | -        | -       | -       | -     | Ennemi Favori dispo                                           |
+|                 | 17   | [[pjs/varys\|Varys]]         | 93+5   | 73 +7      | 20  | -        | -       | -       | -     | Fureur 3/17 dés de vie 3/8                                    |
+|                 | 17   | Liu                          | 27+5   | 27+5       | 13  |          |         |         |       | Esquive                                                       |
+| Inspi           | 15   | [[pjs/sylvain\|Sylvain]]     | 68+3   | 56+7       | 22  | xooo     | oxx     | -       | -     | dés de vie 0/8, Lay on Hands 20/40. Critique sur 19. Haste    |
+| Rayon de lune   | 14   | **Shambling Mound**          | 136    | 0          | 16  | -        | -       | -       | -     | Résiste froid/feu, immunisé foudre (soigné par dégâts foudre) |
+|                 | 10   | [[pjs/zangra\|Zangra]]       | 45     | 45         | 16  | **oooo** | **ooo** | **ooo** | **o** | Inspiration Bardique 4/5 dés de vie 2/8                       |
+|                 | 5    | [[pjs/bledios\|Bledios]]     | 59     | 32+7       | 16  | oooo     | xoo     | oxx     | oo    | Forme Sauvage 2/2                                             |
+|                 | 14   | **Myconide Adulte 1**        | 22     | 0          | 12  | -        | -       | -       | -     |                                                               |
+|                 | 14   | **Myconide Adulte 2**        | 22     | 2          | 12  | -        | -       | -       | -     |                                                               |
+|                 | 14   | **Myconide Adulte 2**        | 22     | 16         | 12  | -        | -       | -       | -     |                                                               |
+
 
 
 ---
 
 21
 
-### 
-Rappels Shambling Mound (Lichen)
+### Rappels Shambling Mound (Lichen)
 _CR 5 — Amas fongique/lichen géant, non aligné. [[Compendium/SRD 5e/Monsters/Shambling Mound\|Fiche de base]]_
 
 - **CA 15** (armure naturelle) — **PV 136** (16d10+48)
@@ -48,7 +49,7 @@ _CR 5 — Amas fongique/lichen géant, non aligné. [[Compendium/SRD 5e/Monsters
 - **Engloutissement :** la cible agrippée est aveuglée, entravée, ne peut plus respirer. Au début de chaque tour de la Mound : DD 14 CON ou **2d8+4** contondant. Une seule cible engloutie à la fois — si elle se déplace, la cible bouge avec elle.
 
 **Éclosion de Spores (Action Bonus, 1×/tour) :** la Mound éjecte 4 gousses de spores vers des points qu'elle peut voir à 9m ou moins. Elle répartit toujours 2 spores acides et 2 spores germinatrices.
-- **Spore Acide (×2) :** explose au point choisi en une zone de 3m de diamètre. Chaque créature dans la zone au moment de l'impact fait un DD 14 DEX : échec = **4d6** dégâts d'acide, réussite = moitié. La zone laisse une couche de lichen corrosif : terrain difficile jusqu'à la fin du combat (ou jusqu'à nettoyage).
+- **Spore Acide (×2) :** explose au point choisi en une zone de 3m de diamètre. Chaque créature dans la zone au moment de l'impact fait un DD 14 DEX : échec = **4d8** dégâts d'acide, réussite = moitié. La zone laisse une couche de lichen corrosif : terrain difficile jusqu'à la fin du combat (ou jusqu'à nettoyage).
 - **Spore Germinatrice (×2) :** un **Myconide Adulte** (voir plus bas) germe instantanément au point choisi (doit être un espace libre au sol). Il rejoint l'initiative juste après la Mound ce même round et agit normalement à partir de son prochain tour.
 
 > [!warning] Équilibrage

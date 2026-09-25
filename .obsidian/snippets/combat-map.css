@@ -28,6 +28,18 @@
 .tok-M { color: #8b3fd6; background-color: #8b3fd633; } /* Malo */
 .tok-P { color: #a5682a; background-color: #a5682a33; } /* Polyphème */
 .tok-L { color: #555555; background-color: #55555533; } /* Liu */
+.tok-T { color: #d63447; background-color: #d6344733; } /* Piège */
+.tok-K { color: #c99a1e; background-color: #c99a1e33; } /* Indice / coffre / objet clé */
+
+/* Case "sûre" d'un chemin logique à travers une salle piégée : le reste du
+   sol est implicitement dangereux sauf mention contraire dans le texte. */
+.safe {
+  display: inline-block;
+  width: 100%;
+  height: 1.4em;
+  background-color: #2f9e5822;
+  border: 1px dashed #2f9e58;
+}
 
 /* Notes avec `cssclass: wide-note` dans le frontmatter : ignore la largeur
    de ligne "lisible" d'Obsidian pour laisser les tableaux (carte, init)

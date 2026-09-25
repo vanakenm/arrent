@@ -8643,6 +8643,51 @@ body.theme-light .archivist-tag-atk:hover {
   opacity: 0.8;
 }
 
+/* A spell-slot cost opens over the action rows. The picker stays inside the
+   sheet and uses the same parchment, pip and crimson vocabulary as Spells. */
+.archivist-pc-sheet .pc-slot-pop-anchor { position: relative; }
+.archivist-pc-sheet .pc-slot-pop-anchor > .pc-pop.pc-slot-pop {
+  left: 0; top: auto; bottom: calc(100% + 9px); transform: none;
+  width: 292px; max-width: min(292px, 80vw);
+  padding: 9px 10px 7px; background: var(--pc-parchment-dark);
+  border-color: var(--pc-tan-muted); box-shadow: 0 7px 20px rgba(77, 49, 21, .25);
+  z-index: 1000;
+}
+.archivist-pc-sheet .pc-slot-pop-anchor > .pc-slot-pop.opens-down {
+  top: calc(100% + 9px); bottom: auto;
+}
+.archivist-pc-sheet .pc-slot-pop .pc-pop-arrow {
+  bottom: auto; top: calc(100% - 1px); left: auto; right: 29px; margin-left: 0;
+  background: var(--pc-parchment-dark); border-left: 0; border-top: 0;
+  border-right: 1px solid var(--pc-tan-muted); border-bottom: 1px solid var(--pc-tan-muted);
+}
+.archivist-pc-sheet .pc-slot-pop.opens-down .pc-pop-arrow {
+  top: -5px; bottom: auto; border-right: 0; border-bottom: 0;
+  border-left: 1px solid var(--pc-tan-muted); border-top: 1px solid var(--pc-tan-muted);
+}
+.archivist-pc-sheet .pc-slot-pop .pc-pop-h {
+  color: var(--pc-crimson); border-bottom-color: var(--pc-tan-muted);
+  text-align: left; margin-bottom: 4px;
+}
+.archivist-pc-sheet .pc-slot-pop-list { overflow-y: auto; }
+.archivist-pc-sheet .pc-slot-pop-row {
+  display: flex; align-items: center; gap: 8px; width: 100%; min-height: 34px;
+  padding: 5px 3px; border: 0; border-bottom: 1px dashed var(--pc-tan-muted);
+  background: transparent; box-shadow: none; color: var(--pc-text-primary);
+  cursor: pointer; text-align: left;
+}
+.archivist-pc-sheet .pc-slot-pop-row:last-child { border-bottom: 0; }
+.archivist-pc-sheet .pc-slot-pop-row:hover:not(:disabled) { background: var(--pc-row-open-bg); }
+.archivist-pc-sheet .pc-slot-pop-row:disabled { opacity: .48; cursor: default; }
+.archivist-pc-sheet .pc-slot-pop-level {
+  min-width: 61px; font: 700 var(--pc-fs-small)/1.2 var(--pc-font-serif);
+}
+.archivist-pc-sheet .pc-slot-pop-row .pc-charge-boxes { margin-left: auto; }
+.archivist-pc-sheet .pc-slot-pop-count {
+  min-width: 28px; text-align: right;
+  font: 700 var(--pc-fs-label)/1.2 var(--pc-font-sans); color: var(--pc-text-soft);
+}
+
 /* The granted-die recipient caption (R4-G5 §4.2.2 a). It takes `.pc-spend-caption`'s values verbatim:
    it is the same kind of quiet line beside the same kind of control, and the `.pc-regain-reset`
    verbatim-values precedent below is the same decision. */
@@ -8719,8 +8764,8 @@ body.theme-light .archivist-tag-atk:hover {
    standard property. Writing the data URI into each property
    directly, as this file first did, shipped every die TWICE: 107 KB
    of stylesheet for 40 KB of art. The sources are also masks, so
-   only their alpha is read — they are stored at 128px, three times
-   the 40px `.pc-die-lg` render and four times the inline one.
+   only their alpha is read — they are stored at 128px, comfortably
+   above both the 44px `.pc-die-lg` and 26px inline renders.
 
    The six `.die-d*` rules below are the artwork, generated from the
    source PNGs. Do not hand-edit them.
@@ -8728,8 +8773,8 @@ body.theme-light .archivist-tag-atk:hover {
 
 .archivist-pc-sheet .pc-die-icon {
   display: inline-block;
-  width: 22px;
-  height: 22px;
+  width: 26px;
+  height: 26px;
   flex: none;
   background-color: currentColor;
   -webkit-mask-image: var(--pc-die-mask);
@@ -8743,8 +8788,8 @@ body.theme-light .archivist-tag-atk:hover {
 }
 
 .archivist-pc-sheet .pc-die-lg {
-  width: 40px;
-  height: 40px;
+  width: 44px;
+  height: 44px;
 }
 
 /* ── the artwork, one data URI per die ─────────────── */
@@ -8965,7 +9010,7 @@ body.theme-light .archivist-tag-atk:hover {
 
 /* A die face BESIDE the number rather than above it. `.pc-hd-nums` is otherwise
    a plain text block, so the glyph would sit on the text baseline and ride high
-   against a 40px face; this centres the two against each other. */
+   against a 44px face; this centres the two against each other. */
 .archivist-pc-sheet .pc-hd-nums-die {
   display: flex;
   align-items: center;
@@ -9819,6 +9864,31 @@ body.theme-light .archivist-tag-atk:hover {
    name + effect beside it, and the time / range / hit-DC / components metadata
    wrapping onto lines below. All tracks are shrinkable so nothing overflows or
    overlaps. The wide (>=499px) layout is untouched. */
+/* Between the narrow tier and ~640px the seven-track row leaves the Effect track at 65px (measured at a
+   518px .pc-content), so a base roll such as "1d4 + 1" (78px) wrapped INSIDE its chip and "2d10" (68px)
+   spilled 3px into Components. Here the effect moves under the name, spanning the name through Hit / DC,
+   chip and damage word on one line; its header cell drops out so the six headers still sit over six tracks.
+   From 640px up the Effect track is at least 121px, so the wide row is untouched. */
+@container pc-content (min-width: 500px) and (max-width: 639px) {
+  .archivist-pc-sheet .pc-spell-cast-head,
+  .archivist-pc-sheet .pc-spell-cast-row { grid-template-columns: 56px minmax(0, 1fr) 64px 72px 56px minmax(80px, .8fr); }
+  .archivist-pc-sheet .pc-spell-cast-head > .pc-spell-cast-hcell:nth-child(6) { display: none; }
+  .archivist-pc-sheet .pc-spell-cast-row { row-gap: 2px; }
+  .archivist-pc-sheet .pc-spell-cast-row > .pc-spell-act { grid-column: 1; grid-row: 1 / span 2; }
+  .archivist-pc-sheet .pc-spell-cast-row > .pc-spell-namecell { grid-column: 2; grid-row: 1; }
+  .archivist-pc-sheet .pc-spell-cast-row > .pc-spell-time { grid-column: 3; grid-row: 1; }
+  .archivist-pc-sheet .pc-spell-cast-row > .pc-spell-range { grid-column: 4; grid-row: 1; }
+  .archivist-pc-sheet .pc-spell-cast-row > .pc-spell-hitdc { grid-column: 5; grid-row: 1; }
+  .archivist-pc-sheet .pc-spell-cast-row > .pc-spell-comp { grid-column: 6; grid-row: 1 / span 2; }
+  .archivist-pc-sheet .pc-spell-cast-row > .pc-spell-effcell {
+    grid-column: 2 / 6; grid-row: 2; display: flex; flex-wrap: wrap; align-items: center; gap: 3px var(--pc-space-2);
+  }
+  .archivist-pc-sheet .pc-spell-cast-row > .pc-spell-effcell > .pc-spell-eff { margin-bottom: 0; }
+  .archivist-pc-sheet .pc-spell-cast-row > .pc-spell-effcell > .pc-spell-eff-note { flex-basis: 100%; }
+}
+/* A chip is one value: it never breaks inside itself ("1d4 / + 1"); the tracks above guarantee it room. */
+.archivist-pc-sheet .pc-spell-eff { white-space: nowrap; }
+
 @container pc-content (max-width: 499px) {
   .archivist-pc-sheet .pc-spell-cast-head { display: none; }
 
@@ -10122,19 +10192,84 @@ body.theme-light .archivist-tag-atk:hover {
   opacity: 0.45; cursor: not-allowed; box-shadow: none;
 }
 
-/* ── Shared selection UI: compendium filter + source tags ── */
-:is(.archivist-pc-sheet, .archivist-modal) .pc-bfilter { display: flex; align-items: center; gap: var(--pc-space-2); flex-wrap: wrap; }
-:is(.archivist-pc-sheet, .archivist-modal) .pc-bfilter-label {
+/* ── Shared selection UI: compendium filter + source tags ──
+   The filter is ONE button on the picker's search row (`.pc-bpicker-bar`); its
+   checklist is a popover on the document body, outside both the sheet and the
+   modal, so the popover rules key on `.archivist-modal.pc-bfilter-pop` itself
+   (the class that declares the parchment tokens and the crimson checkbox).
+   Every button rule is (0,3,0): Obsidian's `button:hover` and
+   `button:focus-visible` are (0,1,1) and `.is-tablet button:not(.clickable-icon)`
+   is (0,2,1). */
+:is(.archivist-pc-sheet, .archivist-modal) .pc-bpicker-bar {
+  display: flex; align-items: stretch; flex-wrap: wrap; gap: var(--pc-space-2); margin-bottom: var(--pc-space-2);
+}
+:is(.archivist-pc-sheet, .archivist-modal) .pc-bpicker-bar > .pc-bpicker-search { flex: 1 1 160px; min-width: 0; margin-bottom: 0; }
+:is(.archivist-pc-sheet, .archivist-modal) .pc-bpicker-bar .pc-bfilter-btn {
+  display: inline-flex; align-items: center; gap: 6px; flex: 0 0 auto;
+  height: auto; line-height: 1.4; padding: 4px 10px;
+  font-family: var(--pc-font-sans); font-size: var(--pc-fs-small); font-weight: 400; color: var(--pc-text-soft);
+  background: transparent; border: 1px solid var(--pc-tan-muted); border-radius: var(--pc-radius-md);
+  box-shadow: none; cursor: pointer; white-space: nowrap;
+}
+:is(.archivist-pc-sheet, .archivist-modal) .pc-bpicker-bar .pc-bfilter-btn:hover { background: var(--pc-row-open-bg); box-shadow: none; }
+:is(.archivist-pc-sheet, .archivist-modal) .pc-bpicker-bar .pc-bfilter-btn:focus-visible { outline: 2px solid var(--pc-crimson); outline-offset: 2px; box-shadow: none; }
+:is(.archivist-pc-sheet, .archivist-modal) .pc-bpicker-bar .pc-bfilter-btn:is(.is-filtered, .is-open) { border-color: var(--pc-crimson); }
+:is(.archivist-pc-sheet, .archivist-modal) .pc-bpicker-bar .pc-bfilter-btn.is-filtered { background: var(--pc-row-open-bg); }
+:is(.archivist-pc-sheet, .archivist-modal) .pc-bfilter-btn-k {
+  font-weight: 700; font-size: var(--pc-fs-label); text-transform: uppercase;
+  letter-spacing: var(--pc-ls-caps-md); color: var(--pc-text-muted);
+}
+:is(.archivist-pc-sheet, .archivist-modal) .pc-bfilter-btn-v { font-family: var(--pc-font-serif); font-style: italic; color: var(--pc-text-primary); }
+:is(.archivist-pc-sheet, .archivist-modal) .pc-bfilter-caret { font-size: 9px; color: var(--pc-text-muted); }
+:is(.archivist-pc-sheet, .archivist-modal) .pc-bfilter-btn.is-filtered :is(.pc-bfilter-btn-v, .pc-bfilter-caret) { color: var(--pc-crimson); }
+
+/* The popover: the conditions popover's frame (.pc-cond-popover). */
+.archivist-modal.pc-bfilter-pop {
+  position: absolute; z-index: 1000; box-sizing: border-box; width: 290px; max-width: calc(100vw - 16px);
+  padding: 8px; border: 1.5px solid var(--pc-tan); border-radius: var(--pc-radius-md);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+  font-family: var(--pc-font-serif); font-size: var(--pc-fs-small);
+}
+.archivist-modal.pc-bfilter-pop .pc-bfilter-pop-h {
+  display: flex; align-items: baseline; justify-content: space-between; gap: 8px;
+  font-weight: 700; letter-spacing: var(--pc-ls-caps-sm); text-transform: uppercase; color: var(--pc-text-primary);
+  padding: 0 4px 5px; margin-bottom: 4px; border-bottom: 1px solid var(--pc-tan);
+}
+.archivist-modal.pc-bfilter-pop .pc-bfilter-acts { display: inline-flex; align-items: baseline; gap: 5px; text-transform: none; letter-spacing: normal; font-weight: 400; }
+.archivist-modal.pc-bfilter-pop .pc-bfilter-act {
+  height: auto; padding: 0; border: none; background: transparent; box-shadow: none;
+  font-family: var(--pc-font-serif); font-style: italic; font-size: var(--pc-fs-small); color: var(--pc-crimson);
+  text-decoration: underline dotted; text-underline-offset: 2px; cursor: pointer;
+}
+.archivist-modal.pc-bfilter-pop .pc-bfilter-act:hover { background: transparent; box-shadow: none; text-decoration-style: solid; }
+.archivist-modal.pc-bfilter-pop .pc-bfilter-act:focus-visible { outline: 2px solid var(--pc-crimson); outline-offset: 1px; box-shadow: none; }
+.archivist-modal.pc-bfilter-pop .pc-bfilter-dot { color: var(--pc-text-muted); }
+.archivist-modal.pc-bfilter-pop .pc-bfilter-list { display: flex; flex-direction: column; gap: 1px; max-height: 260px; overflow-y: auto; }
+.archivist-modal.pc-bfilter-pop .pc-bfilter-row {
+  display: grid; grid-template-columns: 16px minmax(0, 1fr) auto; align-items: center; gap: 8px;
+  padding: 4px; border-radius: var(--pc-radius-sm); cursor: pointer; color: var(--pc-text-primary);
+}
+.archivist-modal.pc-bfilter-pop .pc-bfilter-row:hover { background: var(--pc-row-open-bg); }
+.archivist-modal.pc-bfilter-pop .pc-bfilter-name { overflow-wrap: anywhere; }
+.archivist-modal.pc-bfilter-pop .pc-bfilter-row.off .pc-bfilter-name { color: var(--pc-text-muted); }
+.archivist-modal.pc-bfilter-pop .pc-bfilter-n {
   font-family: var(--pc-font-sans); font-size: var(--pc-fs-label); font-weight: 700;
-  text-transform: uppercase; letter-spacing: var(--pc-ls-caps-md); color: var(--pc-text-muted);
+  color: var(--pc-text-muted); font-variant-numeric: tabular-nums;
 }
-:is(.archivist-pc-sheet, .archivist-modal) .pc-bfilter-chips { display: flex; flex-wrap: wrap; gap: 4px; }
-:is(.archivist-pc-sheet, .archivist-modal) .pc-bfilter-chip {
-  font-size: var(--pc-fs-small); color: var(--pc-text-muted);
-  border: 1px solid var(--pc-tan-muted); border-radius: var(--pc-radius-md);
-  padding: 2px 9px; cursor: pointer;
+.archivist-modal.pc-bfilter-pop .pc-bfilter-foot {
+  margin-top: 4px; padding: 6px 4px 0; border-top: 1px dashed var(--pc-tan-muted);
+  font-style: italic; font-size: var(--pc-fs-label); color: var(--pc-text-muted);
 }
-:is(.archivist-pc-sheet, .archivist-modal) .pc-bfilter-chip.on { color: var(--pc-crimson); border-color: var(--pc-crimson); background: var(--pc-row-open-bg); }
+/* In a narrow leaf the search and a full `COMPENDIUM · 2 of 3` button do not
+   share a line (measured live at a 400px pane: the bar is 252px wide, so the
+   button wrapped beneath the search). The caption is hidden VISUALLY, still
+   read out, so the button shrinks to its value and stays on the search row. */
+@container pc-sheet (max-width: 499px) {
+  .archivist-pc-sheet .pc-bpicker-bar > .pc-bpicker-search { flex-basis: 120px; }
+  .archivist-pc-sheet .pc-bfilter-btn-k {
+    position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap;
+  }
+}
 :is(.archivist-pc-sheet, .archivist-modal) .pc-bsrc { font-family: var(--pc-font-sans); font-size: var(--pc-fs-label); letter-spacing: .08em; font-weight: 700; margin-left: 5px; }
 :is(.archivist-pc-sheet, .archivist-modal) .pc-bsrc.e2014 { color: var(--pc-text-muted); }
 :is(.archivist-pc-sheet, .archivist-modal) .pc-bsrc.e2024 { color: #1f3f7a; }
@@ -10321,7 +10456,6 @@ body.theme-light .archivist-tag-atk:hover {
 :is(.archivist-pc-sheet, .archivist-modal) .pc-bpicker-search:hover,
 :is(.archivist-pc-sheet, .archivist-modal) .pc-bpicker-search:focus,
 :is(.archivist-pc-sheet, .archivist-modal) .pc-bpicker-search:focus-visible { background: var(--pc-parchment-light); border-color: var(--pc-tan-muted); color: var(--pc-text-primary); -webkit-text-fill-color: var(--pc-text-primary); caret-color: var(--pc-crimson); outline: none; box-shadow: none; }
-:is(.archivist-pc-sheet, .archivist-modal) .pc-bpicker-filter { margin-bottom: var(--pc-space-2); }
 
 /* ── Inert (visible-but-unselectable) callout chip: a `from` slug with no entity
    behind it. Muted + un-clickable, distinct from `.muted` (over-limit dim). ── */
@@ -10774,6 +10908,87 @@ body.theme-light .archivist-tag-atk:hover {
 :is(.archivist-pc-sheet, .archivist-modal) .pc-cb-eqopt.sel .pc-cb-eqtext { color: var(--pc-crimson); font-weight: 700; }
 :is(.archivist-pc-sheet, .archivist-modal) .pc-cb-eqgold { font-family: var(--pc-font-sans); font-size: var(--pc-fs-label); font-weight: 700; letter-spacing: .04em; color: var(--pc-coin-gp); margin-top: 2px; }
 
+/* ── Details step, R5 redesign ─────────────────────────────────────
+   The v5 companion (docs/design/builder-details-redesign) is the spec:
+   width harmony, alignment cells that say one thing, and HP in the
+   Max-HP modal's own three-mode vocabulary. */
+
+/* The View-sheet exit: beside the character name, the footer Back's dress. */
+.archivist-pc-sheet .pc-builder-title { display: inline-flex; align-items: center; gap: 10px; }
+.archivist-pc-sheet .pc-builder-exit {
+  font-family: var(--pc-font-sans); font-size: var(--pc-fs-small); font-weight: 700;
+  text-transform: uppercase; letter-spacing: var(--pc-ls-caps-sm);
+  background: transparent; color: var(--pc-crimson);
+  border: 1px solid var(--pc-crimson); padding: 5px 12px; cursor: pointer;
+  border-radius: var(--pc-radius-sm); line-height: 1; box-shadow: none;
+  display: inline-flex; align-items: center; gap: 6px;
+}
+.archivist-pc-sheet .pc-builder-exit:hover { background: rgba(146, 38, 16, 0.10); box-shadow: none; }
+.archivist-pc-sheet .pc-builder-exit:focus-visible { outline: 2px solid var(--pc-crimson); outline-offset: 2px; box-shadow: none; }
+.archivist-pc-sheet .pc-builder-exit svg { width: 13px; height: 13px; color: var(--pc-crimson); }
+
+/* Width harmony: identity controls share the HP card's 340px cap. border-box
+   so each element's own chrome counts inside the cap and the right edges meet. */
+.archivist-pc-sheet .pc-bform-narrow { max-width: 340px; box-sizing: border-box; }
+
+/* The HP field-card: one unit — big number, equation chips, mode segment, control, hint. */
+.archivist-pc-sheet .pc-bhp {
+  max-width: 340px; box-sizing: border-box;
+  background: var(--pc-parchment-dark); border: 1px solid var(--pc-tan);
+  border-radius: var(--pc-radius-md); padding: 12px 14px;
+  display: flex; flex-direction: column; align-items: flex-start; gap: 8px;
+}
+.archivist-pc-sheet .pc-bhp-big {
+  font-family: var(--pc-font-serif); font-weight: 700; font-size: var(--pc-fs-display);
+  line-height: var(--pc-lh-value); color: var(--pc-text-primary);
+}
+.archivist-pc-sheet .pc-bhp-eq { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.archivist-pc-sheet .pc-bhp-eq.is-greyed { opacity: 0.45; }
+.archivist-pc-sheet .pc-bhp-term {
+  font-family: var(--pc-font-serif); font-size: var(--pc-fs-small);
+  color: var(--pc-text-soft); background: rgba(255, 248, 220, 0.6);
+  border: 1px solid var(--pc-tan-muted); border-radius: 999px; padding: 1px 8px;
+}
+/* The mode segment: the spell tab's Cast/Prepare dress (pc-spell-modetoggle /
+   pc-mode-seg), content-sized options — never stretched, no dead track. */
+.archivist-pc-sheet .pc-bhp .pc-bseg {
+  display: inline-flex; border: 1px solid var(--pc-tan-muted);
+  border-radius: var(--pc-radius-md); overflow: hidden; margin-bottom: 0;
+}
+.archivist-pc-sheet .pc-bhp .pc-bseg-opt {
+  font-family: var(--pc-font-sans); font-size: var(--pc-fs-small); padding: 4px 14px;
+  background: transparent; color: var(--pc-text-soft); border: none; cursor: pointer;
+}
+.archivist-pc-sheet .pc-bhp .pc-bseg-opt.on { background: var(--pc-crimson); color: var(--pc-white); }
+.archivist-pc-sheet .pc-bhp-inputrow { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.archivist-pc-sheet .pc-bhp-inputrow .pc-binp { width: 120px; }
+.archivist-pc-sheet .pc-bhp-ghost {
+  font-family: var(--pc-font-serif); font-style: italic;
+  font-size: var(--pc-fs-small); color: var(--pc-text-muted);
+}
+.archivist-pc-sheet .pc-bhp .pc-bhint { margin-top: 0; }
+
+/* In a narrow leaf the fixed 150px step rail leaves too little room for the
+   Details controls. Stack the steps above the form so its card and footer stay
+   inside the sheet without horizontal scrolling. */
+@container pc-sheet (max-width: 499px) {
+  .archivist-pc-sheet .pc-builder-layout { grid-template-columns: minmax(0, 1fr); }
+  .archivist-pc-sheet .pc-builder-rail {
+    border-right: 0; border-bottom: 1px solid var(--pc-tan);
+    padding: 6px 10px;
+  }
+  .archivist-pc-sheet .pc-builder-rail-steps {
+    position: static; display: flex; flex-wrap: wrap; gap: 2px 4px;
+  }
+  .archivist-pc-sheet .pc-builder-step { padding: 4px 6px; }
+  .archivist-pc-sheet .pc-builder-main { min-width: 0; }
+  .archivist-pc-sheet .pc-builder-topbar,
+  .archivist-pc-sheet .pc-builder-title { flex-wrap: wrap; }
+  .archivist-pc-sheet .pc-builder-title { min-width: 0; }
+  .archivist-pc-sheet .pc-builder-title > span { overflow-wrap: anywhere; }
+  .archivist-pc-sheet .pc-builder-summary { margin-left: 0; }
+}
+
 
 /* ============================================
    pc/chronicle.css
@@ -10978,7 +11193,20 @@ body.theme-light .archivist-tag-atk:hover {
   flex: none; align-self: center; width: 14px; text-align: center;
   color: var(--pc-crimson); font-size: 12px; line-height: 1;
 }
-:is(.archivist-pc-sheet, .archivist-modal) .pc-dstrip-nest { flex-basis: 100%; margin: 7px 0 1px; padding-left: 39px; }
+/* The nest is the head's sibling flex item in the same wrapping row, so it carries the same trap: at
+   its default `min-width: auto` it grows to its content's minimum, and an inline selection table's
+   minimum is its track sum (30 + 200 + 110 px). MEASURED LIVE at a 400 px pane on the Wizard Subclass
+   row: row 214 px, nest 379 px, so the card's `overflow-x: hidden` cut the description mid-word and
+   the table's right edge. `min-width: 0` holds the nest to its row: the description wraps and the
+   table scrolls inside its own `.pc-btable-host`. */
+:is(.archivist-pc-sheet, .archivist-modal) .pc-dstrip-nest { flex-basis: 100%; margin: 7px 0 1px; padding-left: 39px; min-width: 0; }
+/* In a narrow leaf the head cannot hold the name AND a `choose 1` value on one line, and the value is
+   the flexible end (RIDER-3 above), so it shrank to `c..` (MEASURED LIVE at a 400 px pane). Wrapping
+   lets the value drop to its own right-aligned line; a long summary still ellipsizes there. Narrow tier
+   only: wide rows keep RIDER-3's same-line ellipsis. */
+@container pc-sheet (max-width: 499px) {
+  .archivist-pc-sheet .pc-dstrip-head { flex-wrap: wrap; }
+}
 /* resolved */
 :is(.archivist-pc-sheet, .archivist-modal) .pc-dstrip-row.done { border-color: var(--pc-rarity-uncommon); }
 :is(.archivist-pc-sheet, .archivist-modal) .pc-dstrip-row.done .pc-dstrip-pill {

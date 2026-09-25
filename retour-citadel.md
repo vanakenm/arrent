@@ -1,9 +1,10 @@
-# Rikton
+# Après Yeongin
+## Rikton
+J'ai quelque chose qui va vous intéressés. Venez avec moi. Amène dans une salle d'archive (gardée, il connait tout le monde et les gens s'inclinent "Orateur") - le Palais de l'Exil ne peut pas tout mettre en scène et pas mal de pièces sont trop fragile. C'est celle-ci que je veux vous montrer:
 
-## TODO
+Une peinture d'un homme richement vétu avec derrière lui l'image d'une forteresse et d'un ciel étoilé - c'est Sargon !
 
-Faire la règle précise pour le bracelet
-
+# Après San Citlan
 ## Le bracelet
 
 Spécifique pour être protégé / ignoré de golems de magie (contextuel)
