@@ -69,7 +69,7 @@ Un long couloir-galerie où sont accrochés les portraits peints (pas sculptés,
 
 **Le piège — Fil-piège à lames (mécanique, non magique)**
 - **Effet** : un fil tendu à hauteur de cheville sur toute la largeur de la galerie (rangées 3-4 de la carte) déclenche des lames dissimulées dans les plinthes des deux murs : **+7 au toucher** contre chaque créature dans la zone, **2d10** tranchant.
-- **Détection** : **DD 16 Perception** (le fil scintille légèrement à la lumière) — plus facile si un PJ annonce explicitement qu'il regarde le sol plutôt que les portraits (sinon désavantage narratif : le MJ peut demander un second jet si le joueur admet être distrait par les tableaux).
+	- **Détection** : **DD 16 Perception** (le fil scintille légèrement à la lumière) — plus facile si un PJ annonce explicitement qu'il regarde le sol plutôt que les portraits (sinon désavantage narratif : le MJ peut demander un second jet si le joueur admet être distrait par les tableaux).
 - **Dissipation** : aucune — mécanique pure, pas de magie à dissiper.
 - **Désamorçage (Malo)** : une fois le fil repéré, **DD 14 Outils de voleur** pour le trancher/caler sans déclencher les lames.
 - **Logique (sans jet)** : tous les portraits sont accrochés à hauteur normale, sauf que leurs regards peints convergent tous vers le haut du mur nord — en collant ce mur (rangée 2 sur la carte), on marche sur le rebord surélevé du parquet d'origine, au-dessus du fil. Un joueur qui choisit explicitement de « longer le mur sous les portraits » passe sans jet.

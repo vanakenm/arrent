@@ -13,19 +13,19 @@ tags:
 > PJ au repos long : PV et ressources remis à fond.
 > Variante : plus un immense amas de mousse/champignon grouillant qu'une vraie plante — laisse des traces de lichen derrière elle et fait germer des myconides en soutien.
 
-| Status          | Init | Nom                          | PV Max | PV Courant | CA  | Niv 1    | Niv 2   | Niv 3   | Niv 4 | Notes                                                         |
-| --------------- | ---- | ---------------------------- | ------ | ---------- | --- | -------- | ------- | ------- | ----- | ------------------------------------------------------------- |
-| au tour de malo | 21   | [[pjs/malo\|Malo]]           | 65     | 54         | 16  | xooo     | oo      | -       | -     |                                                               |
-|                 | 18   | [[pjs/polypheme\|Polyphème]] | 68     | 68         | 16  | -        | -       | -       | -     | Ennemi Favori dispo                                           |
-|                 | 17   | [[pjs/varys\|Varys]]         | 93+5   | 73 +7      | 20  | -        | -       | -       | -     | Fureur 3/17 dés de vie 3/8                                    |
-|                 | 17   | Liu                          | 27+5   | 27+5       | 13  |          |         |         |       | Esquive                                                       |
-| Inspi           | 15   | [[pjs/sylvain\|Sylvain]]     | 68+3   | 56+7       | 22  | xooo     | oxx     | -       | -     | dés de vie 0/8, Lay on Hands 20/40. Critique sur 19. Haste    |
-| Rayon de lune   | 14   | **Shambling Mound**          | 136    | 0          | 16  | -        | -       | -       | -     | Résiste froid/feu, immunisé foudre (soigné par dégâts foudre) |
-|                 | 10   | [[pjs/zangra\|Zangra]]       | 45     | 45         | 16  | **oooo** | **ooo** | **ooo** | **o** | Inspiration Bardique 4/5 dés de vie 2/8                       |
-|                 | 5    | [[pjs/bledios\|Bledios]]     | 59     | 32+7       | 16  | oooo     | xoo     | oxx     | oo    | Forme Sauvage 2/2                                             |
-|                 | 14   | **Myconide Adulte 1**        | 22     | 0          | 12  | -        | -       | -       | -     |                                                               |
-|                 | 14   | **Myconide Adulte 2**        | 22     | 2          | 12  | -        | -       | -       | -     |                                                               |
-|                 | 14   | **Myconide Adulte 2**        | 22     | 16         | 12  | -        | -       | -       | -     |                                                               |
+| Status                     | Init | Nom                          | PV Max | PV Courant | CA  | Niv 1    | Niv 2   | Niv 3   | Niv 4 | Notes                                                         |
+| -------------------------- | ---- | ---------------------------- | ------ | ---------- | --- | -------- | ------- | ------- | ----- | ------------------------------------------------------------- |
+| au tour de malo            | 21   | [[pjs/malo\|Malo]]           | 65     | 40         | 16  | xooo     | oo      | -       | -     |                                                               |
+|                            | 18   | [[pjs/polypheme\|Polyphème]] | 68     | 68         | 16  | xooo     | xoo     | -       | -     | Ennemi Favori dispo                                           |
+|                            | 17   | [[pjs/varys\|Varys]]         | 93+5   | 73 +7      | 20  | -        | -       | -       | -     | Fureur 3/17 dés de vie 3/8                                    |
+|                            | 17   | Liu                          | 27+5   | 27+5       | 13  |          |         |         |       | Esquive                                                       |
+| Inspi / Retraite xpéditive | 15   | [[pjs/sylvain\|Sylvain]]     | 68+3   | 56+7       | 22  | xxoo     | xxx     | -       | -     | dés de vie 0/8, Lay on Hands 20/40. Critique sur 19. Haste    |
+| Rayon de lune              | 14   | **Shambling Mound**          | 136    | 0          | 16  | -        | -       | -       | -     | Résiste froid/feu, immunisé foudre (soigné par dégâts foudre) |
+|                            | 10   | [[pjs/zangra\|Zangra]]       | 45     | 45         | 16  | **oooo** | **ooo** | **ooo** | **o** | Inspiration Bardique 4/5 dés de vie 2/8                       |
+|                            | 5    | [[pjs/bledios\|Bledios]]     | 59     | 55         | 16  | oooo     | xoo     | oxx     | oo    | Forme Sauvage 0/2                                             |
+|                            | 14   | **Myconide Adulte 1**        | 22     | 0          | 12  | -        | -       | -       | -     |                                                               |
+|                            | 14   | **Myconide Adulte 2**        | 22     | 2          | 12  | -        | -       | -       | -     |                                                               |
+|                            | 14   | **Myconide Adulte 2**        | 22     | 16         | 12  | -        | -       | -       | -     |                                                               |
 
 
 

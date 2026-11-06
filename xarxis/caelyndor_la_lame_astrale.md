@@ -39,10 +39,23 @@
 - **Épée courte des Ombres** — Arme magique +1, permet de jeter *Silence* une fois par jour.
 - **Cape d'Elfité** — Avantage aux tests de Discrétion, difficile à détecter par la magie.
 - **Bottes de Pas Léger** — N'émet aucun son en marchant.
+- **Fourreau Stellaire** (Lumière de Xarxis, harmonisation) — L'épée qui en est tirée inflige **+1d8 radiants** à chaque coup. **2/jour** : après un *Pas stellaire*, sa prochaine attaque avant la fin du tour a l'**avantage** (donc attaque sournoise garantie). Recharge à l'aube.
 
 ---
 
 ## Capacités
+
+#### Précision elfique (don)
+- **Récupération:** Passif
+- +1 DEX (déjà inclus). Quand il a l'avantage sur une attaque, il lance **3d20** et garde le meilleur.
+
+#### Pas stellaire (elfe astral)
+- **Récupération:** 3/Repos long
+- Action bonus : téléportation jusqu'à 9 m vers un espace visible.
+
+#### Feu astral (elfe astral)
+- **Récupération:** Passif
+- Connaît le sort mineur *Lumières dansantes*.
 
 #### Action Surge
 - **Récupération:** 1/Repos court
@@ -54,7 +67,8 @@
 
 #### Attaque sournoise
 - **Récupération:** Passif
-- Bénéficie de l'attaque sournoise si les conditions sont remplies.
+- **+3d6** dégâts, 1×/tour, si avantage ou si un allié est adjacent à la cible.
+- Combo : *Invisibilité supérieure* (Alaethor/Elenthis) ou Fourreau Stellaire → avantage à chaque attaque, +Précision elfique.
 
 #### Style de combat : Duel
 - **Récupération:** Passif

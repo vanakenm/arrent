@@ -43,15 +43,24 @@
 ---
 
 ## Sorts préparés
-- **Cantrips:** Illusion mineure, Prestidigitation, Message, Main du mage
-- **Niveau 1:** Mage Armor, Déguisement, Bouclier, Chromatic Orb
-- **Niveau 2:** Image miroir, Flou, Invisibilité, Suggestion
-- **Niveau 3:** Majeure image, Hypnotisme, Contre-sort
-- **Niveau 4:** Hallucination, Invisibilité supérieure
+- **Cantrips:** Illusion mineure, Éclat mental *(1d6 psychique, −1d4 au prochain JS de la cible)*, Message, Main du mage
+- **Niveau 1:** Mage Armor, Bouclier, Chromatic Orb, Alarme (rituel)
+- **Niveau 2:** Image miroir, Ténèbres *(avec Valthoril dedans : il voit, personne ne le voit)*, Invisibilité, Suggestion
+- **Niveau 3:** Hypnotisme, Contre-sort, Lenteur
+- **Niveau 4:** Assassin imaginaire *(JS Sag DD 15, effrayé + 4d10 psychique à chaque fin de tour)*, Invisibilité supérieure
+- *Grimoire (non préparés) : Déguisement, Flou, Majeure image, Hallucination*
 
 ---
 
 ## Capacités
+
+#### Illusions malléables
+- **Récupération:** Passif
+- Action : modifie une illusion en cours (durée ≥ 1 min) qu'il voit. Permet d'adapter une *Majeure image* à ce que font les PJ.
+
+#### Pas stellaire (elfe astral)
+- **Récupération:** 3/Repos long
+- Action bonus : téléportation jusqu'à 9 m vers un espace visible.
 
 #### Illusions améliorées
 - **Récupération:** Passif

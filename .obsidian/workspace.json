@@ -8,49 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b7cb973aa1438c56",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pjs/polypheme.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "polypheme"
-            }
-          },
-          {
-            "id": "f754aab89b7be1df",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pjs/sylvain.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "sylvain"
-            }
-          },
-          {
             "id": "67c1a0040c9f3f4b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "buried_dynasty/next_buried_dynasty.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "next_buried_dynasty"
-            }
-          },
-          {
-            "id": "dd3ec714c235c3bb",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -64,35 +22,44 @@
             }
           },
           {
-            "id": "d1e368812a5fc65a",
+            "id": "77ab341130d438a3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "buried_dynasty/dramatis_personae.md",
+                "file": "xarxis/valthoril_briselune.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "dramatis_personae"
+              "title": "valthoril_briselune"
             }
           },
           {
-            "id": "b6894f2f05f331a2",
+            "id": "ea01f8229a7eb6b9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fights/jade_guardians.md",
+                "file": "xarxis/valthoril_briselune.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "jade_guardians"
+              "title": "valthoril_briselune"
+            }
+          },
+          {
+            "id": "3bd5766c6bc23cef",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -126,7 +93,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "\"Jade Guardian\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -266,42 +233,42 @@
   },
   "active": "67c1a0040c9f3f4b",
   "lastOpenFiles": [
-    "buried_dynasty/palais_duchesse.md",
-    "pjs/malo.md",
+    "xarxis/_apercu.md",
+    "xarxis/valthoril_briselune.md",
+    "fights/xarxis_griffon.md",
     "fights/jade_guardians.md",
     "fights/shambling_mound.md",
-    "buried_dynasty/next_buried_dynasty.md",
-    "fights/embuscade_zhong_jie.md",
-    "retour-citadel.md",
-    "fights/xarxis_griffon.md",
-    "buried_dynasty/fouilles.md",
-    "xarxis/_apercu.md",
-    "pjs/polypheme.md",
-    "pjs/sylvain.md",
-    "pjs/items/Carquois aux Mille Ruses.md",
-    "buried_dynasty/dramatis_personae.md",
-    "pjs/varys.md",
+    "xarxis/caelyndor_la_lame_astrale.md",
+    "buried_dynasty/poursuite_groupe_action.md",
     "buried_dynasty/summary.md",
-    "xarxis/alaethor_ombrelune.md",
-    "xarxis/elenthis_sombremelodie.md",
-    "xarxis/valthoril_briselune.md",
+    "buried_dynasty/next_buried_dynasty.md",
+    "fights/xarxis_griffon.md.tmp.186560.b73746e83a73",
     "xarxis/thalindra_coeur-de-lumiere.md",
+    "xarxis/elenthis_sombremelodie.md",
+    "pjs/bledios.md",
+    "pjs/varys.md",
+    "pjs/sylvain.md",
+    "pjs/zangra.md",
+    "fights/xarxis_griffon.md.tmp.186560.587a74251186",
+    "fights/xarxis_griffon.md.tmp.186560.404ff9e4af0a",
+    "Compendium/SRD 2024/Monsters/Otherworldly Steed.md",
+    "Compendium/SRD 2024/Monsters/Giant Insect.md",
+    "Compendium/SRD 2024/Monsters/Draconic Spirit.md",
+    "Compendium/SRD 2024/Monsters/Animated Object.md",
+    "Compendium/SRD 2024/Magic Items/Figurine of Wondrous Power (Obsidian Steed).md",
+    "xarxis/alaethor_ombrelune.md",
+    "buried_dynasty/palais_duchesse.md",
+    "Compendium/SRD 5e/OptionalFeatures/Witch Sight.md",
+    "Compendium/SRD 5e/OptionalFeatures/Whispers of the Grave.md",
+    "Compendium/SRD 5e/OptionalFeatures/Voice of the Chain Master.md",
+    "Compendium/SRD 5e/OptionalFeatures/Visions of Distant Realms.md",
     "fights/xarxis_griffon.md.tmp.69480.9e55defc63e5",
-    "Compendium/SRD 5e/Feats/Ability Score Improvement.md",
-    "buried_dynasty/pj_brief.md",
-    "PlayerCharacters/Untitled Character.md",
     "PlayerCharacters",
-    "Compendium/SRD 5e/_compendium.md",
-    "Compendium/SRD 5e/Weapons/Whip.md",
-    "Compendium/SRD 5e/Weapons/Warhammer.md",
     "Compendium/SRD 5e/OptionalFeatures",
     "Compendium/SRD 5e/Magic Items",
     "Compendium/SRD 5e/Backgrounds",
     "Compendium/SRD 5e/Subclasses",
     "Compendium/SRD 5e/Conditions",
-    "Compendium/SRD 5e/Monsters",
-    "Compendium/SRD 5e/Weapons",
-    "Compendium/SRD 5e/Classes",
     "le_sceau_des_seuils/carte_pj.png"
   ]
 }

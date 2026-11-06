@@ -47,12 +47,20 @@
 - **Cantrips:** Moquerie cruelle, Message, Lumières dansantes
 - **Niveau 1:** Charme-personne, Déguisement, Mot de guérison
 - **Niveau 2:** Invisibilité, Silence, Détection des pensées
-- **Niveau 3:** Respiration aquatique, Hypnotisme, Dissimulation
-- **Niveau 4:** Polymorph, Porte dimensionnelle
+- **Niveau 3:** Peur, Hypnotisme, Dissimulation
+- **Niveau 4:** Polymorph, Porte dimensionnelle, Invisibilité supérieure
 
 ---
 
 ## Capacités
+
+#### Lames psychiques
+- **Récupération:** Dépense une Inspiration bardique (1×/tour)
+- Quand il touche avec une arme : **+3d6 psychiques**.
+
+#### Pas stellaire (elfe astral)
+- **Récupération:** 3/Repos long
+- Action bonus : téléportation jusqu'à 9 m vers un espace visible.
 
 #### Inspiration bardique
 - **Récupération:** Passif (usages liés au Charisme)

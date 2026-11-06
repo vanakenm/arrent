@@ -172,8 +172,8 @@
 - 
 
 ### Potions
-- Potion de souffle (8D6 sur un cône 10 feets)
-- Potion Invis
+- ~~Potion de souffle (8D6 sur un cône 10 feets)~~
+- ~~Potion Invis~~
 
 ---
 

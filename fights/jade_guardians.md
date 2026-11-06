@@ -56,6 +56,7 @@ tags:
 
 ### Rappels Jade Guardian
 
+- 90 PV
 - **Multiattaque :** 2 attaques de Glaive
 - **Glaive :** +10 to hit, allonge 10ft, 2d10+4 tranchant
 - **Ward of the Ki-lin (Recharge 6) :** cible une créature dans 3m, `DD 14` Sagesse ou désavantage aux jets d'attaque jusqu'à la fin de son prochain tour

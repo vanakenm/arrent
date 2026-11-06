@@ -18,6 +18,18 @@ La shambling mound va passer la porte (peu se voir/s'entendre si garde)
 ### Le palais de la Duchesse Deng Bo Han
 
 > Proposition de salles/pièges au-delà de la grande porte : [[buried_dynasty/palais_duchesse|palais_duchesse]].
+### Attaque des griffons
+Grouik meurt
+Malo & Sylvain en poursuite
+Liu et Bledios
+> Suite : [[buried_dynasty/poursuite_groupe_action|poursuite_groupe_action]]
+#### Galerie
+Bureau: Sylvain met le sceau des seuils dans le coffre que Malo a revérouillé
+Halle des Ancêtre
+Sylvain OK
+Mich au Kirin: "Nous ne serions pas entré sans raison impérieuse - celle d'empêcher le déclin de la dynastie des Empereur de Jade. Je te demande de nous laisser rentrer" (Wis 18)
+Laurent: "Pardon, merci, merci" (Wis 14)
+Malo
 
 #### Descente
 Descente de plusieurs niveaux avec un détour ou l'autre pour cause d'ébouli
